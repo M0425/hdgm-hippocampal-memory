@@ -1,0 +1,15 @@
+{
+  "checkpoint_files_found": 516,
+  "unique_sha256": 267,
+  "total_bytes_including_duplicates": 727829182,
+  "selected_metadata_files": 50,
+  "selected_groups": {
+    "paper_rapid_v4_outputs": 10,
+    "hdgm_place_v5_outputs_confirmatory": 20,
+    "hdgm_v7_3_splitter_outputs_confirmatory": 20
+  },
+  "bindings": 80,
+  "binding_failed": [],
+  "metadata_method": "torch.load(weights_only=True, map_location=cpu), explicitly allowlisted only standard NumPy array reconstruction/dtype classes; no model execution",
+  "no_training_or_probe_fitting": true
+}

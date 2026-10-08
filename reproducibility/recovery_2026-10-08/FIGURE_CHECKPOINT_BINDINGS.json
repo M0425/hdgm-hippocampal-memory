@@ -1,0 +1,892 @@
+[
+  {
+    "figure": "2 D/E",
+    "seed": 11,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_11.pt",
+    "binding": "file SHA recorded in controls manifest",
+    "pass": true
+  },
+  {
+    "figure": "3 A/C",
+    "seed": 11,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_11.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 B",
+    "seed": 11,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_11.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 D/E",
+    "seed": 11,
+    "endpoint": 100,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_11.pt",
+    "binding": "internal snapshot100 HDGM tensor fingerprint recorded in CA1 result",
+    "pass": true,
+    "source_run_max_updates_match": true
+  },
+  {
+    "figure": "2 D/E",
+    "seed": 111,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_111.pt",
+    "binding": "file SHA recorded in controls manifest",
+    "pass": true
+  },
+  {
+    "figure": "3 A/C",
+    "seed": 111,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_111.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 B",
+    "seed": 111,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_111.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 D/E",
+    "seed": 111,
+    "endpoint": 100,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_111.pt",
+    "binding": "internal snapshot100 HDGM tensor fingerprint recorded in CA1 result",
+    "pass": true,
+    "source_run_max_updates_match": true
+  },
+  {
+    "figure": "2 D/E",
+    "seed": 22,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_22.pt",
+    "binding": "file SHA recorded in controls manifest",
+    "pass": true
+  },
+  {
+    "figure": "3 A/C",
+    "seed": 22,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_22.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 B",
+    "seed": 22,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_22.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 D/E",
+    "seed": 22,
+    "endpoint": 100,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_22.pt",
+    "binding": "internal snapshot100 HDGM tensor fingerprint recorded in CA1 result",
+    "pass": true,
+    "source_run_max_updates_match": true
+  },
+  {
+    "figure": "2 D/E",
+    "seed": 33,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_33.pt",
+    "binding": "file SHA recorded in controls manifest",
+    "pass": true
+  },
+  {
+    "figure": "3 A/C",
+    "seed": 33,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_33.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 B",
+    "seed": 33,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_33.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 D/E",
+    "seed": 33,
+    "endpoint": 100,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_33.pt",
+    "binding": "internal snapshot100 HDGM tensor fingerprint recorded in CA1 result",
+    "pass": true,
+    "source_run_max_updates_match": true
+  },
+  {
+    "figure": "2 D/E",
+    "seed": 44,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_44.pt",
+    "binding": "file SHA recorded in controls manifest",
+    "pass": true
+  },
+  {
+    "figure": "3 A/C",
+    "seed": 44,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_44.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 B",
+    "seed": 44,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_44.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 D/E",
+    "seed": 44,
+    "endpoint": 100,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_44.pt",
+    "binding": "internal snapshot100 HDGM tensor fingerprint recorded in CA1 result",
+    "pass": true,
+    "source_run_max_updates_match": true
+  },
+  {
+    "figure": "2 D/E",
+    "seed": 55,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_55.pt",
+    "binding": "file SHA recorded in controls manifest",
+    "pass": true
+  },
+  {
+    "figure": "3 A/C",
+    "seed": 55,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_55.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 B",
+    "seed": 55,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_55.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 D/E",
+    "seed": 55,
+    "endpoint": 100,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_55.pt",
+    "binding": "internal snapshot100 HDGM tensor fingerprint recorded in CA1 result",
+    "pass": true,
+    "source_run_max_updates_match": true
+  },
+  {
+    "figure": "2 D/E",
+    "seed": 66,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_66.pt",
+    "binding": "file SHA recorded in controls manifest",
+    "pass": true
+  },
+  {
+    "figure": "3 A/C",
+    "seed": 66,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_66.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 B",
+    "seed": 66,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_66.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 D/E",
+    "seed": 66,
+    "endpoint": 100,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_66.pt",
+    "binding": "internal snapshot100 HDGM tensor fingerprint recorded in CA1 result",
+    "pass": true,
+    "source_run_max_updates_match": true
+  },
+  {
+    "figure": "2 D/E",
+    "seed": 77,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_77.pt",
+    "binding": "file SHA recorded in controls manifest",
+    "pass": true
+  },
+  {
+    "figure": "3 A/C",
+    "seed": 77,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_77.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 B",
+    "seed": 77,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_77.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 D/E",
+    "seed": 77,
+    "endpoint": 100,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_77.pt",
+    "binding": "internal snapshot100 HDGM tensor fingerprint recorded in CA1 result",
+    "pass": true,
+    "source_run_max_updates_match": true
+  },
+  {
+    "figure": "2 D/E",
+    "seed": 88,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_88.pt",
+    "binding": "file SHA recorded in controls manifest",
+    "pass": true
+  },
+  {
+    "figure": "3 A/C",
+    "seed": 88,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_88.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 B",
+    "seed": 88,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_88.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 D/E",
+    "seed": 88,
+    "endpoint": 100,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_88.pt",
+    "binding": "internal snapshot100 HDGM tensor fingerprint recorded in CA1 result",
+    "pass": true,
+    "source_run_max_updates_match": true
+  },
+  {
+    "figure": "2 D/E",
+    "seed": 99,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_99.pt",
+    "binding": "file SHA recorded in controls manifest",
+    "pass": true
+  },
+  {
+    "figure": "3 A/C",
+    "seed": 99,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_99.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 B",
+    "seed": 99,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_99.pt",
+    "binding": "file SHA recorded in result JSON",
+    "pass": true,
+    "config_differences": {},
+    "split_seeds_match": true
+  },
+  {
+    "figure": "3 D/E",
+    "seed": 99,
+    "endpoint": 100,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_99.pt",
+    "binding": "internal snapshot100 HDGM tensor fingerprint recorded in CA1 result",
+    "pass": true,
+    "source_run_max_updates_match": true
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 1010,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_1010_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 1010,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_1010_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 101,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_101_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 101,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_101_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 202,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_202_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 202,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_202_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 303,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_303_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 303,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_303_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 404,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_404_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 404,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_404_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 505,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_505_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 505,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_505_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 606,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_606_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 606,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_606_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 707,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_707_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 707,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_707_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 808,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_808_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 808,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_808_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 909,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_909_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 B/F",
+    "seed": 909,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\checkpoints\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_909_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 1010,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_1010_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 1010,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_1010_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 101,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_101_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 101,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_101_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 202,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_202_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 202,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_202_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 303,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_303_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 303,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_303_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 404,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_404_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 404,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_404_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 505,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_505_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 505,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_505_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 606,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_606_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 606,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_606_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 707,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_707_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 707,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_707_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 808,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_808_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 808,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_808_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 909,
+    "endpoint": 150,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_909_update_150.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  },
+  {
+    "figure": "4 history / 5",
+    "seed": 909,
+    "endpoint": 300,
+    "checkpoint": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_909_update_300.pt",
+    "binding": "seed/update/config match; result does not record a historical checkpoint hash",
+    "pass": true,
+    "config_differences": {},
+    "historical_byte_identity_proven": false,
+    "figure5_base_config_differences": {
+      "name": {
+        "checkpoint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "result": "hdgm_v7_3_splitter_dual_endpoint"
+      }
+    }
+  }
+]

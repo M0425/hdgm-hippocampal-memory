@@ -1,0 +1,15 @@
+{
+  "groups": {
+    "hdgm_place_v5_outputs_confirmatory": {
+      "files": 60,
+      "expected_files": 60,
+      "complete": true
+    },
+    "hdgm_v7_3_splitter_outputs_confirmatory": {
+      "files": 60,
+      "expected_files": 60,
+      "complete": true
+    }
+  },
+  "saved_gate_control_equivalence_zero_seeds": 10
+}

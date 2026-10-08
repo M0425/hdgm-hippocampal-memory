@@ -1,0 +1,313 @@
+{
+  "date": "2026-10-08",
+  "root": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility",
+  "known_github_commit": "c4a5f5a3dac7b59da806ffda146b62c6f298d7d9",
+  "rows": [
+    {
+      "figure": "1",
+      "panels": "A–E",
+      "asset": "manuscript/Codex 图像 2026年9月15日 11_37_51.png",
+      "data": [],
+      "plot_scripts": [],
+      "model_or_evaluation_scripts": [],
+      "run_identity": "概念图；机制细节对应 Methods 和模型实现",
+      "status": "最终图像已锁定；没有可执行绘图源",
+      "gaps": "若有原始可编辑设计文件可补入；无需数值复现实验"
+    },
+    {
+      "figure": "2",
+      "panels": "B–C",
+      "asset": "manuscript/figure2_E_rebalanced_v2.pdf",
+      "data": [
+        "figure_sources/figure2_E_rebalanced_v2_outputs/data/fourclass_rapid_acquisition_v4_primary_results.json",
+        "figure_sources/figure2_E_rebalanced_v2_outputs/data/figure2_missing_outputs/figure2_endpoint_predictions.npz"
+      ],
+      "plot_scripts": [
+        "figure_sources/figure2_E_rebalanced_v2_outputs/plot_figure2_E_rebalanced_v2.py"
+      ],
+      "model_or_evaluation_scripts": [
+        "code/HDGM主实验 四分类.py"
+      ],
+      "run_identity": "V4；split_seed_version=4；150 updates；10 seeds 11…99,111",
+      "status": "绘图输入完整；训练源与历史运行的字节身份未证明",
+      "gaps": "AUC CI 原始估计过程未保存；部分统计注释写死；需记录检查点版本关系"
+    },
+    {
+      "figure": "2",
+      "panels": "D–E",
+      "asset": "manuscript/figure2_E_rebalanced_v2.pdf",
+      "data": [
+        "figure_sources/figure2_E_rebalanced_v2_outputs/data/figure2_missing_outputs/figure2_missing_summary.json",
+        "figure_sources/figure2_E_rebalanced_v2_outputs/data/figure2_missing_outputs/figure2_history_controls.csv",
+        "figure_sources/figure2_E_rebalanced_v2_outputs/data/figure2_missing_outputs/figure2_shortcut_diagnostics.csv",
+        "figure_sources/figure2_E_rebalanced_v2_outputs/data/figure2_missing_outputs/figure2_delay_transfer.csv",
+        "figure_sources/figure2_E_rebalanced_v2_outputs/data/figure2_missing_outputs/figure2_endpoint_predictions.npz"
+      ],
+      "plot_scripts": [
+        "figure_sources/figure2_E_rebalanced_v2_outputs/plot_figure2_E_rebalanced_v2.py"
+      ],
+      "model_or_evaluation_scripts": [
+        "code/绘图数据导出.py"
+      ],
+      "run_identity": "冻结 V4 update-150；10 paired seeds",
+      "status": "CSV/NPZ/冻结协议完整；原检查点本体未入包",
+      "gaps": "明确 delay 的三比较 Holm 家族；检查点按保存的 manifest/hash 找回"
+    },
+    {
+      "figure": "3",
+      "panels": "A,C",
+      "asset": "manuscript/figure3_refined_v2.png",
+      "data": [
+        "figure_sources/figure3_refined_v2_outputs/data/operation.json"
+      ],
+      "plot_scripts": [
+        "figure_sources/figure3_refined_v2_outputs/plot_figure3_refined.py",
+        "figure_sources/figure3_refined_v2_outputs/original_plot.py"
+      ],
+      "model_or_evaluation_scripts": [
+        "code/探针节点.py"
+      ],
+      "run_identity": "V4 semantic operation-cut V2；150；10 seeds",
+      "status": "绘图数据 SHA 与数值审计吻合；嵌入 V4 的 SHA 与运行协议精确匹配",
+      "gaps": "探针节点.py 评估脚本自身的历史运行 SHA 未存；基础主实验恢复成功但检查点未打包"
+    },
+    {
+      "figure": "3",
+      "panels": "B",
+      "asset": "manuscript/figure3_refined_v2.png",
+      "data": [
+        "figure_sources/figure3_refined_v2_outputs/data/gate.json"
+      ],
+      "plot_scripts": [
+        "figure_sources/figure3_refined_v2_outputs/plot_figure3_refined.py",
+        "figure_sources/figure3_refined_v2_outputs/original_plot.py"
+      ],
+      "model_or_evaluation_scripts": [],
+      "run_identity": "V4 stage-specific perturbation V1；zero/mean_clamp；150",
+      "status": "数据和基础模型版本可核验；V1 门控干预入口未识别",
+      "gaps": "探针节点.py 是 V2 operation-cut/shuffle，不等同于 V1 zero/mean-clamp；找回实际 V1 评估脚本"
+    },
+    {
+      "figure": "3",
+      "panels": "D–E",
+      "asset": "manuscript/figure3_refined_v2.png",
+      "data": [
+        "figure_sources/figure3_refined_v2_outputs/data/ca1.json"
+      ],
+      "plot_scripts": [
+        "figure_sources/figure3_refined_v2_outputs/plot_figure3_refined.py",
+        "figure_sources/figure3_refined_v2_outputs/original_plot.py"
+      ],
+      "model_or_evaluation_scripts": [
+        "code/CA1终.py"
+      ],
+      "run_identity": "CA1 V6.2；split_seed_version=62；从150-update容器选取内部snapshot[100]",
+      "status": "10条记录均保存 checkpoint_update=100/source_run_max_updates=150，和加载代码一致；100/150歧义已解释",
+      "gaps": "历史评估脚本自身SHA未存；缺checkpoint本体以复核内部snapshot的state_dict指纹；不要用V6.1替代V6.2"
+    },
+    {
+      "figure": "4",
+      "panels": "B,F(position)",
+      "asset": "manuscript/figure4_refined.pdf",
+      "data": [
+        "figure_sources/figure4_refined_outputs/data/position.json"
+      ],
+      "plot_scripts": [
+        "figure_sources/figure4_refined_outputs/plot_figure4_refined.py",
+        "figure_sources/figure4_refined_outputs/original_plot.py"
+      ],
+      "model_or_evaluation_scripts": [
+        "code/位置群体.py"
+      ],
+      "run_identity": "Place V5 confirmatory；10 seeds 101…1010；sensory/action residualization",
+      "status": "绘图数组和输入 SHA 经原数值审计核验",
+      "gaps": "位置.py 不含已用 residualizer，应以位置群体.py 为候选；缺原运行 source SHA/全检查点"
+    },
+    {
+      "figure": "4",
+      "panels": "C–F(history)",
+      "asset": "manuscript/figure4_refined.pdf",
+      "data": [
+        "figure_sources/figure4_refined_outputs/data/branch.json"
+      ],
+      "plot_scripts": [
+        "figure_sources/figure4_refined_outputs/plot_figure4_refined.py",
+        "figure_sources/figure4_refined_outputs/original_plot.py"
+      ],
+      "model_or_evaluation_scripts": [
+        "code/分叉.py"
+      ],
+      "run_identity": "Splitter V7.3 双 endpoint；10 seeds 101…1010",
+      "status": "绘图数组与输入 SHA 经原数值审计核验；训练快照候选",
+      "gaps": "10-seed 数据没有绑定训练源的 source SHA；需找回原 checkpoint/config/日志"
+    },
+    {
+      "figure": "5",
+      "panels": "B–F",
+      "asset": "manuscript/figure5_no_titles.pdf",
+      "data": [
+        "data/pythonProject32/hdgm_difficulty_v2_1_frozen_outputs_confirmatory/difficulty_v2_1_multiseed_results.json",
+        "data/New project/figure5_integrated_BC_v2_provenance.json"
+      ],
+      "plot_scripts": [
+        "data/New project/rebuild_figure5_integrated.py",
+        "data/New project/rebuild_figure5_panel_b_bifurcation.py"
+      ],
+      "model_or_evaluation_scripts": [
+        "code/混叠噪声.py",
+        "code/分叉.py"
+      ],
+      "run_identity": "difficulty V2.1 frozen confirmatory；repr150/behavior300；10 seeds 101…1010",
+      "status": "数据 SHA 与绘图 provenance 精确匹配；完整集成绘图仍缺依赖",
+      "gaps": "归档漏掉 response-atlas 和去标题链；本次已找回；capacity_boundary.py 仍未找到；需移除本机绝对路径"
+    },
+    {
+      "figure": "A1",
+      "panels": "A–D",
+      "asset": "manuscript/figure_A1.pdf",
+      "data": [
+        "pilot/checkpoint_diagnostics_v1/summary.json",
+        "pilot/checkpoint_diagnostics_v1/protocol.json",
+        "appendix_A1/plotted_data.csv"
+      ],
+      "plot_scripts": [
+        "appendix_A1/build_figure.py"
+      ],
+      "model_or_evaluation_scripts": [
+        "code/分析_三种子原版.py",
+        "code/分叉.py",
+        "code/补充评估.py"
+      ],
+      "run_identity": "3 seeds 11,22,33 ×4 variants ×150/300；24 records/checkpoints",
+      "status": "训练来源/诊断来源 SHA 与协议吻合；24检查点具备且已核验",
+      "gaps": "补充评估代码默认从code同目录读输出，与归档pilot目录不符，需增路径参数（当前未提供）；当前分析.py不能替代原版"
+    }
+  ],
+  "proof": {
+    "archived_files_checked": 147,
+    "hashes_match": true,
+    "figure3_embedded_v4_expected": "cd27093dc8c8d9cbb99085a880d48122a8853703dc7e054d0334bd0acedd9d8c",
+    "figure3_embedded_v4_actual": "cd27093dc8c8d9cbb99085a880d48122a8853703dc7e054d0334bd0acedd9d8c",
+    "figure5_data_expected": "97232c8139fc3b12441a74e9e42a628f54287dabc9cb258112f9b23cd9e57c8b",
+    "figure5_data_actual": "97232c8139fc3b12441a74e9e42a628f54287dabc9cb258112f9b23cd9e57c8b",
+    "figure5_response_atlas_expected": "cbbf44f5ea585c24d1530d4b78ef0999a78eeeb0303018776f7af5f39b796d7a",
+    "figure5_response_atlas_actual": "cbbf44f5ea585c24d1530d4b78ef0999a78eeeb0303018776f7af5f39b796d7a",
+    "CA1_saved_endpoint_audits": [
+      {
+        "seed": 11,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 22,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 33,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 44,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 55,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 66,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 77,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 88,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 99,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 111,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      }
+    ],
+    "figure5_cleanup_source_hash_matches": true,
+    "figure5_cleanup_output_matches_manuscript": true,
+    "pilot_source_checks": {
+      "分析_三种子原版.py": {
+        "expected": "f82bfe8192930a4cee9ac992ff4bf01b4c1fd78991845abf98b833f9503c606d",
+        "actual": "f82bfe8192930a4cee9ac992ff4bf01b4c1fd78991845abf98b833f9503c606d"
+      },
+      "分叉.py": {
+        "expected": "29dd1d11b1e34731dc76911ae601e9edcaa9921a40b9c1da8ef3d6e214be8dc6",
+        "actual": "29dd1d11b1e34731dc76911ae601e9edcaa9921a40b9c1da8ef3d6e214be8dc6"
+      }
+    },
+    "pilot_diagnostic_sha_matches": true
+  },
+  "recovered": [
+    {
+      "file": "recovered/figure5/figure5c_response_atlas.py",
+      "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure5c_response_atlas.py",
+      "sha256": "cbbf44f5ea585c24d1530d4b78ef0999a78eeeb0303018776f7af5f39b796d7a"
+    },
+    {
+      "file": "recovered/figure5/figure5C_response_atlas_source_values.csv",
+      "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure5C_response_atlas_source_values.csv",
+      "sha256": "59598cfd9b5af8585af2ea0f818cd943736dde66e8785c88d4edca44ffed7477"
+    },
+    {
+      "file": "recovered/figure5/figure5C_response_atlas_zoom_source_values.csv",
+      "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure5C_response_atlas_zoom_source_values.csv",
+      "sha256": "59598cfd9b5af8585af2ea0f818cd943736dde66e8785c88d4edca44ffed7477"
+    },
+    {
+      "file": "recovered/figure5/figure5_integrated_BC_source_data.csv",
+      "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure5_integrated_BC_source_data.csv",
+      "sha256": "a6fcf941f04a1c389508aebf0eef3b96ebad5ac652cbe12692dce47a5ca698ca"
+    },
+    {
+      "file": "recovered/figure5/figure5_integrated_BC_caption.md",
+      "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure5_integrated_BC_caption.md",
+      "sha256": "46de3b281c70b120349a1991eaa0b92dbf1f64b4b11ee369d2ef8453ee0c30b5"
+    },
+    {
+      "file": "recovered/figure5/figure5_integrated_BC_v2.pdf",
+      "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure5_integrated_BC_v2.pdf",
+      "sha256": "5f1f0f2b5110938e0f850a6d9b1cfd9ffcbf486232e24e4cd86db02c4781a79c"
+    },
+    {
+      "file": "recovered/figure5/figure5_integrated_BC_v2.svg",
+      "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure5_integrated_BC_v2.svg",
+      "sha256": "2839e68005df126728a8d2017fe77d8b772f0478c6a6a092675ce22ca6b5370f"
+    },
+    {
+      "file": "recovered/figure5/edit_figure5_text.py",
+      "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\work\\edit_figure5_text.py",
+      "sha256": "95d3a73d24ac229eb91f36dc5532a823b4f2c4fd46bfe529833838c7065f952d"
+    },
+    {
+      "file": "recovered/figure5/edit_manifest.json",
+      "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\figure5_clean\\edit_manifest.json",
+      "sha256": "64507375b5a7532534551d2a0c61cc7ebda8153a4339f20761e11bf88a54c383"
+    },
+    {
+      "file": "recovered/model/HDGM_v4_rapid_acquisition_embedded.py",
+      "source": "decoded from archived code/探针节点.py; bytes verified, not executed",
+      "sha256": "cd27093dc8c8d9cbb99085a880d48122a8853703dc7e054d0334bd0acedd9d8c"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "file": "ALL_CHECKPOINT_FILES.csv",
+    "sha256": "c259b65dd04c5ac1b71fe7bf5e568c9c5ad89d855dcbf634a00cd9544735ad8d",
+    "bytes": 131401
+  },
+  {
+    "file": "code/HDGM_v4_rapid_acquisition_embedded.py",
+    "sha256": "cd27093dc8c8d9cbb99085a880d48122a8853703dc7e054d0334bd0acedd9d8c",
+    "bytes": 122540
+  },
+  {
+    "file": "code/HDGM_v4_stage_specific_perturbation_v1.py",
+    "sha256": "ee994e57da07270af113567c645e968acbb3312357c17a670284d3f86c38c75d",
+    "bytes": 46510
+  },
+  {
+    "file": "ENDPOINT_COMPLETENESS.json",
+    "sha256": "51c51d2efbf883cfaf4cb8359fbf3ef8561a93a35c86712355af6abc6780009a",
+    "bytes": 332
+  },
+  {
+    "file": "FIGURE_CHECKPOINT_BINDINGS.csv",
+    "sha256": "a3100acc302c0f101a1058b0e2814c6f674eba29d79fb20297e238cb94e132e0",
+    "bytes": 21765
+  },
+  {
+    "file": "FIGURE_CHECKPOINT_BINDINGS.json",
+    "sha256": "4d7a8ba658c95622b31fe0c9935d771a81a5d8fcaab816cb1c2a91b98d572317",
+    "bytes": 36739
+  },
+  {
+    "file": "README.md",
+    "sha256": "4a4e99a3c2a36dca5f8ae016875b835664b94d022dc5771230794beb2f788082",
+    "bytes": 4885
+  },
+  {
+    "file": "run_figure3_v1.py",
+    "sha256": "dec38869af6ac98ca91ab2756b3b03c043b5803a448dfbf1e957ac69305cf7a2",
+    "bytes": 1624
+  },
+  {
+    "file": "SELECTED_WEIGHT_METADATA.json",
+    "sha256": "695b50e2cfea4f6c9dcbc6754fb4f4e20417dafc70e40b97dd9f9da99a050fa1",
+    "bytes": 125463
+  },
+  {
+    "file": "SUMMARY.json",
+    "sha256": "62e514f07309f63ddf8acdf76c5cd4d15446f6f58ed40514ff60b7148627d538",
+    "bytes": 566
+  },
+  {
+    "file": "V1_SOURCE_RECOVERY.json",
+    "sha256": "9b6753a0a5ec74c7afcc2ba08372714d237b121f77867cb301574c119d1248db",
+    "bytes": 827
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "rows": 10,
+  "archived_files_checked": 147,
+  "recovered_files": 10,
+  "output": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\figure_traceability_2026-10-08",
+  "proof": {
+    "archived_files_checked": 147,
+    "hashes_match": true,
+    "figure3_embedded_v4_expected": "cd27093dc8c8d9cbb99085a880d48122a8853703dc7e054d0334bd0acedd9d8c",
+    "figure3_embedded_v4_actual": "cd27093dc8c8d9cbb99085a880d48122a8853703dc7e054d0334bd0acedd9d8c",
+    "figure5_data_expected": "97232c8139fc3b12441a74e9e42a628f54287dabc9cb258112f9b23cd9e57c8b",
+    "figure5_data_actual": "97232c8139fc3b12441a74e9e42a628f54287dabc9cb258112f9b23cd9e57c8b",
+    "figure5_response_atlas_expected": "cbbf44f5ea585c24d1530d4b78ef0999a78eeeb0303018776f7af5f39b796d7a",
+    "figure5_response_atlas_actual": "cbbf44f5ea585c24d1530d4b78ef0999a78eeeb0303018776f7af5f39b796d7a",
+    "CA1_saved_endpoint_audits": [
+      {
+        "seed": 11,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 22,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 33,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 44,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 55,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 66,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 77,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 88,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 99,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      },
+      {
+        "seed": 111,
+        "checkpoint_update": 100,
+        "source_run_max_updates": 150
+      }
+    ],
+    "figure5_cleanup_source_hash_matches": true,
+    "figure5_cleanup_output_matches_manuscript": true,
+    "pilot_source_checks": {
+      "分析_三种子原版.py": {
+        "expected": "f82bfe8192930a4cee9ac992ff4bf01b4c1fd78991845abf98b833f9503c606d",
+        "actual": "f82bfe8192930a4cee9ac992ff4bf01b4c1fd78991845abf98b833f9503c606d"
+      },
+      "分叉.py": {
+        "expected": "29dd1d11b1e34731dc76911ae601e9edcaa9921a40b9c1da8ef3d6e214be8dc6",
+        "actual": "29dd1d11b1e34731dc76911ae601e9edcaa9921a40b9c1da8ef3d6e214be8dc6"
+      }
+    },
+    "pilot_diagnostic_sha_matches": true
+  }
+}

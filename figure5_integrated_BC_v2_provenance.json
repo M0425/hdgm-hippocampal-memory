@@ -1,0 +1,91 @@
+{
+  "data_source": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_difficulty_v2_1_frozen_outputs_confirmatory\\difficulty_v2_1_multiseed_results.json",
+  "data_sha256": "97232c8139fc3b12441a74e9e42a628f54287dabc9cb258112f9b23cd9e57c8b",
+  "scripts": {
+    "C:\\Users\\马明哲\\Documents\\Downloads\\rebuild_figure5_capacity_boundary.py": "c3932e98fa922925698ba47cff1b2192262b62730758e860a8e7afb50036b110",
+    "C:\\Users\\马明哲\\Documents\\New project\\rebuild_figure5_panel_b_bifurcation.py": "d53858b075bf7a371abf7be5f775f47de9f86e5bf8a47d515ca2e28a67bb2f35",
+    "C:\\Users\\马明哲\\Documents\\New project\\figure5c_response_atlas.py": "cbbf44f5ea585c24d1530d4b78ef0999a78eeeb0303018776f7af5f39b796d7a",
+    "C:\\Users\\马明哲\\Documents\\New project\\rebuild_figure5_integrated.py": "0195e2a2ddc8ecd7f310a708d1b996cdb01fa39b413ca18bdde77e6c1c9ee835",
+    "C:\\Users\\马明哲\\Documents\\New project\\figure5_panel_a_cartoon.py": "393653375c8d5bee6b5825fa5e5f82f087a5a6d52bc01071e8c574d970c7e1f2"
+  },
+  "dimensions_mm": [
+    431.8,
+    368.3
+  ],
+  "minimum_font_pt": 8,
+  "panels": "A: enlarged conceptual vector cue cartoons; D/E/F: original calculations; B: unchanged data with tighter right margin; C: accepted zoomed atlas",
+  "C_exact_comparison": "24 means and 48 CI endpoints identical to accepted C",
+  "C_CI": "Student t df=9, unadjusted 95%; TEM/stateless limits 0.47–0.56",
+  "D_CI": "16000 seed bootstrap resamples, percentile 95%",
+  "E_CI": "12000 seed-cluster bootstrap resamples, percentile 95%",
+  "coupling_r": 0.688780652210054,
+  "coupling_r_ci": [
+    -0.046335275580528225,
+    0.9393635028297295
+  ],
+  "F_dz": [
+    [
+      1.3223311110386702,
+      0.00997385177464608,
+      -0.5884002995079737,
+      -0.4743416490080007,
+      1.3114899838680187,
+      1.3223311110386702,
+      1.2921318406951219,
+      1.1845740002687735
+    ],
+    [
+      0.4063022172356114,
+      -0.29085096995994414,
+      0.33101723944405487,
+      0.26448580029263463,
+      0.32262065375783056,
+      0.4063022172356114,
+      0.38096622416361,
+      0.4155545650103093
+    ],
+    [
+      0.6837135442603833,
+      0.6105073233260073,
+      0.35984470991203593,
+      -0.32205887574639086,
+      0.6566636232697222,
+      0.6837135442603833,
+      0.7204938236621806,
+      0.7023031691640562
+    ]
+  ],
+  "F_p_holm": [
+    [
+      0.046875,
+      1.0,
+      1.0,
+      1.0,
+      0.046875,
+      0.046875,
+      0.046875,
+      0.046875
+    ],
+    [
+      0.365234375,
+      1.0,
+      1.0,
+      1.0,
+      0.3515625,
+      0.365234375,
+      1.0,
+      1.0
+    ],
+    [
+      0.875,
+      1.0,
+      1.0,
+      1.0,
+      0.875,
+      0.875,
+      0.22265625,
+      0.703125
+    ]
+  ],
+  "reference": "User supplied original layout and approved B/C, superseding default style examples"
+}

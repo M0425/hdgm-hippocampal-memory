@@ -1,0 +1,32 @@
+{
+  "reconstruction_date": "2026-10-16",
+  "authoring_status": "Reconstructed, not original recovered code",
+  "data_sha256": "97232c8139fc3b12441a74e9e42a628f54287dabc9cb258112f9b23cd9e57c8b",
+  "d_auc_holm_p": {
+    "alias": 0.0078125,
+    "noise": 0.0078125
+  },
+  "e_r": 0.688780652210054,
+  "e_archived_ci": [
+    -0.046335275580528225,
+    0.9393635028297295
+  ],
+  "e_new_bootstrap_ci": [
+    0.0019437336819963466,
+    0.9403468017580883
+  ],
+  "f_all_24_dz_and_holm_p_match_archive": true,
+  "exported_seed_rows": {
+    "d": 80,
+    "e": 70,
+    "f": 240
+  },
+  "render_review": "All three PDFs rendered with Poppler and visually inspected; panel d axis-label sharing bug corrected before final rendering.",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2"
+  },
+  "original_manuscript_figures_modified": false,
+  "historical_full_layout_script_recovered": false
+}

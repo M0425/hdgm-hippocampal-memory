@@ -1,27 +1,38 @@
-# Figure5 DEF incremental update — 2026-10-16
+# HDGM research reproducibility materials
 
-This folder adds newly reconstructed d/e/f plotting scripts to the existing repository.
-It does not replace or require re-uploading the September archive or October8 checkpoints.
-Two compact archived JSON inputs are included so the new scripts run independently of
-the layout inside the older ZIP. Their numerical contents are unchanged.
+**A Hippocampal-Inspired Dynamic Gating Model: Linking Selective Memory Operations to History-Dependent Population Representations**
 
-From repository root:
+This repository contains the archived study materials and a later Figure5 plotting reconstruction.
+
+## Repository contents
+- `hdgm_reproducibility_2026-09-19.zip`: original archived experiment code, data, figures and exploratory controls. Unzip into a separate folder before using its internal instructions.
+- `reproducibility/recovery_2026-10-08/`: recovered source code and archived main checkpoints.
+- `reproducibility/traceability_2026-10-08/`: source and figure traceability materials.
+- `REPRODUCIBILITY_UPDATE_2026-10-08.md`: earlier recovery/update documentation.
+- Root-level `rebuild_figure5_panel_d.py`, `rebuild_figure5_panel_e.py`, `rebuild_figure5_panel_f.py`: newly reconstructed saved-data plotting scripts, dated 2026-10-16.
+
+## Figure5 d/e/f
+The current repository places these scripts and their two JSON inputs at the root.
+Run from that directory:
 ```
-python reproducibility/figure5_DEF_reconstruction_2026-10-16/rebuild_figure5_panel_d.py
-python reproducibility/figure5_DEF_reconstruction_2026-10-16/rebuild_figure5_panel_e.py
-python reproducibility/figure5_DEF_reconstruction_2026-10-16/rebuild_figure5_panel_f.py
+python rebuild_figure5_panel_d.py
+python rebuild_figure5_panel_e.py
+python rebuild_figure5_panel_f.py
 ```
-Requires NumPy, Matplotlib, Pillow; saved-data processing only, no model training.
-Outputs go into reconstructed_outputs/ next to the scripts.
-Three scripts were executed and checked in the complete local package before preparation
-of this increment. Paths were adapted to this self-contained layout.
+Requires NumPy, Matplotlib and Pillow. Output goes into `reconstructed_outputs/`.
+The shared module also accepts the original `data/` input subdirectory layout.
+No model training or probe fitting is performed by these commands.
 
-Important: these are reconstructed implementations, not recovered historical scripts.
-Original bootstrap random streams are unknown. E displays the explicitly archived
-interval; newly computed intervals are exported separately. The manuscript figure
-is not replaced. See RECONSTRUCTION_REPORT.json and the original saved provenance.
+The scripts are reconstructed implementations, not recovered historical sources.
+D AUC adjusted p values, E correlation and all24 F effect sizes/adjusted p values
+were checked against saved results. Original bootstrap random streams were not
+recorded; archived and newly recomputed intervals are explicitly distinguished.
+See `RECONSTRUCTION_README.md` and `RECONSTRUCTION_REPORT.json`.
 
-Upload the reproducibility folder INSIDE HDGM_github_increment_2026-10-16 at the repository
-root. Do not upload this outer packaging directory or ZIP itself. Existing files in
-reproducibility remain; a new dated subdirectory is added. Full 10-batch re-upload is
-unnecessary for this plotting-code update.
+`MANIFEST.csv` describes only the17-file Figure5 reconstruction addition, not the
+entire historical repository. Older upload manifests describe their dated collections.
+
+This repository does not claim full end-to-end retraining has been rerun in a new
+environment. Environment versions for reconstruction are distinct from historical
+training versions. The author-designed AI-rendered Figure1 has separate records.
+No new licence is granted by this README.

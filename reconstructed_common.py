@@ -12,8 +12,10 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 ROOT=Path(__file__).resolve().parent
-DATA=ROOT/'data/difficulty_v2_1_multiseed_results.json'
-PROVENANCE=ROOT/'data/figure5_integrated_BC_v2_provenance.json'
+# Accept both the originally packaged layout and a flat GitHub upload.
+DATA_ROOT=ROOT/'data' if (ROOT/'data/difficulty_v2_1_multiseed_results.json').is_file() else ROOT
+DATA=DATA_ROOT/'difficulty_v2_1_multiseed_results.json'
+PROVENANCE=DATA_ROOT/'figure5_integrated_BC_v2_provenance.json'
 OUT=Path(__file__).resolve().parent/'reconstructed_outputs'
 ALIASES=['alias_0.000','alias_0.250','alias_0.500','alias_0.750']
 NOISES=['noise_0.020','noise_0.050','noise_0.080','noise_0.120']

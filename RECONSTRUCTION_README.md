@@ -4,9 +4,9 @@ These scripts were newly written on 2026-10-16, not recovered from the original 
 They read the archived ten-seed V2.1 frozen results using package-relative paths.
 
 ```
-python reproducibility/figure5_DEF_reconstruction_2026-10-16/rebuild_figure5_panel_d.py
-python reproducibility/figure5_DEF_reconstruction_2026-10-16/rebuild_figure5_panel_e.py
-python reproducibility/figure5_DEF_reconstruction_2026-10-16/rebuild_figure5_panel_f.py
+python rebuild_figure5_panel_d.py
+python rebuild_figure5_panel_e.py
+python rebuild_figure5_panel_f.py
 ```
 
 Outputs: reconstructed_outputs alongside these scripts (PDF, SVG, PNG, seed CSV and statistics JSON).
@@ -38,3 +38,5 @@ These are reproducibility reconstructions, not drop-in pixel-identical replaceme
 for the manuscript panels. The existing reference figure5.pdf remains unchanged.
 The missing historical whole-layout module is still not recovered; this addition
 restores data-driven scripts for the previously missing d/e/f panels.
+
+Current GitHub layout: scripts and both input JSONs are in the repository root; reconstructed_common.py supports this flat layout and the original data/ layout.

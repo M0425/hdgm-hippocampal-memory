@@ -1,0 +1,242 @@
+{
+  "syntax": [
+    {
+      "file": "experiments/ca1_validation.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/fixed_gate_training.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/four_context.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/history_controls.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/operation_cuts.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/perturbation_scan.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/shared_corridor.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/spatial_ring.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/stage_gate_substitutions.py",
+      "pass": true
+    },
+    {
+      "file": "tools/plot.py",
+      "pass": true
+    },
+    {
+      "file": "tools/recheck_statistics.py",
+      "pass": true
+    },
+    {
+      "file": "tools/verify_package.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/structural_controls/\u5206\u53c9.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/structural_controls/\u5206\u6790.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/structural_controls/\u5206\u6790_\u4e09\u79cd\u5b50\u539f\u7248.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure2/plot.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure3/original_plot.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure3/plot.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure3/verify_figure3.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure4/original_plot.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure4/plot.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure4/verify_figure4.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/figure5c_response_atlas.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/figure5_panel_a_cartoon.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/rebuild_figure5_integrated.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/rebuild_figure5_panel_b_bifurcation.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/rebuild_figure5_panel_c_dotmatrix.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/rebuild_figure5_panel_d.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/rebuild_figure5_panel_e.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/rebuild_figure5_panel_f.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/reconstructed_common.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure6/build_figure.py",
+      "pass": true
+    }
+  ],
+  "commands": [
+    {
+      "args": [
+        "tools/recheck_statistics.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "args": [
+        "tools/plot.py",
+        "2"
+      ],
+      "exit_code": 1
+    },
+    {
+      "args": [
+        "tools/plot.py",
+        "3"
+      ],
+      "exit_code": 1
+    },
+    {
+      "args": [
+        "tools/plot.py",
+        "4"
+      ],
+      "exit_code": 1
+    },
+    {
+      "args": [
+        "tools/plot.py",
+        "5b"
+      ],
+      "exit_code": 1
+    },
+    {
+      "args": [
+        "tools/plot.py",
+        "5c"
+      ],
+      "exit_code": 1
+    },
+    {
+      "args": [
+        "tools/plot.py",
+        "5d"
+      ],
+      "exit_code": 1
+    },
+    {
+      "args": [
+        "tools/plot.py",
+        "5e"
+      ],
+      "exit_code": 1
+    },
+    {
+      "args": [
+        "tools/plot.py",
+        "5f"
+      ],
+      "exit_code": 1
+    },
+    {
+      "args": [
+        "tools/plot.py",
+        "6"
+      ],
+      "exit_code": 1
+    }
+  ],
+  "initial_runtime_note": "Bundled document Python lacks matplotlib; plotting retried with existing .venv-hdgm.",
+  "plotting_retry": [
+    {
+      "figure": "2",
+      "exit_code": 0
+    },
+    {
+      "figure": "3",
+      "exit_code": 0
+    },
+    {
+      "figure": "4",
+      "exit_code": 0
+    },
+    {
+      "figure": "5b",
+      "exit_code": 0
+    },
+    {
+      "figure": "5c",
+      "exit_code": 0
+    },
+    {
+      "figure": "5d",
+      "exit_code": 0
+    },
+    {
+      "figure": "5e",
+      "exit_code": 0
+    },
+    {
+      "figure": "5f",
+      "exit_code": 0
+    },
+    {
+      "figure": "6",
+      "exit_code": 0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "r": 0.688780652210054,
+  "reconstructed_ci95": [
+    0.0019437336819963466,
+    0.9403468017580883
+  ],
+  "archived_ci95": [
+    -0.046335275580528225,
+    0.9393635028297295
+  ],
+  "ci_note": "Original random stream unavailable; archived interval retained separately, not substituted for recomputation.",
+  "bootstrap_seed": 20261016,
+  "bootstrap_draws": 12000,
+  "unique_conditions_per_seed": 7,
+  "n_seeds": 10,
+  "source_sha256": "97232c8139fc3b12441a74e9e42a628f54287dabc9cb258112f9b23cd9e57c8b",
+  "reconstruction": "New code, not recovered historical implementation",
+  "packaging_matplotlib": "3.11.2",
+  "packaging_numpy": "2.5.3"
+}

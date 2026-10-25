@@ -1,0 +1,17 @@
+{
+  "recovered_original": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\检查点.py",
+  "sha256": "ee994e57da07270af113567c645e968acbb3312357c17a670284d3f86c38c75d",
+  "downloads_copy_same": true,
+  "syntax_valid": true,
+  "source_identity_historical_limit": "Original evaluation-script SHA was not stored in gate.json; exact historical execution identity cannot be proven solely from the present file.",
+  "semantic_checks": {
+    "def calibrate_gate_reference": true,
+    "def validate_control_equivalence": true,
+    "mean_clamp": true,
+    "zero": true,
+    "phase-blind per-unit gate mean": true,
+    "identical_fixed_banks_across_conditions": true,
+    "HDGM V4 frozen stage-specific perturbation v1": true
+  },
+  "base_source_sha256": "cd27093dc8c8d9cbb99085a880d48122a8853703dc7e054d0334bd0acedd9d8c"
+}

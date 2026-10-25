@@ -1,0 +1,42 @@
+{
+  "claim": "Reconstruct original Figure5 accessibility, association, and effect-size evidence without altering reported manuscript results",
+  "source": "package V2.1 confirmatory JSON",
+  "n_seeds": 10,
+  "forms": {
+    "d": "two ordered-condition ridgeline plots with seed marks and mean intervals",
+    "e": "within-seed-centered scatter",
+    "f": "three-by-eight effect-size tiles"
+  },
+  "metrics": {
+    "d": "full-history minus reset decoding accuracy",
+    "e": "centered accessibility and choice accuracy",
+    "f": "mean paired difference / sample SD"
+  },
+  "uncertainty": {
+    "d": "16000 newly seeded bootstrap draws",
+    "e": "archived correlation interval displayed explicitly; new12000draw interval in statistics JSON",
+    "f": "exact signflip p, 24cell Holm"
+  },
+  "dimensions_inches": {
+    "d": [
+      7.4,
+      3.8
+    ],
+    "e": [
+      7,
+      4.1
+    ],
+    "f": [
+      8,
+      3.9
+    ]
+  },
+  "formats": [
+    "pdf",
+    "svg",
+    "png",
+    "csv",
+    "json"
+  ],
+  "style_reference": "Author-supplied Figure5 overrides generic skill style; sparse intervals/scatter/matrix grammar retained."
+}

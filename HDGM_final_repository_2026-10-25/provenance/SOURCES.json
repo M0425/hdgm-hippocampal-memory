@@ -1,0 +1,1032 @@
+[
+  {
+    "file": "experiments/four_context.py",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\code\\HDGM_v4_rapid_acquisition_embedded.py",
+    "source_sha256": "cd27093dc8c8d9cbb99085a880d48122a8853703dc7e054d0334bd0acedd9d8c"
+  },
+  {
+    "file": "experiments/stage_gate_substitutions.py",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\检查点.py",
+    "source_sha256": "ee994e57da07270af113567c645e968acbb3312357c17a670284d3f86c38c75d"
+  },
+  {
+    "file": "experiments/operation_cuts.py",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\code\\探针节点.py",
+    "source_sha256": "b52b9be279676a72c1f8f4a806fa6c70d008ce139c5f0a3e9eec06b1a0c81cd7"
+  },
+  {
+    "file": "experiments/fixed_gate_training.py",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\code\\主实验消融.py",
+    "source_sha256": "00318aeb4caea997057a75c50b0b5912f8cd48b5fab42158e8e0173d1d4e6706"
+  },
+  {
+    "file": "experiments/ca1_validation.py",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\code\\CA1终.py",
+    "source_sha256": "c2cdb766d4374e33e9677f837370d22c6330d5889f5593afc0e1493e715935e0"
+  },
+  {
+    "file": "experiments/spatial_ring.py",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\code\\位置.py",
+    "source_sha256": "f3fc78e0134834f460ca0c4d855453ac0626ad1b61d5b3f7d175e23d035d3d59"
+  },
+  {
+    "file": "experiments/shared_corridor.py",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\code\\分叉.py",
+    "source_sha256": "29dd1d11b1e34731dc76911ae601e9edcaa9921a40b9c1da8ef3d6e214be8dc6"
+  },
+  {
+    "file": "experiments/perturbation_scan.py",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\code\\混叠噪声.py",
+    "source_sha256": "8362a694401961c8d358333f9088695f8101665c52a185173b82c33d2bf9722c"
+  },
+  {
+    "file": "experiments/history_controls.py",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\main.py",
+    "source_sha256": "4ccbf3f6aa9f009222b751cef129f6dcedfe1cd27c07c9bc7aa19bb094e9f933"
+  },
+  {
+    "file": "experiments/structural_controls/分析.py",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\code\\分析.py",
+    "source_sha256": "9a216d4e9c1d7d03ffc48d3eee671482f87fa1ff83013010bbd0470f8c132a8c"
+  },
+  {
+    "file": "experiments/structural_controls/分叉.py",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\code\\分叉.py",
+    "source_sha256": "29dd1d11b1e34731dc76911ae601e9edcaa9921a40b9c1da8ef3d6e214be8dc6"
+  },
+  {
+    "file": "experiments/structural_controls/分析_三种子原版.py",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\code\\分析_三种子原版.py",
+    "source_sha256": "f82bfe8192930a4cee9ac992ff4bf01b4c1fd78991845abf98b833f9503c606d"
+  },
+  {
+    "file": "data/pythonProject32/fourclass_rapid_acquisition_v4_primary_results.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\data\\pythonProject32\\fourclass_rapid_acquisition_v4_primary_results.json",
+    "source_sha256": "f3dd617c2f7320d59eca539721d344e02830838ab807f57256a9dc8ce9e9692c"
+  },
+  {
+    "file": "data/pythonProject32/figure2_missing_outputs/figure2_delay_transfer.csv",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\data\\pythonProject32\\figure2_missing_outputs\\figure2_delay_transfer.csv",
+    "source_sha256": "762bd3ed1d3092e3d7a8c5da75f16f7506a2874093259cd610a1fb896c523e65"
+  },
+  {
+    "file": "data/pythonProject32/figure2_missing_outputs/figure2_history_controls.csv",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\data\\pythonProject32\\figure2_missing_outputs\\figure2_history_controls.csv",
+    "source_sha256": "4f81e9c4f1a29f7da497603beb4d1120870a77f1e02303292a039f9abc57db1b"
+  },
+  {
+    "file": "data/pythonProject32/figure2_missing_outputs/figure2_missing_summary.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\data\\pythonProject32\\figure2_missing_outputs\\figure2_missing_summary.json",
+    "source_sha256": "59dee6f1d77440f7ab6b54f815c2c518eba0f7c261de2d5905b569fbc4da244a"
+  },
+  {
+    "file": "data/pythonProject32/figure2_missing_outputs/figure2_shortcut_diagnostics.csv",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\data\\pythonProject32\\figure2_missing_outputs\\figure2_shortcut_diagnostics.csv",
+    "source_sha256": "b1a365df6a1eb543ad38a4cba83ea43fe536a3c3b7e5f6d8d64f6ee59ffad21e"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_difficulty_v2_1_frozen_outputs_confirmatory/difficulty_v2_1_multiseed_results.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\data\\pythonProject32\\hdgm_difficulty_v2_1_frozen_outputs_confirmatory\\difficulty_v2_1_multiseed_results.json",
+    "source_sha256": "97232c8139fc3b12441a74e9e42a628f54287dabc9cb258112f9b23cd9e57c8b"
+  },
+  {
+    "file": "data/New project/figure3_refined_v2_outputs/data/ca1.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure3_refined_v2_outputs\\data\\ca1.json",
+    "source_sha256": "9e06680fc2fd490d36982ec461f2deb6217dc959d842331d50adb2f625b13c68"
+  },
+  {
+    "file": "data/New project/figure3_refined_v2_outputs/data/gate.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure3_refined_v2_outputs\\data\\gate.json",
+    "source_sha256": "8e627cde7aa6d3ec72f9b9b82e93f9448cac02f40f685fa18c9ca1efb6c4f980"
+  },
+  {
+    "file": "data/New project/figure3_refined_v2_outputs/data/operation.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure3_refined_v2_outputs\\data\\operation.json",
+    "source_sha256": "4e67b8bf02d1a20cb94d1d06a1a3bf1c181024f3ff829cf5c25249ebe90ecaad"
+  },
+  {
+    "file": "data/New project/figure4_refined_outputs/data/branch.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure4_refined_outputs\\data\\branch.json",
+    "source_sha256": "901390dcb24c754ccced1c0d062206f14e2b8ac73daa61f74bbdb0ed041c8abd"
+  },
+  {
+    "file": "data/New project/figure4_refined_outputs/data/position.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure4_refined_outputs\\data\\position.json",
+    "source_sha256": "6514559171e0404b16b10c2fb5573f8fd1ebb26e17d71e8a2c48a2369475f1cf"
+  },
+  {
+    "file": "data/New project/figure5_integrated_BC_v2_provenance.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure5_integrated_BC_v2_provenance.json",
+    "source_sha256": "a7753445ca20ef65bb56419c1f125f8a89208b3453531f999f7b4c91cf342dff"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_place_v5_outputs_confirmatory/place_v5_multiseed_results.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\place_v5_multiseed_results.json",
+    "source_sha256": "6514559171e0404b16b10c2fb5573f8fd1ebb26e17d71e8a2c48a2369475f1cf"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_place_v5_outputs_confirmatory/place_v5_seed_101.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\place_v5_seed_101.json",
+    "source_sha256": "cd346280ae5b9e364e7630025a831c686ee4c7f9b8d6efb5442abf4599054410"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_place_v5_outputs_confirmatory/place_v5_seed_1010.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\place_v5_seed_1010.json",
+    "source_sha256": "a578e84f2caca1d3c911afb8267c1a6fc667a121a558184ba01a04735dcd6720"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_place_v5_outputs_confirmatory/place_v5_seed_202.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\place_v5_seed_202.json",
+    "source_sha256": "f65b003e814d558fc9325a21c1dba639dbaa12b1d4d1c786bb1ba94fc394c276"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_place_v5_outputs_confirmatory/place_v5_seed_303.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\place_v5_seed_303.json",
+    "source_sha256": "44757932cbe58e0c8bc413a154fac0c64e779a415474358c4843c30792ad4f5c"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_place_v5_outputs_confirmatory/place_v5_seed_404.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\place_v5_seed_404.json",
+    "source_sha256": "9766cb9c0855211762ac3b9ee3bc5c841e091acf5737046f2749ed24e845407e"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_place_v5_outputs_confirmatory/place_v5_seed_505.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\place_v5_seed_505.json",
+    "source_sha256": "2b929dca84bfd897b8e89c63c43c74a3369d72a3eaa6643c3d30c04847f8ef59"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_place_v5_outputs_confirmatory/place_v5_seed_606.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\place_v5_seed_606.json",
+    "source_sha256": "8c7c5d78e7df2190f2b8173b9bdc9f90343234b334fe5aa27b9cc4a01a429734"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_place_v5_outputs_confirmatory/place_v5_seed_707.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\place_v5_seed_707.json",
+    "source_sha256": "6d4c6cafa45276d348d409f5cfe9f762fa53143a8144539a0ffc043f4bf237df"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_place_v5_outputs_confirmatory/place_v5_seed_808.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\place_v5_seed_808.json",
+    "source_sha256": "957f567deb7527a43b9293100ceae95abf736d58e509e9c7e74abc65f6be158a"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_place_v5_outputs_confirmatory/place_v5_seed_909.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_place_v5_outputs_confirmatory\\place_v5_seed_909.json",
+    "source_sha256": "e2489b99c94c4e126269a100825652a788ee61d0409aa56e0ddf4932ad07ce33"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_v7_3_splitter_outputs_confirmatory/v7_3_multiseed_results.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\v7_3_multiseed_results.json",
+    "source_sha256": "901390dcb24c754ccced1c0d062206f14e2b8ac73daa61f74bbdb0ed041c8abd"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_v7_3_splitter_outputs_confirmatory/v7_3_seed_101.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\v7_3_seed_101.json",
+    "source_sha256": "64d403fb585b60b8dfc5a1bd4682f8cd352b94adbfaa952d396be1ce71a215ac"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_v7_3_splitter_outputs_confirmatory/v7_3_seed_1010.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\v7_3_seed_1010.json",
+    "source_sha256": "889f29bcc4bf793f9877f84035186f58985ee422f295c50d4bb2c0087de3d0a3"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_v7_3_splitter_outputs_confirmatory/v7_3_seed_202.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\v7_3_seed_202.json",
+    "source_sha256": "1e185771e368fe04d0e0a537ca9a9efd12d99b400e1af0fc5bb8582cc6f9a92d"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_v7_3_splitter_outputs_confirmatory/v7_3_seed_303.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\v7_3_seed_303.json",
+    "source_sha256": "2ed65a5f4ad1462494e0d294d758f731e3f61d9e2373b672df623e8160efaa69"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_v7_3_splitter_outputs_confirmatory/v7_3_seed_404.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\v7_3_seed_404.json",
+    "source_sha256": "58d5fd77d9b884436bf58a537ba4edb05b7fbfa3cd1da0c12efca50d42bd4856"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_v7_3_splitter_outputs_confirmatory/v7_3_seed_505.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\v7_3_seed_505.json",
+    "source_sha256": "5ebe18401ed25a0aaefe71e854fdbbbc322fff200acbcb705502ec67c971aec6"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_v7_3_splitter_outputs_confirmatory/v7_3_seed_606.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\v7_3_seed_606.json",
+    "source_sha256": "e7c35188d9457b8c1995ab9710ffed5b480f09a4e46b905f371bf1140951488d"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_v7_3_splitter_outputs_confirmatory/v7_3_seed_707.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\v7_3_seed_707.json",
+    "source_sha256": "836e9dc9529a1ac869c3a3fdf408185d9826b7f0d4d339797a9091a995b8d920"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_v7_3_splitter_outputs_confirmatory/v7_3_seed_808.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\v7_3_seed_808.json",
+    "source_sha256": "bb2c36c588b17e793bda853cbd4c1a5e3a436940fbaaf095a7b3b2543d96fabc"
+  },
+  {
+    "file": "data/pythonProject32/hdgm_v7_3_splitter_outputs_confirmatory/v7_3_seed_909.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\v7_3_seed_909.json",
+    "source_sha256": "fb4e6b79fe790878f264c8aab363b11b1dfb6b2349b8f74c774045f5bc9e3dd5"
+  },
+  {
+    "file": "data/pythonProject32/paper_ca1_v6_2_outputs/ca1_causal_validation_v6_2_results.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\pythonProject32\\paper_ca1_v6_2_outputs\\ca1_causal_validation_v6_2_results.json",
+    "source_sha256": "9e06680fc2fd490d36982ec461f2deb6217dc959d842331d50adb2f625b13c68"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/protocol.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\protocol.json",
+    "source_sha256": "43f4e58bfd2c725cde7b07f58035a3cb65d7f010e9e99d4f6615428a842b2237"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_11_fixed_gates_150.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_11_fixed_gates_150.json",
+    "source_sha256": "f58c01bca12df9a67aa6f52a05bd89a3b62a8eb6c435cbb9656c57f8638201ce"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_11_fixed_gates_300.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_11_fixed_gates_300.json",
+    "source_sha256": "21e9593619101d5d3b35553c259c2a3e89028c7d5192d9078a7866d4ca3148dc"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_11_full_150.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_11_full_150.json",
+    "source_sha256": "2641add5be80402040dbbdac34b9d805dd796d263858b45e7380b5d937c72f91"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_11_full_300.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_11_full_300.json",
+    "source_sha256": "71f815cd5d8ea8675d4aae642c86664466bb03675043386a15f81766395f6240"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_11_neither_150.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_11_neither_150.json",
+    "source_sha256": "863b4a635ff7b88c39996db58e3c4a477876551fcb17a943dbc76b2f59345600"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_11_neither_300.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_11_neither_300.json",
+    "source_sha256": "b25e30f40ad6ecb5062874ea6c6c38d18fe8eb2a5cd9e789c849f6f027510caa"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_11_no_memory_150.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_11_no_memory_150.json",
+    "source_sha256": "f3c147628d89e881efbf20e32c9b2a2f9da6315a6621efa4846129b6504279c7"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_11_no_memory_300.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_11_no_memory_300.json",
+    "source_sha256": "6257e664406e6c8e768827afb7fbeb585f35ce06c3b87f49711ebc9226a786c7"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_22_fixed_gates_150.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_22_fixed_gates_150.json",
+    "source_sha256": "ccf56f6a5b4f1af32e917371cfead41f3ef5e02709140b6dbd83e69d0deb54c3"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_22_fixed_gates_300.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_22_fixed_gates_300.json",
+    "source_sha256": "394a36094abeeedb681e9626b65f3e75bd7c306eda2e24b169333f02433b608f"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_22_full_150.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_22_full_150.json",
+    "source_sha256": "ff97a6ce6595075f028a5564c7ee41be089a90dd67e056248ab69e2b2cea9a15"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_22_full_300.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_22_full_300.json",
+    "source_sha256": "970af723b823aa9d75677936c7a80d33d3ffeec68dc6286234f536a67da29ba8"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_22_neither_150.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_22_neither_150.json",
+    "source_sha256": "dcb092cc18cc6e0869eaa8189af7533507719988418f28ec61ec380996838f11"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_22_neither_300.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_22_neither_300.json",
+    "source_sha256": "1e5cb7f2142d188a684d2171f1af5503ec44a6f33af79d01885ef25873e7896e"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_22_no_memory_150.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_22_no_memory_150.json",
+    "source_sha256": "6d068713d666de2b0a04110d19b2f069fb6973b25f80e52e71ce0e554f1e78b3"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_22_no_memory_300.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_22_no_memory_300.json",
+    "source_sha256": "b473b15afde2264c190e827e9abab3b955ce318cec7731897b4cd2b56afaaef7"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_33_fixed_gates_150.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_33_fixed_gates_150.json",
+    "source_sha256": "0e3c2efe4f0f7f9ed9a382dff1a6708f1b583529568091756a7d30ccbc69fefd"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_33_fixed_gates_300.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_33_fixed_gates_300.json",
+    "source_sha256": "be487448f57d1cdc862596ee39ac35b2683d5ad9b6f054e43ec50b122885400b"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_33_full_150.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_33_full_150.json",
+    "source_sha256": "d241b9e23987f17f0b414e88a69c96cec37f84cc10d97c773ec87bea7bc08ad1"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_33_full_300.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_33_full_300.json",
+    "source_sha256": "b1f4fb4001603ade7dec94bbbac701d2fce1bae284d2f6c30549bc3c72384dd5"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_33_neither_150.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_33_neither_150.json",
+    "source_sha256": "55dcce9ad82a65e46e5f72b662c0e992600733ab4e6ee1315507ffce4b7eb876"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_33_neither_300.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_33_neither_300.json",
+    "source_sha256": "7242fe48427ef1688e2b407f097f3275d05c8a53bbc808e6ac9b2d3999ce04cb"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_33_no_memory_150.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_33_no_memory_150.json",
+    "source_sha256": "f0626c331ff2308cecebb71a12e9c57a57337306d460e2e3f11b43caa723606a"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/seed_33_no_memory_300.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\seed_33_no_memory_300.json",
+    "source_sha256": "35008ccb6d3b214183a5a3010ffd7e1a5bae9b45f3b192ccadaef36b4154062c"
+  },
+  {
+    "file": "pilot/checkpoint_diagnostics_v1/summary.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\checkpoint_diagnostics_v1\\summary.json",
+    "source_sha256": "526e8719faec56e9e0319e048206b471bda96e91652f6d5143b25a8285a4acb4"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/interactions.csv",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\interactions.csv",
+    "source_sha256": "c599fc4297822987c7a5f94ed4f88c5b9f1415f9a39a7876ca4fc558592d0129"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/metrics.csv",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\metrics.csv",
+    "source_sha256": "39138966e1985158d0469eb4b1b256c4be676eabe1a63a22015d4b4c6b746347"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/protocol.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\protocol.json",
+    "source_sha256": "28a303e84df383547c14a759c96fb42b5f457455c6457ab1f37caadd9c012f9c"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/summary.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\summary.json",
+    "source_sha256": "9a22b436c6f6ff19fe7cac1e68aed9d42414e07378b38b519cb2a5f1d83dd21a"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_11/fixed_gates.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_11\\fixed_gates.json",
+    "source_sha256": "5c7d1e4cb8f1c4cce143399d298a9dba1219329bec71c0e7ed598a6eccf4dc26"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_11/fixed_gates_latest.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_11\\fixed_gates_latest.pt",
+    "source_sha256": "acb22e895297c57b8f8787451754bec015e400d8fa1a29497ed286a67df347c4"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_11/fixed_gates_representation.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_11\\fixed_gates_representation.pt",
+    "source_sha256": "ddf371ec0fd86c19ac52cacfa0ee7c3e3b511bf46785866c985c23b39ffc1afc"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_11/full.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_11\\full.json",
+    "source_sha256": "3f132375ed85b2529428388269241ea9292cf68d4ed9017aef3b9cb15746a21c"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_11/full_latest.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_11\\full_latest.pt",
+    "source_sha256": "3214a226a1f93ef4ba997c4782896a517a937926e6a5d595922d4f337e5e3a90"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_11/full_representation.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_11\\full_representation.pt",
+    "source_sha256": "30dbca961f9f68850564f4676cfa5562118055a5dde986e4de830b4df7f8e647"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_11/neither.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_11\\neither.json",
+    "source_sha256": "b0cb5af8d2ef06c051771380bac60d74ce9d49a8e89254b47380e50a56010c5b"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_11/neither_latest.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_11\\neither_latest.pt",
+    "source_sha256": "90d9fe891e0bd2a912b3797c2dfc5f21b2ca3be83f883d0a15c4d7e65137cc62"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_11/neither_representation.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_11\\neither_representation.pt",
+    "source_sha256": "5b48db2a9b1f27684474eb73340e0349aac8767fecfab9999a4c1210d91b17a1"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_11/no_memory.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_11\\no_memory.json",
+    "source_sha256": "11e5ccb29f96105902d57d4db8a2ac5b428e9ddf6cb17a9cdd46dbd13a485f56"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_11/no_memory_latest.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_11\\no_memory_latest.pt",
+    "source_sha256": "ae02cb1b7bb1115bb108e020c004994681a2a34ba815cd335781a7928fd2fbcc"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_11/no_memory_representation.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_11\\no_memory_representation.pt",
+    "source_sha256": "97140bd8b47ab81a7ca4b6c1b11b00830b61fcc69a5c36fb7865478dd043188a"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_11/preflight.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_11\\preflight.json",
+    "source_sha256": "a3e66d6f6b90b60a4eaa3b5184aab148cedf32cf2eb6b0bea2d86c06ba011d73"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_11/results.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_11\\results.json",
+    "source_sha256": "aff02ef231949291cf8556099921f81f7c8e5af10beb7bae60cfb38dc929d472"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_22/fixed_gates.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_22\\fixed_gates.json",
+    "source_sha256": "95fd05289125750c815eb9cf3e2d2d8f871db1084017bf021e1fb19df4e477df"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_22/fixed_gates_latest.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_22\\fixed_gates_latest.pt",
+    "source_sha256": "977ba568d6817c56b4407fdd46ea676ffb5a32bb1b524a4f732c8f4adaba39ec"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_22/fixed_gates_representation.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_22\\fixed_gates_representation.pt",
+    "source_sha256": "5c42eec515a9aea95326976fbca47f77cafc2546f41759578f3fe232e3e08071"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_22/full.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_22\\full.json",
+    "source_sha256": "5e4c3a146d2dd265eb9b50cd25a950e94486222661cd8e2875913b7c2a2dcb3a"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_22/full_latest.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_22\\full_latest.pt",
+    "source_sha256": "53f83cb24bc83efebed7c35673fbfd2ad66824254e9da73ffb101be622f56912"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_22/full_representation.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_22\\full_representation.pt",
+    "source_sha256": "5e2a9975daa11d29f31d2e9d304a215b26c6074e1ce599ced90ceccf91135b29"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_22/neither.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_22\\neither.json",
+    "source_sha256": "58fc5e7bc98cd164aec3135636d78b2641df9b39bf4b7d44098bd069fe70cfdd"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_22/neither_latest.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_22\\neither_latest.pt",
+    "source_sha256": "3c3396cf989ed4dc4857df0cb8e78de6f294849840c5252a37d65c427ecb664c"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_22/neither_representation.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_22\\neither_representation.pt",
+    "source_sha256": "24b6a5a4db9ec381350fdb04709e4bd1918c3e076f32db6dbee754dd6793d7d7"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_22/no_memory.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_22\\no_memory.json",
+    "source_sha256": "71457e0c31b6f47d5ee1ae09dbc69e4bcd4eee186815d8d86f0f20f425070104"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_22/no_memory_latest.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_22\\no_memory_latest.pt",
+    "source_sha256": "7f5f17c0c51169e0d0c547f410afe0c5725af916f8dd17c7bbb90866a73312cf"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_22/no_memory_representation.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_22\\no_memory_representation.pt",
+    "source_sha256": "741d047ee0d9711244b40bcfd139275ca2b59c667827dd802733337342e49caf"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_22/preflight.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_22\\preflight.json",
+    "source_sha256": "a3e66d6f6b90b60a4eaa3b5184aab148cedf32cf2eb6b0bea2d86c06ba011d73"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_22/results.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_22\\results.json",
+    "source_sha256": "fd19527011d1b251debb3c3cccfd95d2d0e6a1a1da58175f40595e7d44d9d5a8"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_33/fixed_gates.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_33\\fixed_gates.json",
+    "source_sha256": "42fd78a59b46adaff5887ce08d6ca6877babc30d1ad40c512277f1e0a640f085"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_33/fixed_gates_latest.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_33\\fixed_gates_latest.pt",
+    "source_sha256": "b3a0f8d4c1ae65dee9692b8ccbcdc4d185ea3775d0b52cf49ad2b484f8280038"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_33/fixed_gates_representation.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_33\\fixed_gates_representation.pt",
+    "source_sha256": "8bacd4bf7a1e8782b74db8df832f860ff58b4c1ee6efa099d43d6c1d21b26c8b"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_33/full.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_33\\full.json",
+    "source_sha256": "b57b21527340458389ff19f16cfc4cd9f9d4f41e410cac4ffe7e09eccfd4bff4"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_33/full_latest.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_33\\full_latest.pt",
+    "source_sha256": "e7c2ec10d338e4dfe47eb477c81ad4ec6178c102d1fd4c5dda716b9b29b276d5"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_33/full_representation.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_33\\full_representation.pt",
+    "source_sha256": "03656df8ef776601c9407e982cfa2c5927c7608395ae98d24a02fb042b5f8bde"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_33/neither.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_33\\neither.json",
+    "source_sha256": "ba23881241daa3f4c50bac0df17a23bb6ae24897290ce925b8815f155fd0dea9"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_33/neither_latest.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_33\\neither_latest.pt",
+    "source_sha256": "398ab4f812b0be4650e63bc2ba4bcd7d6ecf47df641a28b32fc364f98a126dca"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_33/neither_representation.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_33\\neither_representation.pt",
+    "source_sha256": "f339004070d7596fa7bf3ff319bde8ba108720de189559958881d6256e93239e"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_33/no_memory.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_33\\no_memory.json",
+    "source_sha256": "3933908027e67eec6b07276aec3f858c3cc7e5e8b0968a14e2aa86616bbfe170"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_33/no_memory_latest.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_33\\no_memory_latest.pt",
+    "source_sha256": "5e4666498a15448070e222075d42230edf98d50170801515f44b81728cdf6a1f"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_33/no_memory_representation.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_33\\no_memory_representation.pt",
+    "source_sha256": "51bffaf03ca4bb1b4cfb1bf3f4ccec54275b230185dcadb518f5fc5752240014"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_33/preflight.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_33\\preflight.json",
+    "source_sha256": "a3e66d6f6b90b60a4eaa3b5184aab148cedf32cf2eb6b0bea2d86c06ba011d73"
+  },
+  {
+    "file": "pilot/factorial_3seed_outputs/seed_33/results.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\pilot\\factorial_3seed_outputs\\seed_33\\results.json",
+    "source_sha256": "875400703ed48d4d230180e143b271df4a857949a788a83c46990adb936f815b"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_1010_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_1010_update_150.pt",
+    "source_sha256": "38cedbfbe839aaacafa9f1cc76bccbb41681eb556c2e21ef41be2eef7208168f"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_1010_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_1010_update_300.pt",
+    "source_sha256": "b0c7809fa5270bce55dfe71ef498e8d9398a02df150fbce8a1638089379b6662"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_101_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_101_update_150.pt",
+    "source_sha256": "fb4da69ca45a30feb10e785017209391707a8a9de87d1214ee934ae9121f302e"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_101_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_101_update_300.pt",
+    "source_sha256": "41b5fe322b03712bec77695fb8ca57691dadfa9e0b8a13d147531cd61c56dc3c"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_202_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_202_update_150.pt",
+    "source_sha256": "a97f67566433c207124b8026df1bd47313cdbd38937a919dd459df69c516d450"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_202_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_202_update_300.pt",
+    "source_sha256": "a751085a8b8ddff9ca041788fbd50d37924e392dd7b1f7cd39ad98ad04322835"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_303_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_303_update_150.pt",
+    "source_sha256": "1669559ca55edbd6a93aaaa812b7ee4d65ea71c2a3c6eb1fe50357baa9696a6a"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_303_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_303_update_300.pt",
+    "source_sha256": "76bdf624b76a32f668a758edc9e730d63cbf526bf9d47945607a19e0993269d2"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_404_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_404_update_150.pt",
+    "source_sha256": "ae05312a476968ad2e2760b8c61296c00807bb91c363e0ce2ac7f72c5afba601"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_404_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_404_update_300.pt",
+    "source_sha256": "7209772158c61d4d8a9973127dab6138bbb3a699c0fdb2fafe6c416e5011122a"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_505_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_505_update_150.pt",
+    "source_sha256": "dbd234997b4035bbc764f44bd4541a29e31bec5331d411af47f9549f6e64c2dc"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_505_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_505_update_300.pt",
+    "source_sha256": "0fd43f75ab36a104b68fce4c5648cd9690a612a1dae1aeec9f2ec5a845a08360"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_606_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_606_update_150.pt",
+    "source_sha256": "8bae93a1f9f7c5e13709dabbc5e9d2e4512ded8da4c2908d151349430d6b99e2"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_606_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_606_update_300.pt",
+    "source_sha256": "eaeabf01042904ad49af50f473add6e492c876785f22ad69e8cdd2fbea73a6c7"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_707_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_707_update_150.pt",
+    "source_sha256": "f99f580e883fe26ca486ad91cce318d40b783a6b9b45fc0f099396450640eaab"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_707_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_707_update_300.pt",
+    "source_sha256": "ff839be4d6b280787f9f894fbf0143ec28ff27ec918b83aac9cae2ced2cad519"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_808_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_808_update_150.pt",
+    "source_sha256": "81b9ef664d6fb81bce7e696d7c34ad17e6dfc8955afb2875213006dec3d2bcb2"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_808_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_808_update_300.pt",
+    "source_sha256": "ab0a447f3036d47a38c32f8d858d2b0f389e348e34c996e69ab5cccb1a5f3685"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_909_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_909_update_150.pt",
+    "source_sha256": "6b211c16dd5bcf747d8527abf08fb090a0dc1322cf8f99ad60c397bd232dc956"
+  },
+  {
+    "file": "weights/place_v5/hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_909_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\place_v5\\hdgm_place_v5_unsupervised_frozen_probe_confirmatory_seed_909_update_300.pt",
+    "source_sha256": "62d6067581c71d692aee2cd0caf44e81145fab047bb6f60e8e01f4cf6c4022d3"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_1010_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_1010_update_150.pt",
+    "source_sha256": "3f7b604f7781e874e45ee4e430d03c340137f65f290c354aeecd00f93a7db93f"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_1010_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_1010_update_300.pt",
+    "source_sha256": "ad39bd9a8c654a849c0c1650b4c258254cadbdc4c9d50999812eec2009fca679"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_101_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_101_update_150.pt",
+    "source_sha256": "7a19d5621b4f5a33987007668c4954b6e4b0abcd24ad32fd7d5abe27d6c78403"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_101_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_101_update_300.pt",
+    "source_sha256": "654170917a3a788f9321fee700fd5d1736249441d449ddcb7c7c4f6c4f9dac4b"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_202_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_202_update_150.pt",
+    "source_sha256": "51584ad7a45d5878b16904c2bf34fb0bd6a151c22907a10e5841e25875c980c1"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_202_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_202_update_300.pt",
+    "source_sha256": "9593ab67a535f8c92c2e3588b22b08a109899e1734c0b3d71b90b200458a8efb"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_303_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_303_update_150.pt",
+    "source_sha256": "a5725947ba9f56ee8d56050b6a996be5ac6d04b13b0a803f71062d96abafed80"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_303_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_303_update_300.pt",
+    "source_sha256": "1ca158a48f8ae7c5b8932a8a06594235418baca33a414b0397ffe9b9bde1711f"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_404_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_404_update_150.pt",
+    "source_sha256": "222abdffe6996c61fce16a5dff3e198087822eb336eddc8a04936b343a636b51"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_404_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_404_update_300.pt",
+    "source_sha256": "651140ff4d7d10a3182dcd817c32e143435ab76903c5e753b836546838060f2f"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_505_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_505_update_150.pt",
+    "source_sha256": "305bd898966d110082ecbf6ad05aeb27455f66f40b0085aa9966fdc038593418"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_505_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_505_update_300.pt",
+    "source_sha256": "12321991bc703a5407044c61e4a01ac50093e01c1e4a628925f724f95a8b9221"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_606_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_606_update_150.pt",
+    "source_sha256": "73938312a92805ef078045dbc255790c4b7673e637bb47159bbb268350b8e2ca"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_606_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_606_update_300.pt",
+    "source_sha256": "5a78840613b8040b14287177ac8898e13b9c2c411d154c5a50e6767b9511550b"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_707_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_707_update_150.pt",
+    "source_sha256": "4bc8f8fbb459ca6ee4d6df4afde821a8c1b77cfcbe27253a4366f0c1d2045565"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_707_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_707_update_300.pt",
+    "source_sha256": "fdb9b4e7f5ad03036b70a5fb0dd68707f24486004b4973d5d573bfcbdd4e9278"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_808_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_808_update_150.pt",
+    "source_sha256": "afd1a63696412517cc42c9684311a42632cef8ba63fda8eae970187383702d23"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_808_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_808_update_300.pt",
+    "source_sha256": "3a8dde039d18d1b1c04e0c1cc0e44497d5d85b3d509fc8685038ba888a82532d"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_909_update_150.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_909_update_150.pt",
+    "source_sha256": "227f95cd0dd026d4b6171a411fec4bf2775cedbcf278064fabfd6f1c1050237b"
+  },
+  {
+    "file": "weights/splitter_v7_3/hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_909_update_300.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\splitter_v7_3\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_909_update_300.pt",
+    "source_sha256": "bea5e6c1aedce1a7d179122367dcb44f8c9651183d6f2fd7d1aba32e8756fd5c"
+  },
+  {
+    "file": "weights/v4/fourclass_rapid_acquisition_v4_primary_150_seed_11.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\v4\\fourclass_rapid_acquisition_v4_primary_150_seed_11.pt",
+    "source_sha256": "f384e6517e0a5a951c17b44e0b30ae1ccbd50c017650495635aee8e05251ddfa"
+  },
+  {
+    "file": "weights/v4/fourclass_rapid_acquisition_v4_primary_150_seed_111.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\v4\\fourclass_rapid_acquisition_v4_primary_150_seed_111.pt",
+    "source_sha256": "327ba302414b4b3e007ad9b87b461f511804affe22fb599a9c334a3ce92d2ba0"
+  },
+  {
+    "file": "weights/v4/fourclass_rapid_acquisition_v4_primary_150_seed_22.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\v4\\fourclass_rapid_acquisition_v4_primary_150_seed_22.pt",
+    "source_sha256": "9eb8276f39b0938dd49cbc7418490e00e329dd507a518533410ca8aa02106570"
+  },
+  {
+    "file": "weights/v4/fourclass_rapid_acquisition_v4_primary_150_seed_33.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\v4\\fourclass_rapid_acquisition_v4_primary_150_seed_33.pt",
+    "source_sha256": "6072cd3927f5013805f4bfa00728aaea892c393d629e1e1a3121f807bee74cd9"
+  },
+  {
+    "file": "weights/v4/fourclass_rapid_acquisition_v4_primary_150_seed_44.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\v4\\fourclass_rapid_acquisition_v4_primary_150_seed_44.pt",
+    "source_sha256": "47741e5e454d8723949976c5217fcb29b4aec55164b4ee53c71ce5e2b462510a"
+  },
+  {
+    "file": "weights/v4/fourclass_rapid_acquisition_v4_primary_150_seed_55.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\v4\\fourclass_rapid_acquisition_v4_primary_150_seed_55.pt",
+    "source_sha256": "1243fdf663e22d3c2cb238c1defb48f7c341f20d1236324da2c85ae31441db8c"
+  },
+  {
+    "file": "weights/v4/fourclass_rapid_acquisition_v4_primary_150_seed_66.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\v4\\fourclass_rapid_acquisition_v4_primary_150_seed_66.pt",
+    "source_sha256": "d209b57114879f8b7bab5259400efcf7b894c28c7973945992b475d4d6d29ec0"
+  },
+  {
+    "file": "weights/v4/fourclass_rapid_acquisition_v4_primary_150_seed_77.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\v4\\fourclass_rapid_acquisition_v4_primary_150_seed_77.pt",
+    "source_sha256": "aea86d9aa96a59794d927f70a6bb0f1d6bb5e31e415452ede088761a3126a22e"
+  },
+  {
+    "file": "weights/v4/fourclass_rapid_acquisition_v4_primary_150_seed_88.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\v4\\fourclass_rapid_acquisition_v4_primary_150_seed_88.pt",
+    "source_sha256": "437ea0b7d8bf2d8cd65232829d53675ed0128cce8fcdbea92fe4188e21262441"
+  },
+  {
+    "file": "weights/v4/fourclass_rapid_acquisition_v4_primary_150_seed_99.pt",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\weights\\v4\\fourclass_rapid_acquisition_v4_primary_150_seed_99.pt",
+    "source_sha256": "760b7cbb19bd0fa08a989a9c6414dcf29b93d60e51307d6a1b3341b1f92309b4"
+  },
+  {
+    "file": "provenance/FIGURE_CHECKPOINT_BINDINGS.csv",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\FIGURE_CHECKPOINT_BINDINGS.csv",
+    "source_sha256": "a3100acc302c0f101a1058b0e2814c6f674eba29d79fb20297e238cb94e132e0"
+  },
+  {
+    "file": "provenance/V1_SOURCE_RECOVERY.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\V1_SOURCE_RECOVERY.json",
+    "source_sha256": "9b6753a0a5ec74c7afcc2ba08372714d237b121f77867cb301574c119d1248db"
+  },
+  {
+    "file": "provenance/ENDPOINT_COMPLETENESS.json",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\github_upload_2026-10-08\\reproducibility\\recovery_2026-10-08\\ENDPOINT_COMPLETENESS.json",
+    "source_sha256": "51c51d2efbf883cfaf4cb8359fbf3ef8561a93a35c86712355af6abc6780009a"
+  },
+  {
+    "file": "tools/recheck_statistics.py",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\tools\\recheck_statistics.py",
+    "source_sha256": "b19b71f13cdbec88380698c869a42f5ab22e3a0d309edfa4721bc79741b49a7a"
+  },
+  {
+    "file": "plotting/figure2/plot.py",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure2_E_rebalanced_v2_outputs\\plot_figure2_E_rebalanced_v2.py",
+    "source_sha256": "43df3b788a753b2d0f35742aee4856df60c5ae35cc5e12777a1c85cd4ac0d913"
+  },
+  {
+    "file": "plotting/figure2/data/fourclass_rapid_acquisition_v4_primary_results.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure2_E_rebalanced_v2_outputs\\data\\fourclass_rapid_acquisition_v4_primary_results.json",
+    "source_sha256": "f3dd617c2f7320d59eca539721d344e02830838ab807f57256a9dc8ce9e9692c"
+  },
+  {
+    "file": "plotting/figure2/data/figure2_missing_outputs/figure2_delay_transfer.csv",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure2_E_rebalanced_v2_outputs\\data\\figure2_missing_outputs\\figure2_delay_transfer.csv",
+    "source_sha256": "762bd3ed1d3092e3d7a8c5da75f16f7506a2874093259cd610a1fb896c523e65"
+  },
+  {
+    "file": "plotting/figure2/data/figure2_missing_outputs/figure2_endpoint_predictions.npz",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure2_E_rebalanced_v2_outputs\\data\\figure2_missing_outputs\\figure2_endpoint_predictions.npz",
+    "source_sha256": "358409bc6eb9f6d345c4b4b252de887aceccb0350dd75aa34ab7bbafe9a1f985"
+  },
+  {
+    "file": "plotting/figure2/data/figure2_missing_outputs/figure2_history_controls.csv",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure2_E_rebalanced_v2_outputs\\data\\figure2_missing_outputs\\figure2_history_controls.csv",
+    "source_sha256": "4f81e9c4f1a29f7da497603beb4d1120870a77f1e02303292a039f9abc57db1b"
+  },
+  {
+    "file": "plotting/figure2/data/figure2_missing_outputs/figure2_missing_summary.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure2_E_rebalanced_v2_outputs\\data\\figure2_missing_outputs\\figure2_missing_summary.json",
+    "source_sha256": "59dee6f1d77440f7ab6b54f815c2c518eba0f7c261de2d5905b569fbc4da244a"
+  },
+  {
+    "file": "plotting/figure2/data/figure2_missing_outputs/figure2_shortcut_diagnostics.csv",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure2_E_rebalanced_v2_outputs\\data\\figure2_missing_outputs\\figure2_shortcut_diagnostics.csv",
+    "source_sha256": "b1a365df6a1eb543ad38a4cba83ea43fe536a3c3b7e5f6d8d64f6ee59ffad21e"
+  },
+  {
+    "file": "plotting/figure3/original_plot.py",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure3_refined_v2_outputs\\original_plot.py",
+    "source_sha256": "7692126f181f521ae9e17b4c5c138874d2b0ad59e057066563341280e5c89654"
+  },
+  {
+    "file": "plotting/figure3/verify_figure3.py",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure3_refined_v2_outputs\\verify_figure3.py",
+    "source_sha256": "92c48662833e8770a4550aefbb4e00dfb6a23034d93d4c70cbcac634c1fd22ae"
+  },
+  {
+    "file": "plotting/figure3/plot.py",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure3_refined_v2_outputs\\plot_figure3_refined.py",
+    "source_sha256": "757f27360710767ec2ff357f9b56faece51412723d79faa98e902c50217da70d"
+  },
+  {
+    "file": "plotting/figure3/data/ca1.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure3_refined_v2_outputs\\data\\ca1.json",
+    "source_sha256": "9e06680fc2fd490d36982ec461f2deb6217dc959d842331d50adb2f625b13c68"
+  },
+  {
+    "file": "plotting/figure3/data/gate.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure3_refined_v2_outputs\\data\\gate.json",
+    "source_sha256": "8e627cde7aa6d3ec72f9b9b82e93f9448cac02f40f685fa18c9ca1efb6c4f980"
+  },
+  {
+    "file": "plotting/figure3/data/operation.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure3_refined_v2_outputs\\data\\operation.json",
+    "source_sha256": "4e67b8bf02d1a20cb94d1d06a1a3bf1c181024f3ff829cf5c25249ebe90ecaad"
+  },
+  {
+    "file": "plotting/figure4/original_plot.py",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure4_refined_outputs\\original_plot.py",
+    "source_sha256": "ec06cc468a8a0e03a505215049a179229359d6755c24b1d979b82056a54b86ce"
+  },
+  {
+    "file": "plotting/figure4/verify_figure4.py",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure4_refined_outputs\\verify_figure4.py",
+    "source_sha256": "a15020899168ef4a4c593192eedd591cb473cad24aa85eeeda33e96bc2e05f50"
+  },
+  {
+    "file": "plotting/figure4/plot.py",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure4_refined_outputs\\plot_figure4_refined.py",
+    "source_sha256": "4c2ca1595aa6f618ea17905a2d80410e555010648823d61f9eabcfb127a6303c"
+  },
+  {
+    "file": "plotting/figure4/data/branch.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure4_refined_outputs\\data\\branch.json",
+    "source_sha256": "901390dcb24c754ccced1c0d062206f14e2b8ac73daa61f74bbdb0ed041c8abd"
+  },
+  {
+    "file": "plotting/figure4/data/position.json",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure4_refined_outputs\\data\\position.json",
+    "source_sha256": "6514559171e0404b16b10c2fb5573f8fd1ebb26e17d71e8a2c48a2369475f1cf"
+  },
+  {
+    "file": "plotting/figure5/rebuild_figure5_panel_b_bifurcation.py",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\rebuild_figure5_panel_b_bifurcation.py",
+    "source_sha256": "d53858b075bf7a371abf7be5f775f47de9f86e5bf8a47d515ca2e28a67bb2f35"
+  },
+  {
+    "file": "plotting/figure5/figure5c_response_atlas.py",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure5c_response_atlas.py",
+    "source_sha256": "cbbf44f5ea585c24d1530d4b78ef0999a78eeeb0303018776f7af5f39b796d7a"
+  },
+  {
+    "file": "plotting/figure5/rebuild_figure5_panel_c_dotmatrix.py",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\rebuild_figure5_panel_c_dotmatrix.py",
+    "source_sha256": "79fe2069fb6787a577716abbbaf7346910e6a600eb65dfbc1a92a05fa8710d15"
+  },
+  {
+    "file": "plotting/figure5/figure5_panel_a_cartoon.py",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure5_panel_a_cartoon.py",
+    "source_sha256": "393653375c8d5bee6b5825fa5e5f82f087a5a6d52bc01071e8c574d970c7e1f2"
+  },
+  {
+    "file": "plotting/figure5/rebuild_figure5_integrated.py",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\rebuild_figure5_integrated.py",
+    "source_sha256": "0195e2a2ddc8ecd7f310a708d1b996cdb01fa39b413ca18bdde77e6c1c9ee835"
+  },
+  {
+    "file": "plotting/figure6/build_figure.py",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\hdgm_reproducibility\\appendix_A1\\build_figure.py",
+    "source_sha256": "988d34b7afd3c23c4d69568ed6db002566677ddf6993edbf02bb2ec7461cce45"
+  },
+  {
+    "file": "reference_figures/figure2.pdf",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\figures_PAM\\figure2.pdf",
+    "source_sha256": "07a22f281a77027d15dd9d39075165788aefbfcb7a11e186692dd68ba31584eb"
+  },
+  {
+    "file": "reference_figures/figure3.png",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\figures_PAM\\figure3.png",
+    "source_sha256": "6995c2cd683f8f9960920031b43db6467b57dfe388714ea12efd197c2e48819d"
+  },
+  {
+    "file": "reference_figures/figure4.pdf",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\figures_PAM\\figure4.pdf",
+    "source_sha256": "0320d542b440969a4be7bf54f80d977706495274c82225065f877159e08bbbfc"
+  },
+  {
+    "file": "reference_figures/figure5.pdf",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\figures_PAM\\figure5.pdf",
+    "source_sha256": "bdb4940e3baeecf8536445cb4ce3e1e085af039080b7fe146150cc8b565b4843"
+  },
+  {
+    "file": "reference_figures/figure6.pdf",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\figures_PAM\\figure6.pdf",
+    "source_sha256": "db7ec7d090784a950bae01d438e813bb92dc862c85b3773c4120b2826f899b0b"
+  },
+  {
+    "file": "figure1_design/figure1_textured_v4_prompt.md",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure1_textured_v4_prompt.md",
+    "source_sha256": "68d33de2611a21a9b06f9ac974ed5803ec54904393c6eb4b0bb1404dcbc463ea"
+  },
+  {
+    "file": "figure1_design/figure1_neuroscience_overview_prompt.md",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure1_neuroscience_overview_prompt.md",
+    "source_sha256": "45b44fb4f4f44beb62293804f32d507708213af392ba55814972aab60106758b"
+  },
+  {
+    "file": "figure1_design/figure1_figure2_revision_notes.md",
+    "source": "C:\\Users\\LENOVO\\Desktop\\New project\\figure1_figure2_revision_notes.md",
+    "source_sha256": "8de28b71623cfe8b191f7e9a7706ad6048a9c02bda016e1a8565aa7f56d09773"
+  },
+  {
+    "file": "reference_figures/figure1.png",
+    "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\figures_lowercase_2026-10-14\\figure1_lowercase.png",
+    "source_sha256": "b530617525185241f924cc259a25d20d63fd48454b8ed6d714f7d4754d642def"
+  }
+]

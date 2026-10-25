@@ -1,0 +1,72 @@
+{
+  "claim": "Exploratory structural controls distinguish pooled history decoding, position-conditioned decoding and behavioral use; alternative successful solutions remain visible.",
+  "visual_form": "four-panel paired dot plots and annotated decoding matrices",
+  "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\HDGM_final_repository_2026-10-25\\pilot\\checkpoint_diagnostics_v1\\summary.json",
+  "sha256": "526e8719faec56e9e0319e048206b471bda96e91652f6d5143b25a8285a4acb4",
+  "metric": "test accuracy",
+  "unit": "percent",
+  "direction": "higher accuracy",
+  "order": [
+    [
+      "full",
+      11
+    ],
+    [
+      "full",
+      22
+    ],
+    [
+      "full",
+      33
+    ],
+    [
+      "fixed_gates",
+      11
+    ],
+    [
+      "fixed_gates",
+      22
+    ],
+    [
+      "fixed_gates",
+      33
+    ],
+    [
+      "no_memory",
+      11
+    ],
+    [
+      "no_memory",
+      22
+    ],
+    [
+      "no_memory",
+      33
+    ],
+    [
+      "neither",
+      11
+    ],
+    [
+      "neither",
+      22
+    ],
+    [
+      "neither",
+      33
+    ]
+  ],
+  "dimensions_mm": [
+    178,
+    190
+  ],
+  "uncertainty": "All three seeds individually; no inferential tests or estimated intervals",
+  "endpoints": "150 original representation endpoint; 300 post hoc decoding",
+  "references": "Astra sparse comparison/matrix grammar; global reference ranks 4,5; form references 10,13,19",
+  "outputs": [
+    "pdf",
+    "svg",
+    "png",
+    "csv"
+  ]
+}

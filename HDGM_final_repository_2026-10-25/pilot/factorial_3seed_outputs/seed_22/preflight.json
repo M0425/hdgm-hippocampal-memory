@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "sequence_length": 212,
+  "choice_tokens_per_trial_batch": 48,
+  "alias_tokens_per_trial_batch": 288,
+  "choice_alias_overlap": 0,
+  "choice_action_values": [
+    0
+  ],
+  "first_trip_excluded_from_alias": true,
+  "balanced_random_initial_branch": true,
+  "true_trip_boundary_reset": true,
+  "full_original_maxdiff": 0.0
+}

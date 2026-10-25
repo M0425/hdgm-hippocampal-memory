@@ -1,0 +1,105 @@
+{
+  "protocol": {
+    "checkpoint_step": 150,
+    "device": "cpu",
+    "seeds": [
+      11,
+      22,
+      33,
+      44,
+      55,
+      66,
+      77,
+      88,
+      99,
+      111
+    ],
+    "chance": 0.25,
+    "frozen_model_weights": true,
+    "no_retraining_or_adaptation": true,
+    "history_reset": "At Cue-A offset: recurrent state and associative memory are reset; all pre-reset states are removed from event-aligned readout access.",
+    "observation_only_frozen": "All inputs are zero except the decision-pre observation used by the trained model.",
+    "timing_only_frozen": "All sensory inputs are zero; cue-window and decision indices remain available to the trained event-aligned readout.",
+    "shortcut_nulls": "Independent linear classifiers trained on decision observation alone or timing metadata alone.",
+    "delay_transfer": "The first matched delay observation is repeated equally in Delay 1 and Delay 2; weights remain frozen.",
+    "warning": "The original branch readout is event-aligned and directly pools Cue-A/Cue-B windows. Results must be called event-aligned decision accuracy, not autonomous online behavior."
+  },
+  "checkpoints": [
+    {
+      "seed": 11,
+      "path": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_11.pt",
+      "sha256": "f384e6517e0a5a951c17b44e0b30ae1ccbd50c017650495635aee8e05251ddfa",
+      "test_seed": 420012,
+      "checkpoint_step": 150
+    },
+    {
+      "seed": 22,
+      "path": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_22.pt",
+      "sha256": "9eb8276f39b0938dd49cbc7418490e00e329dd507a518533410ca8aa02106570",
+      "test_seed": 420023,
+      "checkpoint_step": 150
+    },
+    {
+      "seed": 33,
+      "path": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_33.pt",
+      "sha256": "6072cd3927f5013805f4bfa00728aaea892c393d629e1e1a3121f807bee74cd9",
+      "test_seed": 420034,
+      "checkpoint_step": 150
+    },
+    {
+      "seed": 44,
+      "path": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_44.pt",
+      "sha256": "47741e5e454d8723949976c5217fcb29b4aec55164b4ee53c71ce5e2b462510a",
+      "test_seed": 420045,
+      "checkpoint_step": 150
+    },
+    {
+      "seed": 55,
+      "path": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_55.pt",
+      "sha256": "1243fdf663e22d3c2cb238c1defb48f7c341f20d1236324da2c85ae31441db8c",
+      "test_seed": 420056,
+      "checkpoint_step": 150
+    },
+    {
+      "seed": 66,
+      "path": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_66.pt",
+      "sha256": "d209b57114879f8b7bab5259400efcf7b894c28c7973945992b475d4d6d29ec0",
+      "test_seed": 420067,
+      "checkpoint_step": 150
+    },
+    {
+      "seed": 77,
+      "path": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_77.pt",
+      "sha256": "aea86d9aa96a59794d927f70a6bb0f1d6bb5e31e415452ede088761a3126a22e",
+      "test_seed": 420078,
+      "checkpoint_step": 150
+    },
+    {
+      "seed": 88,
+      "path": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_88.pt",
+      "sha256": "437ea0b7d8bf2d8cd65232829d53675ed0128cce8fcdbea92fe4188e21262441",
+      "test_seed": 420089,
+      "checkpoint_step": 150
+    },
+    {
+      "seed": 99,
+      "path": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_99.pt",
+      "sha256": "760b7cbb19bd0fa08a989a9c6414dcf29b93d60e51307d6a1b3341b1f92309b4",
+      "test_seed": 420100,
+      "checkpoint_step": 150
+    },
+    {
+      "seed": 111,
+      "path": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\paper_rapid_v4_outputs\\checkpoints\\fourclass_rapid_acquisition_v4_primary_150_seed_111.pt",
+      "sha256": "327ba302414b4b3e007ad9b87b461f511804affe22fb599a9c334a3ce92d2ba0",
+      "test_seed": 420112,
+      "checkpoint_step": 150
+    }
+  ],
+  "files": {
+    "history_controls": "figure2_history_controls.csv",
+    "delay_transfer": "figure2_delay_transfer.csv",
+    "shortcut_diagnostics": "figure2_shortcut_diagnostics.csv",
+    "predictions": "figure2_endpoint_predictions.npz"
+  }
+}

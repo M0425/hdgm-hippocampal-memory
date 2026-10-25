@@ -1,3 +1,10 @@
+## Final reproducibility materials
+
+The final experiment code, saved outputs, checkpoints, and plotting tools are available in:
+
+[HDGM final reproducibility materials](HDGM_final_repository_2026-10-25/README.md)
+
+Please use this directory for reproduction. Earlier dated materials are retained for provenance.
 # HDGM research reproducibility materials
 
 **A Hippocampal-Inspired Dynamic Gating Model: Linking Selective Memory Operations to History-Dependent Population Representations**

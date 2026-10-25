@@ -1,0 +1,3091 @@
+{
+  "main": {
+    "early_aulc": {
+      "hdgm": 0.4638431919642857,
+      "tem": 0.3658577008928571,
+      "mean": 0.09798549107142854,
+      "p": 0.041015625,
+      "dz": 0.8457439298255914
+    },
+    "acc_at_100": {
+      "hdgm": 0.4871875,
+      "tem": 0.32921875,
+      "mean": 0.15796875000000002,
+      "p": 0.001953125,
+      "dz": 1.7709277033528952
+    },
+    "acc_at_150": {
+      "hdgm": 0.47421875,
+      "tem": 0.3293125,
+      "mean": 0.14490625000000001,
+      "p": 0.009765625,
+      "dz": 1.0487240663870552
+    },
+    "audit_bootstrap_auc": {
+      "replicates": 20000,
+      "seed": 24680,
+      "interval": [
+        0.030158147321428533,
+        0.16539275948660706
+      ],
+      "status": "Audit calculation; original hard-coded figure interval estimator not recorded."
+    }
+  },
+  "delay": {
+    "HDGM_change": {
+      "mean": 0.00023437500000001444,
+      "p": 0.984375,
+      "dz": 0.01519087411357903,
+      "holm_if_three_contrasts": 0.984375
+    },
+    "TEM_change": {
+      "mean": -0.06117187499999999,
+      "p": 0.025390625,
+      "dz": -0.7521505481583546,
+      "holm_if_three_contrasts": 0.0703125
+    },
+    "difference_of_changes": {
+      "mean": 0.06140625000000001,
+      "p": 0.0234375,
+      "dz": 0.8025126061754292,
+      "holm_if_three_contrasts": 0.0703125
+    },
+    "family_status": "Three-contrast family reconstructed in audit (two within-model changes plus between-model change contrast); original plotting script hard-codes .070 without a saved family definition."
+  },
+  "gate_zero_mean_clamp": {
+    "ec/zero": {
+      "mean": 0.224375,
+      "p": 0.001953125,
+      "dz": 1.9795185576022336
+    },
+    "ec/mean_clamp": {
+      "mean": -0.0061562499999999855,
+      "p": 0.845703125,
+      "dz": -0.07058267048469138
+    },
+    "ca3/zero": {
+      "mean": 0.16731250000000003,
+      "p": 0.00390625,
+      "dz": 1.3674247908242803
+    },
+    "ca3/mean_clamp": {
+      "mean": 0.012406250000000008,
+      "p": 0.009765625,
+      "dz": 1.0029993812611349
+    },
+    "ca1/zero": {
+      "mean": 0.11415625,
+      "p": 0.001953125,
+      "dz": 1.542841673132737
+    },
+    "ca1/mean_clamp": {
+      "mean": 0.00781250000000001,
+      "p": 0.177734375,
+      "dz": 0.4657396976723897
+    }
+  },
+  "CA1_actual_checkpoints": [
+    100
+  ],
+  "CA1_source_run_max_updates": [
+    150
+  ],
+  "place": {
+    "stability": {
+      "hdgm": 0.5869336053343436,
+      "null": -0.05828592409166102,
+      "mean": 0.6452195294260046,
+      "p": 0.001953125,
+      "dz": 2.7694238504595643
+    },
+    "geometry": {
+      "hdgm": 0.19026683821558013,
+      "null": 0.08406773395541693,
+      "mean": 0.10619910426016319,
+      "p": 0.001953125,
+      "dz": 2.52296822844533
+    }
+  },
+  "branch_behavior": {
+    "hdgm": 0.6434895833333334,
+    "tem": 0.5169270833333333,
+    "stateless": 0.5028645833333334
+  },
+  "branch_stored_tests": {
+    "HDGM full probe vs history reset": {
+      "difference": 0.27144097685813906,
+      "ci95_low": 0.15850423820316792,
+      "ci95_high": 0.38411458157002926,
+      "p_raw": 0.001953125,
+      "dz": 1.386464779951953,
+      "p_holm": 0.00390625
+    },
+    "HDGM full probe vs observation only": {
+      "difference": 0.27886284589767457,
+      "ci95_low": 0.16508138731122016,
+      "ci95_high": 0.3923204073309896,
+      "p_raw": 0.001953125,
+      "dz": 1.402089679252193,
+      "p_holm": 0.00390625
+    }
+  },
+  "branch_behavior_tests": {
+    "HDGM vs TEM choice at behavior endpoint": {
+      "difference": 0.1265625,
+      "ci95_low": 0.019401041666666664,
+      "ci95_high": 0.2572916666666667,
+      "p_raw": 0.03125,
+      "dz": 0.6239869694159199,
+      "p_holm": 0.0625
+    },
+    "HDGM choice vs chance at behavior endpoint": {
+      "difference": 0.14348958333333334,
+      "ci95_low": 0.029427083333333347,
+      "ci95_high": 0.271484375,
+      "p_raw": 0.0390625,
+      "dz": 0.6934497211030692,
+      "p_holm": 0.0625
+    }
+  },
+  "difficulty": {
+    "alias_access_auc": {
+      "hdgm": 0.043189381559689835,
+      "tem": 0.002086948851744334,
+      "mean": 0.04110243270794551,
+      "p": 0.001953125,
+      "dz": 1.174260536974321,
+      "holm_with_two_stability_contrasts": 0.0078125
+    },
+    "noise_access_auc": {
+      "hdgm": 0.23307508543133734,
+      "tem": 0.017910162359476088,
+      "mean": 0.21516492307186125,
+      "p": 0.001953125,
+      "dz": 1.1305983872118355,
+      "holm_with_two_stability_contrasts": 0.0078125
+    },
+    "access_auc_status": "Access AUC differs from source primary full-history transfer AUC. Recomputed as a post hoc four-contrast family retaining both stability contrasts; p values coincide, estimands do not.",
+    "coupling_r": 0.688780652210054
+  },
+  "figure5_provenance_r": 0.688780652210054,
+  "figure5_provenance_ci": [
+    -0.046335275580528225,
+    0.9393635028297295
+  ],
+  "F_recomputed_dz": [
+    [
+      1.3223311110386702,
+      0.00997385177464608,
+      -0.5884002995079737,
+      -0.4743416490080007,
+      1.3114899838680187,
+      1.3223311110386702,
+      1.2921318406951219,
+      1.1845740002687735
+    ],
+    [
+      0.4063022172356115,
+      -0.29085096995994403,
+      0.33101723944405487,
+      0.26448580029263463,
+      0.32262065375783056,
+      0.4063022172356115,
+      0.3809662241636101,
+      0.4155545650103093
+    ],
+    [
+      0.6837135442603833,
+      0.6105073233260073,
+      0.35984470991203593,
+      -0.32205887574639086,
+      0.656663623269722,
+      0.6837135442603833,
+      0.7204938236621806,
+      0.7023031691640564
+    ]
+  ],
+  "F_provenance_dz": [
+    [
+      1.3223311110386702,
+      0.00997385177464608,
+      -0.5884002995079737,
+      -0.4743416490080007,
+      1.3114899838680187,
+      1.3223311110386702,
+      1.2921318406951219,
+      1.1845740002687735
+    ],
+    [
+      0.4063022172356114,
+      -0.29085096995994414,
+      0.33101723944405487,
+      0.26448580029263463,
+      0.32262065375783056,
+      0.4063022172356114,
+      0.38096622416361,
+      0.4155545650103093
+    ],
+    [
+      0.6837135442603833,
+      0.6105073233260073,
+      0.35984470991203593,
+      -0.32205887574639086,
+      0.6566636232697222,
+      0.6837135442603833,
+      0.7204938236621806,
+      0.7023031691640562
+    ]
+  ],
+  "F_recomputed_q": [
+    [
+      0.046875,
+      1.0,
+      1.0,
+      1.0,
+      0.046875,
+      0.046875,
+      0.046875,
+      0.046875
+    ],
+    [
+      0.365234375,
+      1.0,
+      1.0,
+      1.0,
+      0.3515625,
+      0.365234375,
+      1.0,
+      1.0
+    ],
+    [
+      0.875,
+      1.0,
+      1.0,
+      1.0,
+      0.875,
+      0.875,
+      0.22265625,
+      0.703125
+    ]
+  ],
+  "F_provenance_q": [
+    [
+      0.046875,
+      1.0,
+      1.0,
+      1.0,
+      0.046875,
+      0.046875,
+      0.046875,
+      0.046875
+    ],
+    [
+      0.365234375,
+      1.0,
+      1.0,
+      1.0,
+      0.3515625,
+      0.365234375,
+      1.0,
+      1.0
+    ],
+    [
+      0.875,
+      1.0,
+      1.0,
+      1.0,
+      0.875,
+      0.875,
+      0.22265625,
+      0.703125
+    ]
+  ],
+  "checks": [
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ec__encoding/mean",
+      "recomputed": 0.224375,
+      "stored": 0.224375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ec__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ec__maintenance/mean",
+      "recomputed": -0.015249999999999991,
+      "stored": -0.015249999999999991,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ec__maintenance/p",
+      "recomputed": 0.34375,
+      "stored": 0.34375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ec__readout/mean",
+      "recomputed": 5.551115123125783e-18,
+      "stored": 5.551115123125783e-18,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ec__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca3__encoding/mean",
+      "recomputed": 0.20378125000000002,
+      "stored": 0.20378125000000002,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca3__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca3__maintenance/mean",
+      "recomputed": 0.01784375000000001,
+      "stored": 0.01784375000000001,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca3__maintenance/p",
+      "recomputed": 0.205078125,
+      "stored": 0.205078125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca3__readout/mean",
+      "recomputed": -0.001374999999999993,
+      "stored": -0.001374999999999993,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca3__readout/p",
+      "recomputed": 0.173828125,
+      "stored": 0.173828125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca1__encoding/mean",
+      "recomputed": 0.13296875,
+      "stored": 0.13296875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca1__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca1__maintenance/mean",
+      "recomputed": 0.01543750000000001,
+      "stored": 0.01543750000000001,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca1__maintenance/p",
+      "recomputed": 0.349609375,
+      "stored": 0.349609375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca1__readout/mean",
+      "recomputed": 0.0058125000000000095,
+      "stored": 0.0058125000000000095,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca1__readout/p",
+      "recomputed": 0.490234375,
+      "stored": 0.490234375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ec__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ec__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ec__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca3__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca3__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca3__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca1__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca1__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_accuracy/operation_cut__ca1__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ec__encoding/mean",
+      "recomputed": 0.29399348200060993,
+      "stored": 0.29399348200060993,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ec__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ec__maintenance/mean",
+      "recomputed": -0.013084069813341748,
+      "stored": -0.013084069813341748,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ec__maintenance/p",
+      "recomputed": 0.490234375,
+      "stored": 0.490234375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ec__readout/mean",
+      "recomputed": 0.0024278310719144103,
+      "stored": 0.0024278310719144103,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ec__readout/p",
+      "recomputed": 0.443359375,
+      "stored": 0.443359375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca3__encoding/mean",
+      "recomputed": 0.25611379951320284,
+      "stored": 0.25611379951320284,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca3__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca3__maintenance/mean",
+      "recomputed": 0.021194262130085077,
+      "stored": 0.021194262130085077,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca3__maintenance/p",
+      "recomputed": 0.216796875,
+      "stored": 0.216796875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca3__readout/mean",
+      "recomputed": -0.0022141139796621966,
+      "stored": -0.0022141139796621966,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca3__readout/p",
+      "recomputed": 0.1484375,
+      "stored": 0.1484375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca1__encoding/mean",
+      "recomputed": 0.22709088202690916,
+      "stored": 0.22709088202690916,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca1__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca1__maintenance/mean",
+      "recomputed": 0.01860267679892419,
+      "stored": 0.01860267679892419,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca1__maintenance/p",
+      "recomputed": 0.318359375,
+      "stored": 0.318359375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca1__readout/mean",
+      "recomputed": 0.023160341004400127,
+      "stored": 0.023160341004400127,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca1__readout/p",
+      "recomputed": 0.2109375,
+      "stored": 0.2109375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ec__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ec__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ec__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca3__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca3__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca3__readout/holm",
+      "recomputed": 0.890625,
+      "stored": 0.890625,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca1__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca1__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/normal_macro_f1/operation_cut__ca1__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ec__encoding/mean",
+      "recomputed": 0.22396875,
+      "stored": 0.22396875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ec__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ec__maintenance/mean",
+      "recomputed": -0.008093750000000016,
+      "stored": -0.008093750000000016,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ec__maintenance/p",
+      "recomputed": 0.650390625,
+      "stored": 0.650390625,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ec__readout/mean",
+      "recomputed": 0.0012812499999999948,
+      "stored": 0.0012812499999999948,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ec__readout/p",
+      "recomputed": 0.494140625,
+      "stored": 0.494140625,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca3__encoding/mean",
+      "recomputed": 0.20631249999999995,
+      "stored": 0.20631249999999995,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca3__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca3__maintenance/mean",
+      "recomputed": 0.03271875,
+      "stored": 0.03271875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca3__maintenance/p",
+      "recomputed": 0.083984375,
+      "stored": 0.083984375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca3__readout/mean",
+      "recomputed": 0.0010312500000000003,
+      "stored": 0.0010312500000000003,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca3__readout/p",
+      "recomputed": 0.37109375,
+      "stored": 0.37109375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca1__encoding/mean",
+      "recomputed": 0.14371874999999995,
+      "stored": 0.14371874999999995,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca1__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca1__maintenance/mean",
+      "recomputed": 0.010468749999999994,
+      "stored": 0.010468749999999994,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca1__maintenance/p",
+      "recomputed": 0.55078125,
+      "stored": 0.55078125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca1__readout/mean",
+      "recomputed": 0.014218749999999992,
+      "stored": 0.014218749999999992,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca1__readout/p",
+      "recomputed": 0.3125,
+      "stored": 0.3125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ec__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ec__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ec__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca3__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca3__maintenance/holm",
+      "recomputed": 0.50390625,
+      "stored": 0.50390625,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca3__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca1__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca1__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_accuracy/operation_cut__ca1__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ec__encoding/mean",
+      "recomputed": 0.29247394240093577,
+      "stored": 0.29247394240093577,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ec__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ec__maintenance/mean",
+      "recomputed": -0.006488385042507938,
+      "stored": -0.006488385042507938,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ec__maintenance/p",
+      "recomputed": 0.7578125,
+      "stored": 0.7578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ec__readout/mean",
+      "recomputed": 0.003531546573301464,
+      "stored": 0.003531546573301464,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ec__readout/p",
+      "recomputed": 0.375,
+      "stored": 0.375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca3__encoding/mean",
+      "recomputed": 0.2550434924680117,
+      "stored": 0.2550434924680117,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca3__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca3__maintenance/mean",
+      "recomputed": 0.037818014181417225,
+      "stored": 0.037818014181417225,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca3__maintenance/p",
+      "recomputed": 0.080078125,
+      "stored": 0.080078125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca3__readout/mean",
+      "recomputed": 0.0023913975938784026,
+      "stored": 0.0023913975938784026,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca3__readout/p",
+      "recomputed": 0.248046875,
+      "stored": 0.248046875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca1__encoding/mean",
+      "recomputed": 0.24407276265872363,
+      "stored": 0.24407276265872363,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca1__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca1__maintenance/mean",
+      "recomputed": 0.022027531952275425,
+      "stored": 0.022027531952275425,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca1__maintenance/p",
+      "recomputed": 0.3984375,
+      "stored": 0.3984375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca1__readout/mean",
+      "recomputed": 0.034994897380372605,
+      "stored": 0.034994897380372605,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca1__readout/p",
+      "recomputed": 0.15234375,
+      "stored": 0.15234375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ec__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ec__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ec__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca3__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca3__maintenance/holm",
+      "recomputed": 0.48046875,
+      "stored": 0.48046875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca3__readout/holm",
+      "recomputed": 0.9921875,
+      "stored": 0.9921875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca1__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca1__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/long_macro_f1/operation_cut__ca1__readout/holm",
+      "recomputed": 0.76171875,
+      "stored": 0.76171875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ec__encoding/mean",
+      "recomputed": 0.26749999999999996,
+      "stored": 0.26749999999999996,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ec__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ec__maintenance/mean",
+      "recomputed": -0.005312499999999975,
+      "stored": -0.005312499999999975,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ec__maintenance/p",
+      "recomputed": 0.556640625,
+      "stored": 0.556640625,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ec__readout/mean",
+      "recomputed": 0.0,
+      "stored": 0.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ec__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca3__encoding/mean",
+      "recomputed": 0.11468750000000001,
+      "stored": 0.11468750000000001,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca3__encoding/p",
+      "recomputed": 0.03125,
+      "stored": 0.03125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca3__maintenance/mean",
+      "recomputed": -0.05718749999999999,
+      "stored": -0.05718749999999999,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca3__maintenance/p",
+      "recomputed": 0.009765625,
+      "stored": 0.009765625,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca3__readout/mean",
+      "recomputed": 0.0,
+      "stored": 0.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca3__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca1__encoding/mean",
+      "recomputed": 0.011249999999999993,
+      "stored": 0.011249999999999993,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca1__encoding/p",
+      "recomputed": 0.29296875,
+      "stored": 0.29296875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca1__maintenance/mean",
+      "recomputed": -0.0059374999999999845,
+      "stored": -0.0059374999999999845,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca1__maintenance/p",
+      "recomputed": 0.869140625,
+      "stored": 0.869140625,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca1__readout/mean",
+      "recomputed": 0.0,
+      "stored": 0.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca1__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ec__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ec__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ec__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca3__encoding/holm",
+      "recomputed": 0.21875,
+      "stored": 0.21875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca3__maintenance/holm",
+      "recomputed": 0.078125,
+      "stored": 0.078125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca3__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca1__encoding/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca1__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_cueA_decoding/operation_cut__ca1__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ec__encoding/mean",
+      "recomputed": 0.2961255789185704,
+      "stored": 0.2961255789185704,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ec__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ec__maintenance/mean",
+      "recomputed": 0.05209491095465725,
+      "stored": 0.05209491095465725,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ec__maintenance/p",
+      "recomputed": 0.13671875,
+      "stored": 0.13671875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ec__readout/mean",
+      "recomputed": 0.0,
+      "stored": 0.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ec__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca3__encoding/mean",
+      "recomputed": 0.06946587698416964,
+      "stored": 0.06946587698416964,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca3__encoding/p",
+      "recomputed": 0.248046875,
+      "stored": 0.248046875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca3__maintenance/mean",
+      "recomputed": 0.06385762919281453,
+      "stored": 0.06385762919281453,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca3__maintenance/p",
+      "recomputed": 0.13671875,
+      "stored": 0.13671875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca3__readout/mean",
+      "recomputed": 0.0,
+      "stored": 0.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca3__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca1__encoding/mean",
+      "recomputed": 0.10718984353624923,
+      "stored": 0.10718984353624923,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca1__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca1__maintenance/mean",
+      "recomputed": 0.06829974523209703,
+      "stored": 0.06829974523209703,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca1__maintenance/p",
+      "recomputed": 0.01953125,
+      "stored": 0.01953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca1__readout/mean",
+      "recomputed": 0.0,
+      "stored": 0.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca1__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ec__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ec__maintenance/holm",
+      "recomputed": 0.8203125,
+      "stored": 0.8203125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ec__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca3__encoding/holm",
+      "recomputed": 0.9921875,
+      "stored": 0.9921875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca3__maintenance/holm",
+      "recomputed": 0.8203125,
+      "stored": 0.8203125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca3__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca1__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca1__maintenance/holm",
+      "recomputed": 0.13671875,
+      "stored": 0.13671875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/delay1_state_distance/operation_cut__ca1__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ec__encoding/mean",
+      "recomputed": 0.0796875,
+      "stored": 0.0796875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ec__encoding/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ec__maintenance/mean",
+      "recomputed": -0.011875000000000007,
+      "stored": -0.011875000000000007,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ec__maintenance/p",
+      "recomputed": 0.24609375,
+      "stored": 0.24609375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ec__readout/mean",
+      "recomputed": -0.008750000000000003,
+      "stored": -0.008750000000000003,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ec__readout/p",
+      "recomputed": 0.4609375,
+      "stored": 0.4609375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca3__encoding/mean",
+      "recomputed": 0.049374999999999995,
+      "stored": 0.049374999999999995,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca3__encoding/p",
+      "recomputed": 0.0078125,
+      "stored": 0.0078125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca3__maintenance/mean",
+      "recomputed": 0.0134375,
+      "stored": 0.0134375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca3__maintenance/p",
+      "recomputed": 0.255859375,
+      "stored": 0.255859375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca3__readout/mean",
+      "recomputed": 0.0121875,
+      "stored": 0.0121875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca3__readout/p",
+      "recomputed": 0.216796875,
+      "stored": 0.216796875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca1__encoding/mean",
+      "recomputed": 0.032812499999999994,
+      "stored": 0.032812499999999994,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca1__encoding/p",
+      "recomputed": 0.0078125,
+      "stored": 0.0078125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca1__maintenance/mean",
+      "recomputed": -0.0031249999999999945,
+      "stored": -0.0031249999999999945,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca1__maintenance/p",
+      "recomputed": 0.849609375,
+      "stored": 0.849609375,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca1__readout/mean",
+      "recomputed": 0.0353125,
+      "stored": 0.0353125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca1__readout/p",
+      "recomputed": 0.029296875,
+      "stored": 0.029296875,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ec__encoding/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ec__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ec__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca3__encoding/holm",
+      "recomputed": 0.0625,
+      "stored": 0.0625,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca3__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca3__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca1__encoding/holm",
+      "recomputed": 0.0625,
+      "stored": 0.0625,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca1__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "operation_cut/decision_pre_class_decoding/operation_cut__ca1__readout/holm",
+      "recomputed": 0.17578125,
+      "stored": 0.17578125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ec__encoding/mean",
+      "recomputed": 0.0013437500000000047,
+      "stored": 0.0013437500000000047,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ec__encoding/p",
+      "recomputed": 0.599609375,
+      "stored": 0.599609375,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ec__maintenance/mean",
+      "recomputed": -0.00021874999999998979,
+      "stored": -0.00021874999999998979,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ec__maintenance/p",
+      "recomputed": 0.70703125,
+      "stored": 0.70703125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ec__readout/mean",
+      "recomputed": -3.124999999999378e-05,
+      "stored": -3.124999999999378e-05,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ec__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca3__encoding/mean",
+      "recomputed": 0.0006562500000000138,
+      "stored": 0.0006562500000000138,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca3__encoding/p",
+      "recomputed": 0.650390625,
+      "stored": 0.650390625,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca3__maintenance/mean",
+      "recomputed": -0.0007499999999999951,
+      "stored": -0.0007499999999999951,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca3__maintenance/p",
+      "recomputed": 0.3515625,
+      "stored": 0.3515625,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca3__readout/mean",
+      "recomputed": 6.250000000000422e-05,
+      "stored": 6.250000000000422e-05,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca3__readout/p",
+      "recomputed": 0.5,
+      "stored": 0.5,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca1__encoding/mean",
+      "recomputed": 0.006093750000000009,
+      "stored": 0.006093750000000009,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca1__encoding/p",
+      "recomputed": 0.033203125,
+      "stored": 0.033203125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca1__maintenance/mean",
+      "recomputed": 6.250000000000977e-05,
+      "stored": 6.250000000000977e-05,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca1__maintenance/p",
+      "recomputed": 0.96875,
+      "stored": 0.96875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca1__readout/mean",
+      "recomputed": 0.00021874999999998423,
+      "stored": 0.00021874999999998423,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca1__readout/p",
+      "recomputed": 0.4609375,
+      "stored": 0.4609375,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ec__encoding/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ec__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ec__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca3__encoding/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca3__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca3__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca1__encoding/holm",
+      "recomputed": 0.298828125,
+      "stored": 0.298828125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca1__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_accuracy/gate_trial_shuffle__ca1__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ec__encoding/mean",
+      "recomputed": 0.001598666963358003,
+      "stored": 0.001598666963358003,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ec__encoding/p",
+      "recomputed": 0.533203125,
+      "stored": 0.533203125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ec__maintenance/mean",
+      "recomputed": -0.00014645525355080346,
+      "stored": -0.00014645525355080346,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ec__maintenance/p",
+      "recomputed": 0.78125,
+      "stored": 0.78125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ec__readout/mean",
+      "recomputed": -1.6719668779474617e-07,
+      "stored": -1.6719668779474617e-07,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ec__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca3__encoding/mean",
+      "recomputed": 0.0005514062177548684,
+      "stored": 0.0005514062177548684,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca3__encoding/p",
+      "recomputed": 0.712890625,
+      "stored": 0.712890625,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca3__maintenance/mean",
+      "recomputed": -0.0008776713913863588,
+      "stored": -0.0008776713913863588,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca3__maintenance/p",
+      "recomputed": 0.24609375,
+      "stored": 0.24609375,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca3__readout/mean",
+      "recomputed": 5.117709045960872e-05,
+      "stored": 5.117709045960872e-05,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca3__readout/p",
+      "recomputed": 0.375,
+      "stored": 0.375,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca1__encoding/mean",
+      "recomputed": 0.005616519403314419,
+      "stored": 0.005616519403314419,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca1__encoding/p",
+      "recomputed": 0.0546875,
+      "stored": 0.0546875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca1__maintenance/mean",
+      "recomputed": -0.00014504637482690708,
+      "stored": -0.00014504637482690708,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca1__maintenance/p",
+      "recomputed": 0.861328125,
+      "stored": 0.861328125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca1__readout/mean",
+      "recomputed": 0.00047225286477772246,
+      "stored": 0.00047225286477772246,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca1__readout/p",
+      "recomputed": 0.3125,
+      "stored": 0.3125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ec__encoding/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ec__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ec__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca3__encoding/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca3__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca3__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca1__encoding/holm",
+      "recomputed": 0.4921875,
+      "stored": 0.4921875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca1__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/normal_macro_f1/gate_trial_shuffle__ca1__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ec__encoding/mean",
+      "recomputed": 0.005499999999999982,
+      "stored": 0.005499999999999982,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ec__encoding/p",
+      "recomputed": 0.04296875,
+      "stored": 0.04296875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ec__maintenance/mean",
+      "recomputed": 9.374999999998135e-05,
+      "stored": 9.374999999998135e-05,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ec__maintenance/p",
+      "recomputed": 0.83203125,
+      "stored": 0.83203125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ec__readout/mean",
+      "recomputed": 3.124999999998823e-05,
+      "stored": 3.124999999998823e-05,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ec__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca3__encoding/mean",
+      "recomputed": 0.0022812499999999903,
+      "stored": 0.0022812499999999903,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca3__encoding/p",
+      "recomputed": 0.115234375,
+      "stored": 0.115234375,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca3__maintenance/mean",
+      "recomputed": 9.374999999998135e-05,
+      "stored": 9.374999999998135e-05,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca3__maintenance/p",
+      "recomputed": 0.9140625,
+      "stored": 0.9140625,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca3__readout/mean",
+      "recomputed": -0.00018750000000000155,
+      "stored": -0.00018750000000000155,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca3__readout/p",
+      "recomputed": 0.75,
+      "stored": 0.75,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca1__encoding/mean",
+      "recomputed": 0.00899999999999999,
+      "stored": 0.00899999999999999,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca1__encoding/p",
+      "recomputed": 0.0078125,
+      "stored": 0.0078125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca1__maintenance/mean",
+      "recomputed": -0.002468750000000031,
+      "stored": -0.002468750000000031,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca1__maintenance/p",
+      "recomputed": 0.1328125,
+      "stored": 0.1328125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca1__readout/mean",
+      "recomputed": 0.001031249999999978,
+      "stored": 0.001031249999999978,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca1__readout/p",
+      "recomputed": 0.328125,
+      "stored": 0.328125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ec__encoding/holm",
+      "recomputed": 0.34375,
+      "stored": 0.34375,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ec__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ec__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca3__encoding/holm",
+      "recomputed": 0.806640625,
+      "stored": 0.806640625,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca3__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca3__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca1__encoding/holm",
+      "recomputed": 0.0703125,
+      "stored": 0.0703125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca1__maintenance/holm",
+      "recomputed": 0.806640625,
+      "stored": 0.806640625,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_accuracy/gate_trial_shuffle__ca1__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ec__encoding/mean",
+      "recomputed": 0.0062201487875618135,
+      "stored": 0.0062201487875618135,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ec__encoding/p",
+      "recomputed": 0.015625,
+      "stored": 0.015625,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ec__maintenance/mean",
+      "recomputed": -2.3331715318747338e-05,
+      "stored": -2.3331715318747338e-05,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ec__maintenance/p",
+      "recomputed": 0.94140625,
+      "stored": 0.94140625,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ec__readout/mean",
+      "recomputed": 4.667120023931215e-05,
+      "stored": 4.667120023931215e-05,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ec__readout/p",
+      "recomputed": 0.921875,
+      "stored": 0.921875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca3__encoding/mean",
+      "recomputed": 0.002570178075023283,
+      "stored": 0.002570178075023283,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca3__encoding/p",
+      "recomputed": 0.16796875,
+      "stored": 0.16796875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca3__maintenance/mean",
+      "recomputed": 6.844572733371024e-05,
+      "stored": 6.844572733371024e-05,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca3__maintenance/p",
+      "recomputed": 0.8984375,
+      "stored": 0.8984375,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca3__readout/mean",
+      "recomputed": -0.00020318439220651797,
+      "stored": -0.00020318439220651797,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca3__readout/p",
+      "recomputed": 0.5,
+      "stored": 0.5,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca1__encoding/mean",
+      "recomputed": 0.00931547690600668,
+      "stored": 0.00931547690600668,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca1__encoding/p",
+      "recomputed": 0.0078125,
+      "stored": 0.0078125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca1__maintenance/mean",
+      "recomputed": -0.002953684792925032,
+      "stored": -0.002953684792925032,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca1__maintenance/p",
+      "recomputed": 0.09765625,
+      "stored": 0.09765625,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca1__readout/mean",
+      "recomputed": 0.000932515962665531,
+      "stored": 0.000932515962665531,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca1__readout/p",
+      "recomputed": 0.435546875,
+      "stored": 0.435546875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ec__encoding/holm",
+      "recomputed": 0.125,
+      "stored": 0.125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ec__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ec__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca3__encoding/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca3__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca3__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca1__encoding/holm",
+      "recomputed": 0.0703125,
+      "stored": 0.0703125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca1__maintenance/holm",
+      "recomputed": 0.68359375,
+      "stored": 0.68359375,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/long_macro_f1/gate_trial_shuffle__ca1__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ec__encoding/mean",
+      "recomputed": -0.0003124999999999822,
+      "stored": -0.0003124999999999822,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ec__encoding/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ec__maintenance/mean",
+      "recomputed": -0.0012499999999999844,
+      "stored": -0.0012499999999999844,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ec__maintenance/p",
+      "recomputed": 0.794921875,
+      "stored": 0.794921875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ec__readout/mean",
+      "recomputed": 0.0,
+      "stored": 0.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ec__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca3__encoding/mean",
+      "recomputed": 0.007500000000000018,
+      "stored": 0.007500000000000018,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca3__encoding/p",
+      "recomputed": 0.171875,
+      "stored": 0.171875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca3__maintenance/mean",
+      "recomputed": -0.003750000000000009,
+      "stored": -0.003750000000000009,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca3__maintenance/p",
+      "recomputed": 0.41796875,
+      "stored": 0.41796875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca3__readout/mean",
+      "recomputed": 0.0,
+      "stored": 0.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca3__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca1__encoding/mean",
+      "recomputed": 0.00687500000000002,
+      "stored": 0.00687500000000002,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca1__encoding/p",
+      "recomputed": 0.16796875,
+      "stored": 0.16796875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca1__maintenance/mean",
+      "recomputed": 0.11875,
+      "stored": 0.11875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca1__maintenance/p",
+      "recomputed": 0.005859375,
+      "stored": 0.005859375,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca1__readout/mean",
+      "recomputed": 0.0,
+      "stored": 0.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca1__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ec__encoding/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ec__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ec__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca3__encoding/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca3__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca3__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca1__encoding/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca1__maintenance/holm",
+      "recomputed": 0.052734375,
+      "stored": 0.052734375,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_cueA_decoding/gate_trial_shuffle__ca1__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ec__encoding/mean",
+      "recomputed": 0.000193207794568781,
+      "stored": 0.000193207794568781,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ec__encoding/p",
+      "recomputed": 0.984375,
+      "stored": 0.984375,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ec__maintenance/mean",
+      "recomputed": 0.006566949633755345,
+      "stored": 0.006566949633755345,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ec__maintenance/p",
+      "recomputed": 0.28125,
+      "stored": 0.28125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ec__readout/mean",
+      "recomputed": 0.0,
+      "stored": 0.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ec__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca3__encoding/mean",
+      "recomputed": 0.004296291093541307,
+      "stored": 0.004296291093541307,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca3__encoding/p",
+      "recomputed": 0.32421875,
+      "stored": 0.32421875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca3__maintenance/mean",
+      "recomputed": -0.001977574616827432,
+      "stored": -0.001977574616827432,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca3__maintenance/p",
+      "recomputed": 0.359375,
+      "stored": 0.359375,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca3__readout/mean",
+      "recomputed": 0.0,
+      "stored": 0.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca3__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca1__encoding/mean",
+      "recomputed": 0.003419341556562719,
+      "stored": 0.003419341556562719,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca1__encoding/p",
+      "recomputed": 0.318359375,
+      "stored": 0.318359375,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca1__maintenance/mean",
+      "recomputed": 0.13252405415702598,
+      "stored": 0.13252405415702598,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca1__maintenance/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca1__readout/mean",
+      "recomputed": 0.0,
+      "stored": 0.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca1__readout/p",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ec__encoding/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ec__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ec__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca3__encoding/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca3__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca3__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca1__encoding/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca1__maintenance/holm",
+      "recomputed": 0.017578125,
+      "stored": 0.017578125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/delay1_state_distance/gate_trial_shuffle__ca1__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ec__encoding/mean",
+      "recomputed": 0.008437499999999997,
+      "stored": 0.008437499999999997,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ec__encoding/p",
+      "recomputed": 0.427734375,
+      "stored": 0.427734375,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ec__maintenance/mean",
+      "recomputed": -0.0012500000000000067,
+      "stored": -0.0012500000000000067,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ec__maintenance/p",
+      "recomputed": 0.7890625,
+      "stored": 0.7890625,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ec__readout/mean",
+      "recomputed": -0.0012499999999999955,
+      "stored": -0.0012499999999999955,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ec__readout/p",
+      "recomputed": 0.8828125,
+      "stored": 0.8828125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca3__encoding/mean",
+      "recomputed": 0.007187500000000002,
+      "stored": 0.007187500000000002,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca3__encoding/p",
+      "recomputed": 0.30078125,
+      "stored": 0.30078125,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca3__maintenance/mean",
+      "recomputed": 0.005312499999999993,
+      "stored": 0.005312499999999993,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca3__maintenance/p",
+      "recomputed": 0.25,
+      "stored": 0.25,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca3__readout/mean",
+      "recomputed": -0.005312499999999998,
+      "stored": -0.005312499999999998,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca3__readout/p",
+      "recomputed": 0.1171875,
+      "stored": 0.1171875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca1__encoding/mean",
+      "recomputed": 0.004374999999999995,
+      "stored": 0.004374999999999995,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca1__encoding/p",
+      "recomputed": 0.373046875,
+      "stored": 0.373046875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca1__maintenance/mean",
+      "recomputed": 0.011562499999999998,
+      "stored": 0.011562499999999998,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca1__maintenance/p",
+      "recomputed": 0.109375,
+      "stored": 0.109375,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca1__readout/mean",
+      "recomputed": 0.04625,
+      "stored": 0.04625,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca1__readout/p",
+      "recomputed": 0.01171875,
+      "stored": 0.01171875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ec__encoding/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ec__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ec__readout/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca3__encoding/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca3__maintenance/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca3__readout/holm",
+      "recomputed": 0.875,
+      "stored": 0.875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca1__encoding/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca1__maintenance/holm",
+      "recomputed": 0.875,
+      "stored": 0.875,
+      "pass": true
+    },
+    {
+      "name": "gate_trial_shuffle/decision_pre_class_decoding/gate_trial_shuffle__ca1__readout/holm",
+      "recomputed": 0.10546875,
+      "stored": 0.10546875,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/fixed_open/mean",
+      "recomputed": 0.06281250119209289,
+      "stored": 0.06281250119209289,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/fixed_open/p",
+      "recomputed": 0.009765625,
+      "stored": 0.009765625,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/fixed_open/ci_low",
+      "recomputed": 0.03148438036441803,
+      "stored": 0.03148438036441803,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/fixed_open/ci_high",
+      "recomputed": 0.09281250245869159,
+      "stored": 0.09281250245869159,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/calibrated_mean/mean",
+      "recomputed": 0.06914062947034835,
+      "stored": 0.06914062947034835,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/calibrated_mean/p",
+      "recomputed": 0.0078125,
+      "stored": 0.0078125,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/calibrated_mean/ci_low",
+      "recomputed": 0.03859179828315974,
+      "stored": 0.03859179828315974,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/calibrated_mean/ci_high",
+      "recomputed": 0.09922071624547255,
+      "stored": 0.09922071624547255,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/causal_running_mean/mean",
+      "recomputed": -0.06359374225139618,
+      "stored": -0.06359374225139618,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/causal_running_mean/p",
+      "recomputed": 0.03515625,
+      "stored": 0.03515625,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/causal_running_mean/ci_low",
+      "recomputed": -0.11367186903953552,
+      "stored": -0.11367186903953552,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/causal_running_mean/ci_high",
+      "recomputed": -0.014453119039535523,
+      "stored": -0.014453119039535523,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/one_step_lagged/mean",
+      "recomputed": 0.01156250536441803,
+      "stored": 0.01156250536441803,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/one_step_lagged/p",
+      "recomputed": 0.498046875,
+      "stored": 0.498046875,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/one_step_lagged/ci_low",
+      "recomputed": -0.011796864867210387,
+      "stored": -0.011796864867210387,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/one_step_lagged/ci_high",
+      "recomputed": 0.038984382152557374,
+      "stored": 0.038984382152557374,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/fixed_open/holm",
+      "recomputed": 0.03125,
+      "stored": 0.03125,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/calibrated_mean/holm",
+      "recomputed": 0.03125,
+      "stored": 0.03125,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/causal_running_mean/holm",
+      "recomputed": 0.0703125,
+      "stored": 0.0703125,
+      "pass": true
+    },
+    {
+      "name": "corrective_output_probe/one_step_lagged/holm",
+      "recomputed": 0.498046875,
+      "stored": 0.498046875,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/fixed_open/mean",
+      "recomputed": 0.00712762288749218,
+      "stored": 0.00712762288749218,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/fixed_open/p",
+      "recomputed": 0.31640625,
+      "stored": 0.31640625,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/fixed_open/ci_low",
+      "recomputed": -0.0049496840685606,
+      "stored": -0.0049496840685606,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/fixed_open/ci_high",
+      "recomputed": 0.019898084467276932,
+      "stored": 0.019898084467276932,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/calibrated_mean/mean",
+      "recomputed": 0.00540271308273077,
+      "stored": 0.00540271308273077,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/calibrated_mean/p",
+      "recomputed": 0.1953125,
+      "stored": 0.1953125,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/calibrated_mean/ci_low",
+      "recomputed": -0.0014079041779041291,
+      "stored": -0.0014079041779041291,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/calibrated_mean/ci_high",
+      "recomputed": 0.012658549682237208,
+      "stored": 0.012658549682237208,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/causal_running_mean/mean",
+      "recomputed": -0.02300447002053261,
+      "stored": -0.02300447002053261,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/causal_running_mean/p",
+      "recomputed": 0.015625,
+      "stored": 0.015625,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/causal_running_mean/ci_low",
+      "recomputed": -0.04493304491043091,
+      "stored": -0.04493304491043091,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/causal_running_mean/ci_high",
+      "recomputed": -0.0061979517340660095,
+      "stored": -0.0061979517340660095,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/one_step_lagged/mean",
+      "recomputed": 0.00031481646001338957,
+      "stored": 0.00031481646001338957,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/one_step_lagged/p",
+      "recomputed": 0.88671875,
+      "stored": 0.88671875,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/one_step_lagged/ci_low",
+      "recomputed": -0.004010330233722925,
+      "stored": -0.004010330233722925,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/one_step_lagged/ci_high",
+      "recomputed": 0.004297015806660059,
+      "stored": 0.004297015806660059,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/fixed_open/holm",
+      "recomputed": 0.6328125,
+      "stored": 0.6328125,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/calibrated_mean/holm",
+      "recomputed": 0.5859375,
+      "stored": 0.5859375,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/causal_running_mean/holm",
+      "recomputed": 0.0625,
+      "stored": 0.0625,
+      "pass": true
+    },
+    {
+      "name": "secondary_output_geometry/one_step_lagged/holm",
+      "recomputed": 0.88671875,
+      "stored": 0.88671875,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/fixed_open/mean",
+      "recomputed": 0.025312499999999995,
+      "stored": 0.025312499999999995,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/fixed_open/p",
+      "recomputed": 0.1171875,
+      "stored": 0.1171875,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/fixed_open/ci_low",
+      "recomputed": 0.00026041666666665186,
+      "stored": 0.00026041666666665186,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/fixed_open/ci_high",
+      "recomputed": 0.05348958333333333,
+      "stored": 0.05348958333333333,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/calibrated_mean/mean",
+      "recomputed": -0.008020833333333328,
+      "stored": -0.008020833333333328,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/calibrated_mean/p",
+      "recomputed": 0.66796875,
+      "stored": 0.66796875,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/calibrated_mean/ci_low",
+      "recomputed": -0.04088541666666666,
+      "stored": -0.04088541666666666,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/calibrated_mean/ci_high",
+      "recomputed": 0.02588541666666669,
+      "stored": 0.02588541666666669,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/causal_running_mean/mean",
+      "recomputed": -0.008906249999999987,
+      "stored": -0.008906249999999987,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/causal_running_mean/p",
+      "recomputed": 0.3046875,
+      "stored": 0.3046875,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/causal_running_mean/ci_low",
+      "recomputed": -0.023697916666666645,
+      "stored": -0.023697916666666645,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/causal_running_mean/ci_high",
+      "recomputed": 0.007708333333333328,
+      "stored": 0.007708333333333328,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/one_step_lagged/mean",
+      "recomputed": -0.004062499999999985,
+      "stored": -0.004062499999999985,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/one_step_lagged/p",
+      "recomputed": 0.400390625,
+      "stored": 0.400390625,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/one_step_lagged/ci_low",
+      "recomputed": -0.01208333333333333,
+      "stored": -0.01208333333333333,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/one_step_lagged/ci_high",
+      "recomputed": 0.00484375000000003,
+      "stored": 0.00484375000000003,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/fixed_open/holm",
+      "recomputed": 0.46875,
+      "stored": 0.46875,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/calibrated_mean/holm",
+      "recomputed": 0.9140625,
+      "stored": 0.9140625,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/causal_running_mean/holm",
+      "recomputed": 0.9140625,
+      "stored": 0.9140625,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_normal/one_step_lagged/holm",
+      "recomputed": 0.9140625,
+      "stored": 0.9140625,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/fixed_open/mean",
+      "recomputed": 0.0022916666666666806,
+      "stored": 0.0022916666666666806,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/fixed_open/p",
+      "recomputed": 0.83203125,
+      "stored": 0.83203125,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/fixed_open/ci_low",
+      "recomputed": -0.015260416666666655,
+      "stored": -0.015260416666666655,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/fixed_open/ci_high",
+      "recomputed": 0.02218750000000001,
+      "stored": 0.02218750000000001,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/calibrated_mean/mean",
+      "recomputed": -0.007083333333333325,
+      "stored": -0.007083333333333325,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/calibrated_mean/p",
+      "recomputed": 0.705078125,
+      "stored": 0.705078125,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/calibrated_mean/ci_low",
+      "recomputed": -0.03864583333333331,
+      "stored": -0.03864583333333331,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/calibrated_mean/ci_high",
+      "recomputed": 0.02635546875000007,
+      "stored": 0.02635546875000007,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/causal_running_mean/mean",
+      "recomputed": -0.011614583333333327,
+      "stored": -0.011614583333333327,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/causal_running_mean/p",
+      "recomputed": 0.087890625,
+      "stored": 0.087890625,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/causal_running_mean/ci_low",
+      "recomputed": -0.02182421875000001,
+      "stored": -0.02182421875000001,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/causal_running_mean/ci_high",
+      "recomputed": -0.0003645833333333293,
+      "stored": -0.0003645833333333293,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/one_step_lagged/mean",
+      "recomputed": -0.00010416666666664964,
+      "stored": -0.00010416666666664964,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/one_step_lagged/p",
+      "recomputed": 0.990234375,
+      "stored": 0.990234375,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/one_step_lagged/ci_low",
+      "recomputed": -0.008385416666666656,
+      "stored": -0.008385416666666656,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/one_step_lagged/ci_high",
+      "recomputed": 0.009010416666666687,
+      "stored": 0.009010416666666687,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/fixed_open/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/calibrated_mean/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/causal_running_mean/holm",
+      "recomputed": 0.3515625,
+      "stored": 0.3515625,
+      "pass": true
+    },
+    {
+      "name": "secondary_behavior_long/one_step_lagged/holm",
+      "recomputed": 1.0,
+      "stored": 1.0,
+      "pass": true
+    },
+    {
+      "name": "output_minus_pre_ca1_state/mean",
+      "recomputed": 0.06453125476837158,
+      "stored": 0.06453125476837158,
+      "pass": true
+    },
+    {
+      "name": "output_minus_pre_ca1_state/p",
+      "recomputed": 0.0078125,
+      "stored": 0.0078125,
+      "pass": true
+    },
+    {
+      "name": "output_minus_feedback_state/mean",
+      "recomputed": -0.05874999463558197,
+      "stored": -0.05874999463558197,
+      "pass": true
+    },
+    {
+      "name": "output_minus_feedback_state/p",
+      "recomputed": 0.001953125,
+      "stored": 0.001953125,
+      "pass": true
+    },
+    {
+      "name": "output_minus_pre_ca1_state/holm",
+      "recomputed": 0.0078125,
+      "stored": 0.0078125,
+      "pass": true
+    },
+    {
+      "name": "output_minus_feedback_state/holm",
+      "recomputed": 0.00390625,
+      "stored": 0.00390625,
+      "pass": true
+    }
+  ],
+  "check_count": 464,
+  "failed": []
+}

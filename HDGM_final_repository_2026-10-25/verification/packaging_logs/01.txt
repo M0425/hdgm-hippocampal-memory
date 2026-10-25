@@ -1,0 +1,5 @@
+
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Documents\Codex\2026-09-14\zhe\outputs\HDGM_final_repository_2026-10-25\tools\plot.py", line 8, in <module>
+    import matplotlib.figure
+ModuleNotFoundError: No module named 'matplotlib'

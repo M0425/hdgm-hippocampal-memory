@@ -1,0 +1,5 @@
+
+C:\Users\LENOVO\Documents\Codex\2026-09-14\zhe\outputs\HDGM_final_repository_2026-10-25\plotting\figure3\plot.py:267: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  parts = ax.violinplot(vals, positions=[y + offset], vert=False, widths=.25,
+C:\Users\LENOVO\Documents\Codex\2026-09-14\zhe\outputs\HDGM_final_repository_2026-10-25\plotting\figure3\plot.py:423: MatplotlibDeprecationWarning: vert: bool was deprecated in Matplotlib 3.11 and will be removed in 3.13. Use orientation: {'vertical', 'horizontal'} instead.
+  violin = ax.violinplot(values, positions=[y], vert=False, widths=.52,

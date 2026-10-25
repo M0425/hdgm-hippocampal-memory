@@ -1,0 +1,5 @@
+E radar diameter scale: 1.2866489925768827
+E schematic width scale: 0.7100000000000001
+E paired plot scale: width 1.50; height 1.12
+Saved: C:\Users\LENOVO\Documents\Codex\2026-09-14\zhe\outputs\HDGM_final_repository_2026-10-25\plotting\figure2\figure2_E_rebalanced_v2.pdf
+

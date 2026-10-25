@@ -1,0 +1,174 @@
+{
+  "main": {
+    "early_aulc": {
+      "hdgm": 0.4638431919642857,
+      "tem": 0.3658577008928571,
+      "mean": 0.09798549107142854,
+      "p": 0.041015625,
+      "dz": 0.8457439298255914
+    },
+    "acc_at_100": {
+      "hdgm": 0.4871875,
+      "tem": 0.32921875,
+      "mean": 0.15796875000000002,
+      "p": 0.001953125,
+      "dz": 1.7709277033528952
+    },
+    "acc_at_150": {
+      "hdgm": 0.47421875,
+      "tem": 0.3293125,
+      "mean": 0.14490625000000001,
+      "p": 0.009765625,
+      "dz": 1.0487240663870552
+    },
+    "audit_bootstrap_auc": {
+      "replicates": 20000,
+      "seed": 24680,
+      "interval": [
+        0.030158147321428533,
+        0.16539275948660706
+      ],
+      "status": "Audit calculation; original hard-coded figure interval estimator not recorded."
+    }
+  },
+  "delay": {
+    "HDGM_change": {
+      "mean": 0.00023437500000001444,
+      "p": 0.984375,
+      "dz": 0.01519087411357903,
+      "holm_if_three_contrasts": 0.984375
+    },
+    "TEM_change": {
+      "mean": -0.06117187499999999,
+      "p": 0.025390625,
+      "dz": -0.7521505481583546,
+      "holm_if_three_contrasts": 0.0703125
+    },
+    "difference_of_changes": {
+      "mean": 0.06140625000000001,
+      "p": 0.0234375,
+      "dz": 0.8025126061754292,
+      "holm_if_three_contrasts": 0.0703125
+    },
+    "family_status": "Three-contrast family reconstructed in audit (two within-model changes plus between-model change contrast); original plotting script hard-codes .070 without a saved family definition."
+  },
+  "CA1_actual_checkpoints": [
+    100
+  ],
+  "CA1_source_run_max_updates": [
+    150
+  ],
+  "place": {
+    "stability": {
+      "hdgm": 0.5869336053343436,
+      "null": -0.05828592409166102,
+      "mean": 0.6452195294260046,
+      "p": 0.001953125,
+      "dz": 2.7694238504595643
+    },
+    "geometry": {
+      "hdgm": 0.19026683821558013,
+      "null": 0.08406773395541693,
+      "mean": 0.10619910426016319,
+      "p": 0.001953125,
+      "dz": 2.52296822844533
+    }
+  },
+  "branch_behavior": {
+    "hdgm": 0.6434895833333334,
+    "tem": 0.5169270833333333,
+    "stateless": 0.5028645833333334
+  },
+  "difficulty": {
+    "alias_access_auc": {
+      "hdgm": 0.043189381559689835,
+      "tem": 0.002086948851744334,
+      "mean": 0.04110243270794551,
+      "p": 0.001953125,
+      "dz": 1.174260536974321,
+      "holm_with_two_stability_contrasts": 0.0078125
+    },
+    "noise_access_auc": {
+      "hdgm": 0.23307508543133734,
+      "tem": 0.017910162359476088,
+      "mean": 0.21516492307186125,
+      "p": 0.001953125,
+      "dz": 1.1305983872118355,
+      "holm_with_two_stability_contrasts": 0.0078125
+    },
+    "access_auc_status": "Access AUC differs from source primary full-history transfer AUC. Recomputed as a post hoc four-contrast family retaining both stability contrasts; p values coincide, estimands do not.",
+    "coupling_r": 0.688780652210054
+  },
+  "figure5_provenance_r": 0.688780652210054,
+  "figure5_provenance_ci": [
+    -0.046335275580528225,
+    0.9393635028297295
+  ],
+  "F_recomputed_dz": [
+    [
+      1.3223311110386702,
+      0.00997385177464608,
+      -0.5884002995079737,
+      -0.4743416490080007,
+      1.3114899838680187,
+      1.3223311110386702,
+      1.2921318406951219,
+      1.1845740002687735
+    ],
+    [
+      0.4063022172356115,
+      -0.29085096995994403,
+      0.33101723944405487,
+      0.26448580029263463,
+      0.32262065375783056,
+      0.4063022172356115,
+      0.3809662241636101,
+      0.4155545650103093
+    ],
+    [
+      0.6837135442603833,
+      0.6105073233260073,
+      0.35984470991203593,
+      -0.32205887574639086,
+      0.656663623269722,
+      0.6837135442603833,
+      0.7204938236621806,
+      0.7023031691640564
+    ]
+  ],
+  "F_recomputed_q": [
+    [
+      0.046875,
+      1.0,
+      1.0,
+      1.0,
+      0.046875,
+      0.046875,
+      0.046875,
+      0.046875
+    ],
+    [
+      0.365234375,
+      1.0,
+      1.0,
+      1.0,
+      0.3515625,
+      0.365234375,
+      1.0,
+      1.0
+    ],
+    [
+      0.875,
+      1.0,
+      1.0,
+      1.0,
+      0.875,
+      0.875,
+      0.22265625,
+      0.703125
+    ]
+  ],
+  "check_count": 464,
+  "failed": []
+}
+

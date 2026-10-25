@@ -1,0 +1,3 @@
+HDGM [0.641016, 0.551823, 0.516667, 0.493359, 0.634635, 0.641016, 0.644792, 0.636719]
+Exported 240 source observations and 24 means/intervals: C:\Users\LENOVO\Documents\Codex\2026-09-14\zhe\outputs\HDGM_final_repository_2026-10-25\plotting\figure5\figure5C_response_atlas_zoom
+

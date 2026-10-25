@@ -1,0 +1,773 @@
+{
+  "experiments/ca1_validation.py": {
+    "annotated_class_defaults": {
+      "ExperimentConfig": {
+        "use_branch_readout": true,
+        "use_cueA_aux_head": false,
+        "use_cueB_aux_head": false,
+        "use_phase_aux_head": false,
+        "use_ec_phase_rank_loss": true,
+        "use_position_aux_loss": false,
+        "use_cueB_margin_loss": true,
+        "use_cueB_peak_write_loss": false,
+        "gate_phase_weight": 0.0,
+        "gate_cueB_margin_weight": 0.08,
+        "gate_ec_phase_rank_weight": 0.12,
+        "gate_pos_aux_weight": 0.0,
+        "gate_cueA_aux_weight": 0.0,
+        "gate_cueB_aux_weight": 0.0,
+        "gate_phase_aux_weight": 0.0,
+        "gate_cueB_peak_weight": 0.0,
+        "tem_pos_aux_weight": 0.0,
+        "gate_class_weights": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "epochs": 150,
+        "batch_size": 32,
+        "lr": 0.0006,
+        "primary_updates": 150,
+        "rapid_checkpoints": [
+          10,
+          25,
+          50,
+          75,
+          100,
+          150
+        ],
+        "rapid_probe_checkpoints": [
+          50,
+          100,
+          150
+        ],
+        "acquisition_thresholds": [
+          0.5,
+          0.6
+        ],
+        "extended_updates": 500,
+        "extended_checkpoints": [
+          10,
+          25,
+          50,
+          75,
+          100,
+          150,
+          300,
+          500
+        ],
+        "val_batches": 10,
+        "val_batch_size": 64,
+        "val_score_alpha": 0.75,
+        "val_interval": 10,
+        "print_interval": 50,
+        "test_batches": 50,
+        "test_batch_size": 64,
+        "analysis_batches": 5,
+        "analysis_batch_size": 64,
+        "split_seed_version": 4,
+        "checkpoint_dir": "paper_rapid_v4_outputs/checkpoints",
+        "probe_train_batches": 20,
+        "probe_val_batches": 5,
+        "probe_test_batches": 20,
+        "probe_batch_size": 64,
+        "probe_epochs": 200,
+        "probe_lr": 0.01,
+        "probe_weight_decay": 0.0001,
+        "track_len": 80,
+        "obs_dim": 24,
+        "cue_width": 4,
+        "cueA_start_range": [
+          3,
+          14
+        ],
+        "delay1_range": [
+          8,
+          20
+        ],
+        "delay2_range": [
+          10,
+          24
+        ],
+        "n_cues": 2,
+        "alias_prob": 0.1,
+        "noise_std": 0.08,
+        "name": "fourclass_rapid_acquisition_v4",
+        "save_dir": "paper_rapid_v4_outputs",
+        "representative_seed": 11
+      },
+      "CA1CausalAnalysisConfig": {
+        "primary_checkpoint": 100,
+        "conditions": [
+          "full",
+          "fixed_open",
+          "calibrated_mean",
+          "causal_running_mean",
+          "one_step_lagged"
+        ],
+        "representations": [
+          "feedback_state",
+          "ca1_gate_pattern",
+          "pre_ca1_state",
+          "output_state"
+        ],
+        "split_seed_version": 62,
+        "behavior_batches": 30,
+        "behavior_batch_size": 64,
+        "calibration_batches": 10,
+        "calibration_batch_size": 64,
+        "probe_train_batches": 20,
+        "probe_val_batches": 5,
+        "probe_test_batches": 20,
+        "probe_batch_size": 64,
+        "probe_epochs": 200,
+        "probe_lr": 0.01,
+        "probe_weight_decay": 0.0001,
+        "checkpoint_name_template": "fourclass_rapid_acquisition_v4_primary_150_seed_{seed}.pt",
+        "checkpoint_dir": "paper_rapid_v4_outputs/checkpoints",
+        "output_dir": "paper_ca1_v6_2_outputs",
+        "output_json": "ca1_causal_validation_v6_2_results.json"
+      }
+    },
+    "cli_declarations": []
+  },
+  "experiments/fixed_gate_training.py": {
+    "annotated_class_defaults": {
+      "ExperimentConfig": {
+        "use_branch_readout": true,
+        "use_cueA_aux_head": false,
+        "use_cueB_aux_head": false,
+        "use_phase_aux_head": false,
+        "use_ec_phase_rank_loss": true,
+        "use_position_aux_loss": false,
+        "use_cueB_margin_loss": true,
+        "use_cueB_peak_write_loss": false,
+        "gate_phase_weight": 0.0,
+        "gate_cueB_margin_weight": 0.08,
+        "gate_ec_phase_rank_weight": 0.12,
+        "gate_pos_aux_weight": 0.0,
+        "gate_cueA_aux_weight": 0.0,
+        "gate_cueB_aux_weight": 0.0,
+        "gate_phase_aux_weight": 0.0,
+        "gate_cueB_peak_weight": 0.0,
+        "tem_pos_aux_weight": 0.0,
+        "gate_class_weights": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "epochs": 150,
+        "batch_size": 32,
+        "lr": 0.0006,
+        "primary_updates": 150,
+        "rapid_checkpoints": [
+          10,
+          25,
+          50,
+          75,
+          100,
+          150
+        ],
+        "rapid_probe_checkpoints": [
+          50,
+          100,
+          150
+        ],
+        "acquisition_thresholds": [
+          0.5,
+          0.6
+        ],
+        "extended_updates": 500,
+        "extended_checkpoints": [
+          10,
+          25,
+          50,
+          75,
+          100,
+          150,
+          300,
+          500
+        ],
+        "disable_ec_gate": false,
+        "disable_ca3_gate": false,
+        "disable_ca1_gate": false,
+        "val_batches": 10,
+        "val_batch_size": 64,
+        "val_score_alpha": 0.75,
+        "val_interval": 10,
+        "print_interval": 50,
+        "test_batches": 50,
+        "test_batch_size": 64,
+        "analysis_batches": 5,
+        "analysis_batch_size": 64,
+        "split_seed_version": 5,
+        "checkpoint_dir": "paper_ablation_v5_outputs/checkpoints",
+        "probe_train_batches": 20,
+        "probe_val_batches": 5,
+        "probe_test_batches": 20,
+        "probe_batch_size": 64,
+        "probe_epochs": 200,
+        "probe_lr": 0.01,
+        "probe_weight_decay": 0.0001,
+        "track_len": 80,
+        "obs_dim": 24,
+        "cue_width": 4,
+        "cueA_start_range": [
+          3,
+          14
+        ],
+        "delay1_range": [
+          8,
+          20
+        ],
+        "delay2_range": [
+          10,
+          24
+        ],
+        "n_cues": 2,
+        "alias_prob": 0.1,
+        "noise_std": 0.08,
+        "name": "fourclass_rapid_gate_ablation_v5",
+        "save_dir": "paper_ablation_v5_outputs",
+        "representative_seed": 11
+      }
+    },
+    "cli_declarations": []
+  },
+  "experiments/four_context.py": {
+    "annotated_class_defaults": {
+      "ExperimentConfig": {
+        "use_branch_readout": true,
+        "use_cueA_aux_head": false,
+        "use_cueB_aux_head": false,
+        "use_phase_aux_head": false,
+        "use_ec_phase_rank_loss": true,
+        "use_position_aux_loss": false,
+        "use_cueB_margin_loss": true,
+        "use_cueB_peak_write_loss": false,
+        "gate_phase_weight": 0.0,
+        "gate_cueB_margin_weight": 0.08,
+        "gate_ec_phase_rank_weight": 0.12,
+        "gate_pos_aux_weight": 0.0,
+        "gate_cueA_aux_weight": 0.0,
+        "gate_cueB_aux_weight": 0.0,
+        "gate_phase_aux_weight": 0.0,
+        "gate_cueB_peak_weight": 0.0,
+        "tem_pos_aux_weight": 0.0,
+        "gate_class_weights": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "epochs": 150,
+        "batch_size": 32,
+        "lr": 0.0006,
+        "primary_updates": 150,
+        "rapid_checkpoints": [
+          10,
+          25,
+          50,
+          75,
+          100,
+          150
+        ],
+        "rapid_probe_checkpoints": [
+          50,
+          100,
+          150
+        ],
+        "acquisition_thresholds": [
+          0.5,
+          0.6
+        ],
+        "extended_updates": 500,
+        "extended_checkpoints": [
+          10,
+          25,
+          50,
+          75,
+          100,
+          150,
+          300,
+          500
+        ],
+        "val_batches": 10,
+        "val_batch_size": 64,
+        "val_score_alpha": 0.75,
+        "val_interval": 10,
+        "print_interval": 50,
+        "test_batches": 50,
+        "test_batch_size": 64,
+        "analysis_batches": 5,
+        "analysis_batch_size": 64,
+        "split_seed_version": 4,
+        "checkpoint_dir": "paper_rapid_v4_outputs/checkpoints",
+        "probe_train_batches": 20,
+        "probe_val_batches": 5,
+        "probe_test_batches": 20,
+        "probe_batch_size": 64,
+        "probe_epochs": 200,
+        "probe_lr": 0.01,
+        "probe_weight_decay": 0.0001,
+        "track_len": 80,
+        "obs_dim": 24,
+        "cue_width": 4,
+        "cueA_start_range": [
+          3,
+          14
+        ],
+        "delay1_range": [
+          8,
+          20
+        ],
+        "delay2_range": [
+          10,
+          24
+        ],
+        "n_cues": 2,
+        "alias_prob": 0.1,
+        "noise_std": 0.08,
+        "name": "fourclass_rapid_acquisition_v4",
+        "save_dir": "paper_rapid_v4_outputs",
+        "representative_seed": 11
+      }
+    },
+    "cli_declarations": []
+  },
+  "experiments/history_controls.py": {
+    "annotated_class_defaults": {
+      "ExperimentConfig": {
+        "use_branch_readout": true,
+        "use_cueA_aux_head": false,
+        "use_cueB_aux_head": false,
+        "use_phase_aux_head": false,
+        "use_ec_phase_rank_loss": true,
+        "use_position_aux_loss": false,
+        "use_cueB_margin_loss": true,
+        "use_cueB_peak_write_loss": false,
+        "gate_phase_weight": 0.0,
+        "gate_cueB_margin_weight": 0.08,
+        "gate_ec_phase_rank_weight": 0.12,
+        "gate_pos_aux_weight": 0.0,
+        "gate_cueA_aux_weight": 0.0,
+        "gate_cueB_aux_weight": 0.0,
+        "gate_phase_aux_weight": 0.0,
+        "gate_cueB_peak_weight": 0.0,
+        "tem_pos_aux_weight": 0.0,
+        "gate_class_weights": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "epochs": 150,
+        "batch_size": 32,
+        "lr": 0.0006,
+        "primary_updates": 150,
+        "rapid_checkpoints": [
+          10,
+          25,
+          50,
+          75,
+          100,
+          150
+        ],
+        "rapid_probe_checkpoints": [
+          50,
+          100,
+          150
+        ],
+        "acquisition_thresholds": [
+          0.5,
+          0.6
+        ],
+        "extended_updates": 500,
+        "extended_checkpoints": [
+          10,
+          25,
+          50,
+          75,
+          100,
+          150,
+          300,
+          500
+        ],
+        "val_batches": 10,
+        "val_batch_size": 64,
+        "val_score_alpha": 0.75,
+        "val_interval": 10,
+        "print_interval": 50,
+        "test_batches": 50,
+        "test_batch_size": 64,
+        "analysis_batches": 5,
+        "analysis_batch_size": 64,
+        "split_seed_version": 4,
+        "checkpoint_dir": "paper_rapid_v4_outputs/checkpoints",
+        "probe_train_batches": 20,
+        "probe_val_batches": 5,
+        "probe_test_batches": 20,
+        "probe_batch_size": 64,
+        "probe_epochs": 200,
+        "probe_lr": 0.01,
+        "probe_weight_decay": 0.0001,
+        "track_len": 80,
+        "obs_dim": 24,
+        "cue_width": 4,
+        "cueA_start_range": [
+          3,
+          14
+        ],
+        "delay1_range": [
+          8,
+          20
+        ],
+        "delay2_range": [
+          10,
+          24
+        ],
+        "n_cues": 2,
+        "alias_prob": 0.1,
+        "noise_std": 0.08,
+        "name": "fourclass_rapid_acquisition_v4",
+        "save_dir": "paper_rapid_v4_outputs",
+        "representative_seed": 11
+      }
+    },
+    "cli_declarations": [
+      "p.add_argument('--search-root', default='.', help='Root searched recursively for .pt checkpoints; no folder merging required.')",
+      "p.add_argument('--output-dir', default='figure2_missing_outputs')",
+      "p.add_argument('--device', choices=('auto', 'cpu', 'cuda'), default='auto')",
+      "p.add_argument('--seeds', default='11,22,33,44,55,66,77,88,99,111')",
+      "p.add_argument('--checkpoint-step', type=int, default=150)",
+      "p.add_argument('--test-batches', type=int, default=50)",
+      "p.add_argument('--batch-size', type=int, default=64)",
+      "p.add_argument('--delay-batches', type=int, default=20)",
+      "p.add_argument('--delay-steps', default='0,4,8,16,32,64')",
+      "p.add_argument('--null-train-batches', type=int, default=20)",
+      "p.add_argument('--null-val-batches', type=int, default=5)",
+      "p.add_argument('--null-test-batches', type=int, default=20)",
+      "p.add_argument('--null-epochs', type=int, default=300)",
+      "p.add_argument('--quick', action='store_true', help='Smoke test: 2 seeds, 2 test batches and delay steps 0,8.')"
+    ]
+  },
+  "experiments/operation_cuts.py": {
+    "annotated_class_defaults": {},
+    "cli_declarations": [
+      "parser.add_argument('--main-code', type=Path, default=None, help='Optional override for the locked V4 main-experiment Python file.')",
+      "parser.add_argument('--checkpoint-dir', type=Path, default=None, help='Optional override for the directory containing primary_150 checkpoints.')",
+      "parser.add_argument('--output-dir', type=Path, default=None, help='Optional output directory; defaults beside this script.')",
+      "parser.add_argument('--seeds', type=str, default=','.join((str(seed) for seed in FINAL_SEEDS)), help='Comma-separated seed list.')",
+      "parser.add_argument('--modes', type=str, default=','.join(PERTURBATION_MODES), help='Comma-separated subset of operation_cut,gate_trial_shuffle.')",
+      "parser.add_argument('--device', type=str, default='auto', help='auto, cpu, cuda, cuda:0, etc.')",
+      "parser.add_argument('--checkpoint-step', type=int, default=150, help='Locked model snapshot used for the analysis.')",
+      "parser.add_argument('--readout-width', type=int, default=4, help='Number of recurrent samples in the terminal readout window.')",
+      "parser.add_argument('--test-batches', type=int, default=None, help='Override the configured 50 fixed test batches.')",
+      "parser.add_argument('--analysis-batches', type=int, default=None, help='Override the configured 5 fixed analysis batches.')",
+      "parser.add_argument('--skip-representation', action='store_true', help='Export behavior only; skip history and decision decoding.')",
+      "parser.add_argument('--quick', action='store_true', help='One-seed, two-batch pipeline audit; not a paper result.')"
+    ]
+  },
+  "experiments/perturbation_scan.py": {
+    "annotated_class_defaults": {
+      "SplitterV7Config": {
+        "corridor_len": 18,
+        "arm_len": 7,
+        "trips_per_trial": 4,
+        "endpoint_hold_len": 2,
+        "alias_start": 6,
+        "alias_end": 12,
+        "obs_dim": 24,
+        "noise_std": 0.05,
+        "alias_strength": 1.0,
+        "hidden_dim": 96,
+        "action_emb_dim": 32,
+        "ca3_steps": 5,
+        "lambda_m": 0.92,
+        "alpha": 0.32,
+        "rho": 0.84,
+        "c1": 0.2,
+        "c2": 1.0,
+        "beta": 0.1,
+        "checkpoints": [
+          25,
+          50,
+          100,
+          150,
+          200,
+          300
+        ],
+        "representation_update": 150,
+        "behavior_update": 300,
+        "batch_size": 16,
+        "core_lr": 0.0006,
+        "choice_head_lr": 0.002,
+        "stateless_lr": 0.002,
+        "weight_decay": 0.0,
+        "prediction_weight": 0.2,
+        "choice_weight": 1.5,
+        "grad_clip": 1.0,
+        "val_batches": 4,
+        "test_batches": 8,
+        "bank_batch_size": 32,
+        "probe_train_batches": 8,
+        "probe_val_batches": 4,
+        "probe_test_batches": 8,
+        "probe_epochs": 160,
+        "probe_lr": 0.01,
+        "probe_weight_decay": 0.0001,
+        "probe_patience": 25,
+        "permutation_repeats": 10,
+        "permutation_probe_epochs": 60,
+        "name": "hdgm_v7_3_splitter_dual_endpoint",
+        "output_dir": "hdgm_v7_3_splitter_outputs"
+      },
+      "DifficultyV2Config": {
+        "alias_corruptions": [
+          0.0,
+          0.25,
+          0.5,
+          0.75
+        ],
+        "noise_stds": [
+          0.02,
+          0.05,
+          0.08,
+          0.12
+        ],
+        "reference_alias_corruption": 0.0,
+        "reference_noise": 0.05,
+        "representation_update": 150,
+        "behavior_update": 300,
+        "test_batches": 8,
+        "probe_train_batches": 8,
+        "probe_val_batches": 4,
+        "probe_test_batches": 8,
+        "bank_batch_size": 32,
+        "transfer_probe_epochs": 140,
+        "transfer_probe_patience": 22,
+        "split_half_repeats": 24,
+        "checkpoint_dir": "hdgm_v7_3_splitter_outputs_confirmatory/checkpoints",
+        "output_dir": "hdgm_difficulty_v2_1_frozen_outputs",
+        "checkpoint_name_hint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+        "train_if_missing": false,
+        "name": "hdgm_difficulty_v2_1_frozen_population_robustness"
+      }
+    },
+    "cli_declarations": []
+  },
+  "experiments/shared_corridor.py": {
+    "annotated_class_defaults": {
+      "SplitterV7Config": {
+        "corridor_len": 18,
+        "arm_len": 7,
+        "trips_per_trial": 4,
+        "endpoint_hold_len": 2,
+        "alias_start": 6,
+        "alias_end": 12,
+        "obs_dim": 24,
+        "noise_std": 0.05,
+        "alias_strength": 1.0,
+        "hidden_dim": 96,
+        "action_emb_dim": 32,
+        "ca3_steps": 5,
+        "lambda_m": 0.92,
+        "alpha": 0.32,
+        "rho": 0.84,
+        "c1": 0.2,
+        "c2": 1.0,
+        "beta": 0.1,
+        "checkpoints": [
+          25,
+          50,
+          100,
+          150,
+          200,
+          300
+        ],
+        "representation_update": 150,
+        "behavior_update": 300,
+        "batch_size": 16,
+        "core_lr": 0.0006,
+        "choice_head_lr": 0.002,
+        "stateless_lr": 0.002,
+        "weight_decay": 0.0,
+        "prediction_weight": 0.2,
+        "choice_weight": 1.5,
+        "grad_clip": 1.0,
+        "val_batches": 4,
+        "test_batches": 8,
+        "bank_batch_size": 32,
+        "probe_train_batches": 8,
+        "probe_val_batches": 4,
+        "probe_test_batches": 8,
+        "probe_epochs": 160,
+        "probe_lr": 0.01,
+        "probe_weight_decay": 0.0001,
+        "probe_patience": 25,
+        "permutation_repeats": 10,
+        "permutation_probe_epochs": 60,
+        "name": "hdgm_v7_3_splitter_dual_endpoint",
+        "output_dir": "hdgm_v7_3_splitter_outputs"
+      }
+    },
+    "cli_declarations": []
+  },
+  "experiments/spatial_ring.py": {
+    "annotated_class_defaults": {
+      "PlaceV5Config": {
+        "track_len": 20,
+        "obs_dim": 24,
+        "sequence_len": 100,
+        "cue_period": 5,
+        "landmark_positions": [
+          0,
+          7,
+          13
+        ],
+        "landmark_strength": 0.85,
+        "noise_std": 0.05,
+        "p_forward": 0.45,
+        "p_backward": 0.45,
+        "p_stay": 0.1,
+        "hidden_dim": 96,
+        "action_emb_dim": 32,
+        "ca3_steps": 5,
+        "lambda_m": 0.92,
+        "alpha": 0.32,
+        "rho": 0.84,
+        "c1": 0.2,
+        "c2": 1.0,
+        "beta": 0.1,
+        "checkpoints": [
+          25,
+          50,
+          100,
+          150,
+          200,
+          300
+        ],
+        "representation_update": 150,
+        "consolidation_update": 300,
+        "batch_size": 24,
+        "lr": 0.0007,
+        "weight_decay": 0.0,
+        "grad_clip": 1.0,
+        "val_batches": 4,
+        "test_batches": 8,
+        "probe_train_batches": 8,
+        "probe_val_batches": 4,
+        "probe_test_batches": 8,
+        "bank_batch_size": 32,
+        "probe_epochs": 180,
+        "probe_lr": 0.01,
+        "probe_weight_decay": 0.0001,
+        "probe_patience": 25,
+        "probe_train_per_position": 240,
+        "probe_val_per_position": 120,
+        "probe_test_per_position": 160,
+        "permutation_repeats": 10,
+        "permutation_probe_epochs": 70,
+        "field_shuffle_repeats": 20,
+        "sensory_residual_ridge": 0.01,
+        "name": "hdgm_place_v5_unsupervised_frozen_probe",
+        "output_dir": "hdgm_place_v5_outputs"
+      }
+    },
+    "cli_declarations": []
+  },
+  "experiments/stage_gate_substitutions.py": {
+    "annotated_class_defaults": {},
+    "cli_declarations": [
+      "parser.add_argument('--main-code', type=Path, required=True, help='Path to the locked V4 main-experiment Python file.')",
+      "parser.add_argument('--checkpoint-dir', type=Path, required=True, help='Directory containing the ten primary_150 checkpoint .pt files.')",
+      "parser.add_argument('--output-dir', type=Path, default=Path('output/figure1d_data'))",
+      "parser.add_argument('--seeds', type=str, default=','.join((str(seed) for seed in FINAL_SEEDS)), help='Comma-separated seed list.')",
+      "parser.add_argument('--modes', type=str, default=','.join(PERTURBATION_MODES), help='Comma-separated subset of mean_clamp,zero.')",
+      "parser.add_argument('--device', type=str, default='auto', help='auto, cpu, cuda, cuda:0, etc.')",
+      "parser.add_argument('--checkpoint-step', type=int, default=150, help='Locked model snapshot used for the analysis.')",
+      "parser.add_argument('--readout-width', type=int, default=4, help='Number of recurrent samples in the terminal readout window.')",
+      "parser.add_argument('--test-batches', type=int, default=None, help='Override the configured 50 fixed test batches.')",
+      "parser.add_argument('--analysis-batches', type=int, default=None, help='Override the configured 5 fixed analysis batches.')",
+      "parser.add_argument('--skip-representation', action='store_true', help='Export behavior only; skip history and decision decoding.')",
+      "parser.add_argument('--quick', action='store_true', help='One-seed, two-batch pipeline audit; not a paper result.')"
+    ]
+  },
+  "experiments/structural_controls/分叉.py": {
+    "annotated_class_defaults": {
+      "SplitterV7Config": {
+        "corridor_len": 18,
+        "arm_len": 7,
+        "trips_per_trial": 4,
+        "endpoint_hold_len": 2,
+        "alias_start": 6,
+        "alias_end": 12,
+        "obs_dim": 24,
+        "noise_std": 0.05,
+        "alias_strength": 1.0,
+        "hidden_dim": 96,
+        "action_emb_dim": 32,
+        "ca3_steps": 5,
+        "lambda_m": 0.92,
+        "alpha": 0.32,
+        "rho": 0.84,
+        "c1": 0.2,
+        "c2": 1.0,
+        "beta": 0.1,
+        "checkpoints": [
+          25,
+          50,
+          100,
+          150,
+          200,
+          300
+        ],
+        "representation_update": 150,
+        "behavior_update": 300,
+        "batch_size": 16,
+        "core_lr": 0.0006,
+        "choice_head_lr": 0.002,
+        "stateless_lr": 0.002,
+        "weight_decay": 0.0,
+        "prediction_weight": 0.2,
+        "choice_weight": 1.5,
+        "grad_clip": 1.0,
+        "val_batches": 4,
+        "test_batches": 8,
+        "bank_batch_size": 32,
+        "probe_train_batches": 8,
+        "probe_val_batches": 4,
+        "probe_test_batches": 8,
+        "probe_epochs": 160,
+        "probe_lr": 0.01,
+        "probe_weight_decay": 0.0001,
+        "probe_patience": 25,
+        "permutation_repeats": 10,
+        "permutation_probe_epochs": 60,
+        "name": "hdgm_v7_3_splitter_dual_endpoint",
+        "output_dir": "hdgm_v7_3_splitter_outputs"
+      }
+    },
+    "cli_declarations": []
+  },
+  "experiments/structural_controls/分析.py": {
+    "annotated_class_defaults": {},
+    "cli_declarations": [
+      "parser.add_argument('--debug', action='store_true', help='one seed, two updates per model, tiny probe banks; never scientific results')",
+      "parser.add_argument('--debug-stop-after', type=int, default=0, help='debug-only simulated interruption for resume testing')",
+      "parser.add_argument('--seeds', nargs='+', type=int, default=[11, 22, 33])",
+      "parser.add_argument('--output', type=Path)"
+    ]
+  },
+  "experiments/structural_controls/分析_三种子原版.py": {
+    "annotated_class_defaults": {},
+    "cli_declarations": [
+      "parser.add_argument('--debug', action='store_true', help='one seed, two updates per model, tiny probe banks; never scientific results')",
+      "parser.add_argument('--debug-stop-after', type=int, default=0, help='debug-only simulated interruption for resume testing')",
+      "parser.add_argument('--seeds', nargs='+', type=int, default=[11, 22, 33])",
+      "parser.add_argument('--output', type=Path)"
+    ]
+  }
+}

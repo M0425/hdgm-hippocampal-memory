@@ -1,0 +1,218 @@
+{
+  "syntax_checks": [
+    {
+      "file": "experiments/ca1_validation.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/fixed_gate_training.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/four_context.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/history_controls.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/operation_cuts.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/perturbation_scan.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/shared_corridor.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/spatial_ring.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/stage_gate_substitutions.py",
+      "pass": true
+    },
+    {
+      "file": "tools/plot.py",
+      "pass": true
+    },
+    {
+      "file": "tools/recheck_statistics.py",
+      "pass": true
+    },
+    {
+      "file": "tools/verify_package.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/structural_controls/分叉.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/structural_controls/分析.py",
+      "pass": true
+    },
+    {
+      "file": "experiments/structural_controls/分析_三种子原版.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure2/plot.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure3/original_plot.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure3/plot.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure3/verify_figure3.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure4/original_plot.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure4/plot.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure4/verify_figure4.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/figure5c_response_atlas.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/figure5_panel_a_cartoon.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/rebuild_figure5_integrated.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/rebuild_figure5_panel_b_bifurcation.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/rebuild_figure5_panel_c_dotmatrix.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure6/build_figure.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/reconstructed_common.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/rebuild_figure5_panel_d.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/rebuild_figure5_panel_e.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/rebuild_figure5_panel_f.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/reconstructed_common.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/rebuild_figure5_panel_d.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/rebuild_figure5_panel_e.py",
+      "pass": true
+    },
+    {
+      "file": "plotting/figure5/rebuild_figure5_panel_f.py",
+      "pass": true
+    }
+  ],
+  "legacy_scripts_with_absolute_paths": [
+    "experiments/perturbation_scan.py",
+    "plotting/figure2/plot.py",
+    "plotting/figure5/rebuild_figure5_integrated.py",
+    "plotting/figure5/rebuild_figure5_panel_b_bifurcation.py",
+    "plotting/figure5/rebuild_figure5_panel_c_dotmatrix.py"
+  ],
+  "training_executed": false,
+  "plot_execution": "D/E/F reconstructed scripts executed successfully; legacy full plotting pipeline not claimed validated.",
+  "historical_environment": "not locked",
+  "figure5_full_layout": "Historical integrated source missing; new D/E/F implementations executed; reference full figure preserved.",
+  "saved_result_numerical_checks": 464,
+  "saved_result_numerical_failures": 0,
+  "checkpoint_loading": "No checkpoint deserialization or model evaluation performed.",
+  "plot_data_vs_audit_data": [
+    {
+      "file": "operation.json",
+      "match": true
+    },
+    {
+      "file": "gate.json",
+      "match": true
+    },
+    {
+      "file": "ca1.json",
+      "match": true
+    },
+    {
+      "file": "position.json",
+      "match": true
+    },
+    {
+      "file": "branch.json",
+      "match": true
+    }
+  ],
+  "checkpoint_count": 50,
+  "exploratory_checkpoint_count": 24,
+  "figure5_reconstruction": {
+    "reconstruction_date": "2026-10-16",
+    "authoring_status": "Reconstructed, not original recovered code",
+    "data_sha256": "97232c8139fc3b12441a74e9e42a628f54287dabc9cb258112f9b23cd9e57c8b",
+    "d_auc_holm_p": {
+      "alias": 0.0078125,
+      "noise": 0.0078125
+    },
+    "e_r": 0.688780652210054,
+    "e_archived_ci": [
+      -0.046335275580528225,
+      0.9393635028297295
+    ],
+    "e_new_bootstrap_ci": [
+      0.0019437336819963466,
+      0.9403468017580883
+    ],
+    "f_all_24_dz_and_holm_p_match_archive": true,
+    "exported_seed_rows": {
+      "d": 80,
+      "e": 70,
+      "f": 240
+    },
+    "render_review": "All three PDFs rendered with Poppler and visually inspected; panel d axis-label sharing bug corrected before final rendering.",
+    "environment": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "numpy": "2.5.3",
+      "matplotlib": "3.11.2"
+    },
+    "original_manuscript_figures_modified": false,
+    "historical_full_layout_script_recovered": false
+  }
+}

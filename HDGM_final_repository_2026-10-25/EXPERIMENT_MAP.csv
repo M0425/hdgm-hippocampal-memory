@@ -1,0 +1,11 @@
+﻿manuscript_item,script,selection_note
+Fig2 acquisition,experiments/four_context.py,V4; recovered embedded implementation
+Fig2 controls/delay,experiments/history_controls.py,evaluation only
+Fig3a operations/reassignment,experiments/operation_cuts.py,V2 operation cut; distinct from gate zero
+Fig3b mean/zero gate,experiments/stage_gate_substitutions.py,V1 recovered checkpoint evaluator
+Acute/fixed-open,experiments/fixed_gate_training.py,V5
+Fig3d-e output validation,experiments/ca1_validation.py,V6.2 uses internal snapshot100
+Fig4 ring,experiments/spatial_ring.py,Place V5 confirmatory
+Fig4 corridor,experiments/shared_corridor.py,V7.3 confirmatory
+Fig5 perturbations,experiments/perturbation_scan.py,"V2.1 frozen, not older V2"
+Fig6 exploratory controls,experiments/structural_controls/分析.py,three development seeds; local sibling 分叉.py required

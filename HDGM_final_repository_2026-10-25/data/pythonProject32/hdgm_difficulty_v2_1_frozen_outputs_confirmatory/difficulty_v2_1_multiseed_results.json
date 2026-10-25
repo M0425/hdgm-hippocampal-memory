@@ -1,0 +1,4535 @@
+{
+  "records": [
+    {
+      "seed": 101,
+      "representation_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_101_update_150.pt",
+      "behavior_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_101_update_300.pt",
+      "frozen_parameter_audit": "PASS",
+      "conditions": {
+        "alias_0.000": {
+          "axis": "alias",
+          "value": 0.0,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0,
+              "within_branch_dispersion": 0.0,
+              "separation_ratio": 0.0,
+              "reset_separation_ratio": 0.06328667400116152,
+              "history_dependent_separation": -0.06328667400116152,
+              "population_split_half_stability": 0.0,
+              "raw_observation_opposite_branch_l2": 0.3431941270828247
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5421006679534912,
+              "history_reset_transfer_probe": 0.5041232705116272,
+              "centroid_distance": 0.0012690730509348214,
+              "within_branch_dispersion": 0.022057148938377697,
+              "separation_ratio": 0.057592305772895654,
+              "reset_separation_ratio": 0.1329730569346232,
+              "history_dependent_separation": -0.07538075116172754,
+              "population_split_half_stability": -0.06826289797512193,
+              "raw_observation_opposite_branch_l2": 0.3431941270828247
+            }
+          },
+          "behavior": {
+            "tem": 0.4947916666666667,
+            "hdgm": 0.5143229166666666,
+            "stateless": 0.4895833333333333
+          }
+        },
+        "alias_0.250": {
+          "axis": "alias",
+          "value": 0.25,
+          "additional_alias_corruption": 0.25,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.4908854067325592,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.008831153623759747,
+              "within_branch_dispersion": 0.15236057341098785,
+              "separation_ratio": 0.05796219354147516,
+              "reset_separation_ratio": 0.05821380144251347,
+              "history_dependent_separation": -0.0002516079010383143,
+              "population_split_half_stability": 0.2867626061973472,
+              "raw_observation_opposite_branch_l2": 0.3431941270828247
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0023444986436516047,
+              "within_branch_dispersion": 0.09109863514701526,
+              "separation_ratio": 0.02573205010464794,
+              "reset_separation_ratio": 0.07433629130236404,
+              "history_dependent_separation": -0.0486042411977161,
+              "population_split_half_stability": -0.44947221783028607,
+              "raw_observation_opposite_branch_l2": 0.3431941270828247
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.4986979166666667
+          }
+        },
+        "alias_0.500": {
+          "axis": "alias",
+          "value": 0.5,
+          "additional_alias_corruption": 0.5,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5002170205116272,
+              "centroid_distance": 0.0021917347330600023,
+              "within_branch_dispersion": 0.04728224501013756,
+              "separation_ratio": 0.046354276727920085,
+              "reset_separation_ratio": 0.05796690827947345,
+              "history_dependent_separation": -0.011612631551553364,
+              "population_split_half_stability": -0.41256491679814644,
+              "raw_observation_opposite_branch_l2": 0.3431941270828247
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.4986979067325592,
+              "history_reset_transfer_probe": 0.5013020634651184,
+              "centroid_distance": 0.0024317308173825345,
+              "within_branch_dispersion": 0.05097342530886332,
+              "separation_ratio": 0.047708219327464746,
+              "reset_separation_ratio": 0.03020409251463887,
+              "history_dependent_separation": 0.017504126812825874,
+              "population_split_half_stability": 0.27665131477018196,
+              "raw_observation_opposite_branch_l2": 0.3431941270828247
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.5
+          }
+        },
+        "alias_0.750": {
+          "axis": "alias",
+          "value": 0.75,
+          "additional_alias_corruption": 0.75,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5078125,
+              "history_reset_transfer_probe": 0.4997829794883728,
+              "centroid_distance": 0.0074039604514837265,
+              "within_branch_dispersion": 0.15726052224636078,
+              "separation_ratio": 0.047080855862072564,
+              "reset_separation_ratio": 0.09346011720063291,
+              "history_dependent_separation": -0.046379261338560344,
+              "population_split_half_stability": 0.0643481274213021,
+              "raw_observation_opposite_branch_l2": 0.3431941270828247
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0019327450039175649,
+              "within_branch_dispersion": 0.055202399070064224,
+              "separation_ratio": 0.03501480245441421,
+              "reset_separation_ratio": 0.10570801044029222,
+              "history_dependent_separation": -0.07069320798587801,
+              "population_split_half_stability": -0.1257765288464725,
+              "raw_observation_opposite_branch_l2": 0.3431941270828247
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.4973958333333333,
+            "stateless": 0.5
+          }
+        },
+        "noise_0.020": {
+          "axis": "noise",
+          "value": 0.02,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.02,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0,
+              "within_branch_dispersion": 0.0,
+              "separation_ratio": 0.0,
+              "reset_separation_ratio": 0.06354079580315644,
+              "history_dependent_separation": -0.06354079580315644,
+              "population_split_half_stability": 0.0,
+              "raw_observation_opposite_branch_l2": 0.13727764785289764
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5143229365348816,
+              "history_reset_transfer_probe": 0.5041232705116272,
+              "centroid_distance": 0.0006145495572127402,
+              "within_branch_dispersion": 0.005933207149306933,
+              "separation_ratio": 0.10472031862246058,
+              "reset_separation_ratio": 0.07611870013957667,
+              "history_dependent_separation": 0.02860161848288391,
+              "population_split_half_stability": 0.749379001557827,
+              "raw_observation_opposite_branch_l2": 0.13727764785289764
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5013020833333334,
+            "stateless": 0.4778645833333333
+          }
+        },
+        "noise_0.050": {
+          "axis": "noise",
+          "value": 0.05,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0,
+              "within_branch_dispersion": 0.0,
+              "separation_ratio": 0.0,
+              "reset_separation_ratio": 0.06328667400116152,
+              "history_dependent_separation": -0.06328667400116152,
+              "population_split_half_stability": 0.0,
+              "raw_observation_opposite_branch_l2": 0.3431941270828247
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5421006679534912,
+              "history_reset_transfer_probe": 0.5041232705116272,
+              "centroid_distance": 0.0012690730509348214,
+              "within_branch_dispersion": 0.022057148938377697,
+              "separation_ratio": 0.057592305772895654,
+              "reset_separation_ratio": 0.1329730569346232,
+              "history_dependent_separation": -0.07538075116172754,
+              "population_split_half_stability": 0.026683146597558032,
+              "raw_observation_opposite_branch_l2": 0.3431941270828247
+            }
+          },
+          "behavior": {
+            "tem": 0.4947916666666667,
+            "hdgm": 0.5143229166666666,
+            "stateless": 0.4895833333333333
+          }
+        },
+        "noise_0.080": {
+          "axis": "noise",
+          "value": 0.08,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.08,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.50390625,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.001988964155316353,
+              "within_branch_dispersion": 0.030011026188731194,
+              "separation_ratio": 0.06627442460861067,
+              "reset_separation_ratio": 0.06315048277417372,
+              "history_dependent_separation": 0.003123941834436955,
+              "population_split_half_stability": -0.28433021491703886,
+              "raw_observation_opposite_branch_l2": 0.5491105914115906
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5310329794883728,
+              "history_reset_transfer_probe": 0.4919704794883728,
+              "centroid_distance": 0.003787151499030491,
+              "within_branch_dispersion": 0.06001487374305725,
+              "separation_ratio": 0.06336730518393545,
+              "reset_separation_ratio": 0.10223137469293846,
+              "history_dependent_separation": -0.03886406950900301,
+              "population_split_half_stability": 0.3445487843709998,
+              "raw_observation_opposite_branch_l2": 0.5491105914115906
+            }
+          },
+          "behavior": {
+            "tem": 0.4934895833333333,
+            "hdgm": 0.5377604166666666,
+            "stateless": 0.4830729166666667
+          }
+        },
+        "noise_0.120": {
+          "axis": "noise",
+          "value": 0.12,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.12,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5026041865348816,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0072496915236115456,
+              "within_branch_dispersion": 0.12961654365062714,
+              "separation_ratio": 0.05593183370044393,
+              "reset_separation_ratio": 0.0633324562169585,
+              "history_dependent_separation": -0.00740062251651457,
+              "population_split_half_stability": 0.1698649457345406,
+              "raw_observation_opposite_branch_l2": 0.8236657977104187
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5171440839767456,
+              "history_reset_transfer_probe": 0.4780815839767456,
+              "centroid_distance": 0.00401476479601115,
+              "within_branch_dispersion": 0.0911184512078762,
+              "separation_ratio": 0.043868638431947805,
+              "reset_separation_ratio": 0.091762225008585,
+              "history_dependent_separation": -0.04789358657663719,
+              "population_split_half_stability": 0.04755148512776941,
+              "raw_observation_opposite_branch_l2": 0.8236657977104187
+            }
+          },
+          "behavior": {
+            "tem": 0.5104166666666666,
+            "hdgm": 0.5247395833333334,
+            "stateless": 0.4934895833333333
+          }
+        }
+      },
+      "curves": {
+        "representation": {
+          "alias": {
+            "tem": {
+              "transfer_probe_auc": 0.4982638855775197,
+              "transfer_probe_slope": 0.013020837306975936,
+              "stability_auc": -0.031209415630049392,
+              "history_dependent_separation_auc": -0.022232402374150872
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.5065827469031016,
+              "transfer_probe_slope": -0.051041638851166096,
+              "stability_auc": -0.0899468721569671,
+              "history_dependent_separation_auc": -0.03471236465289767
+            }
+          },
+          "noise": {
+            "tem": {
+              "transfer_probe_auc": 0.5018880248069763,
+              "transfer_probe_slope": 0.033890030699778355,
+              "stability_auc": -0.06554258607405548,
+              "history_dependent_separation_auc": -0.028903866432071903
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.5290690004825592,
+              "transfer_probe_slope": -0.023584387618111487,
+              "stability_auc": 0.2505141657683453,
+              "history_dependent_separation_auc": -0.04150512421956416
+            }
+          }
+        },
+        "behavior": {
+          "alias": {
+            "tem": {
+              "choice_auc": 0.4991319444444445,
+              "choice_slope": 0.006249999999999546
+            },
+            "hdgm": {
+              "choice_auc": 0.501953125,
+              "choice_slope": -0.02031250000000026
+            },
+            "stateless": {
+              "choice_auc": 0.49782986111111116,
+              "choice_slope": 0.013020833333333029
+            }
+          },
+          "noise": {
+            "tem": {
+              "choice_auc": 0.4982421875,
+              "choice_slope": 0.10166952054794444
+            },
+            "hdgm": {
+              "choice_auc": 0.52265625,
+              "choice_slope": 0.2663622526636214
+            },
+            "stateless": {
+              "choice_auc": 0.486328125,
+              "choice_slope": 0.12426274733637642
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 202,
+      "representation_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_202_update_150.pt",
+      "behavior_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_202_update_300.pt",
+      "frozen_parameter_audit": "PASS",
+      "conditions": {
+        "alias_0.000": {
+          "axis": "alias",
+          "value": 0.0,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.6666666865348816,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.18764686584472656,
+              "within_branch_dispersion": 0.3338465392589569,
+              "separation_ratio": 0.5620751997025235,
+              "reset_separation_ratio": 0.10187758420530951,
+              "history_dependent_separation": 0.460197615497214,
+              "population_split_half_stability": 0.995242844025294,
+              "raw_observation_opposite_branch_l2": 0.3425544500350952
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.6707899570465088,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.014845771870265404,
+              "within_branch_dispersion": 0.014386019048591455,
+              "separation_ratio": 1.031951446022961,
+              "reset_separation_ratio": 0.15828028018253612,
+              "history_dependent_separation": 0.8736711658404249,
+              "population_split_half_stability": 0.9999543378750483,
+              "raw_observation_opposite_branch_l2": 0.3425544500350952
+            }
+          },
+          "behavior": {
+            "tem": 0.6666666666666666,
+            "hdgm": 0.7317708333333334,
+            "stateless": 0.4986979166666667
+          }
+        },
+        "alias_0.250": {
+          "axis": "alias",
+          "value": 0.25,
+          "additional_alias_corruption": 0.25,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5013020634651184,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.09254720062017441,
+              "within_branch_dispersion": 0.21702460944652557,
+              "separation_ratio": 0.4264364147081379,
+              "reset_separation_ratio": 0.09413122523575783,
+              "history_dependent_separation": 0.3323051894723801,
+              "population_split_half_stability": 0.9889898548523585,
+              "raw_observation_opposite_branch_l2": 0.3425544500350952
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5026041865348816,
+              "history_reset_transfer_probe": 0.4917534589767456,
+              "centroid_distance": 0.001998132521597048,
+              "within_branch_dispersion": 0.05614052340388298,
+              "separation_ratio": 0.035591619999476805,
+              "reset_separation_ratio": 0.07237018470734091,
+              "history_dependent_separation": -0.03677856470786411,
+              "population_split_half_stability": 0.1010746502627929,
+              "raw_observation_opposite_branch_l2": 0.3425544500350952
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.6666666666666666,
+            "stateless": 0.5
+          }
+        },
+        "alias_0.500": {
+          "axis": "alias",
+          "value": 0.5,
+          "additional_alias_corruption": 0.5,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.005394878331571817,
+              "within_branch_dispersion": 0.13702546060085297,
+              "separation_ratio": 0.03937135415711709,
+              "reset_separation_ratio": 0.08121311353369387,
+              "history_dependent_separation": -0.04184175937657678,
+              "population_split_half_stability": 0.37986188335344195,
+              "raw_observation_opposite_branch_l2": 0.3425544500350952
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0021640952521314225,
+              "within_branch_dispersion": 0.07047916948795319,
+              "separation_ratio": 0.030705452679586184,
+              "reset_separation_ratio": 0.09213540648468986,
+              "history_dependent_separation": -0.061429953805103674,
+              "population_split_half_stability": -0.09561726699272792,
+              "raw_observation_opposite_branch_l2": 0.3425544500350952
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.6471354166666666,
+            "stateless": 0.5
+          }
+        },
+        "alias_0.750": {
+          "axis": "alias",
+          "value": 0.75,
+          "additional_alias_corruption": 0.75,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0005315773305483162,
+              "within_branch_dispersion": 0.09207744151353836,
+              "separation_ratio": 0.005773154250149476,
+              "reset_separation_ratio": 0.11061291538287889,
+              "history_dependent_separation": -0.10483976113272941,
+              "population_split_half_stability": -0.8646119465120137,
+              "raw_observation_opposite_branch_l2": 0.3425544500350952
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.18827484796444574,
+              "within_branch_dispersion": 0.11740207796295483,
+              "separation_ratio": 1.604014915148299,
+              "reset_separation_ratio": 0.24153098333072,
+              "history_dependent_separation": 1.362483931817579,
+              "population_split_half_stability": 0.9996200427412987,
+              "raw_observation_opposite_branch_l2": 0.3425544500350952
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.4348958333333333,
+            "stateless": 0.5
+          }
+        },
+        "noise_0.020": {
+          "axis": "noise",
+          "value": 0.02,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.02,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.6666666865348816,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.20041228830814362,
+              "within_branch_dispersion": 0.29276400804519653,
+              "separation_ratio": 0.6845523218539932,
+              "reset_separation_ratio": 0.10104416370739773,
+              "history_dependent_separation": 0.5835081581465954,
+              "population_split_half_stability": 0.9986857250332832,
+              "raw_observation_opposite_branch_l2": 0.1370217651128769
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.6675347089767456,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0013950307814714809,
+              "within_branch_dispersion": 0.0013452537823468447,
+              "separation_ratio": 1.0369085349418015,
+              "reset_separation_ratio": 0.1355484393729969,
+              "history_dependent_separation": 0.9013600955688046,
+              "population_split_half_stability": 0.40713219717144966,
+              "raw_observation_opposite_branch_l2": 0.1370217651128769
+            }
+          },
+          "behavior": {
+            "tem": 0.6666666666666666,
+            "hdgm": 0.6783854166666666,
+            "stateless": 0.5
+          }
+        },
+        "noise_0.050": {
+          "axis": "noise",
+          "value": 0.05,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.6666666865348816,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.18764686584472656,
+              "within_branch_dispersion": 0.3338465392589569,
+              "separation_ratio": 0.5620751997025235,
+              "reset_separation_ratio": 0.10187758420530951,
+              "history_dependent_separation": 0.460197615497214,
+              "population_split_half_stability": 0.9949739873409271,
+              "raw_observation_opposite_branch_l2": 0.3425544500350952
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.6707899570465088,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.014845771870265404,
+              "within_branch_dispersion": 0.014386019048591455,
+              "separation_ratio": 1.031951446022961,
+              "reset_separation_ratio": 0.15828028018253612,
+              "history_dependent_separation": 0.8736711658404249,
+              "population_split_half_stability": 0.9999902794758478,
+              "raw_observation_opposite_branch_l2": 0.3425544500350952
+            }
+          },
+          "behavior": {
+            "tem": 0.6666666666666666,
+            "hdgm": 0.7317708333333334,
+            "stateless": 0.4986979166666667
+          }
+        },
+        "noise_0.080": {
+          "axis": "noise",
+          "value": 0.08,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.08,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.6627604365348816,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.1825379580259323,
+              "within_branch_dispersion": 0.3696401119232178,
+              "separation_ratio": 0.493826149272425,
+              "reset_separation_ratio": 0.10260548431977155,
+              "history_dependent_separation": 0.39122066495265345,
+              "population_split_half_stability": 0.9922060295939445,
+              "raw_observation_opposite_branch_l2": 0.5480871200561523
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.6588541865348816,
+              "history_reset_transfer_probe": 0.5010850429534912,
+              "centroid_distance": 0.03762681037187576,
+              "within_branch_dispersion": 0.03633047081530094,
+              "separation_ratio": 1.0356769316587706,
+              "reset_separation_ratio": 0.2159678052781344,
+              "history_dependent_separation": 0.8197091263806362,
+              "population_split_half_stability": 0.9997738798459371,
+              "raw_observation_opposite_branch_l2": 0.5480871200561523
+            }
+          },
+          "behavior": {
+            "tem": 0.6653645833333334,
+            "hdgm": 0.74609375,
+            "stateless": 0.515625
+          }
+        },
+        "noise_0.120": {
+          "axis": "noise",
+          "value": 0.12,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.12,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.6341145634651184,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.17211157083511353,
+              "within_branch_dispersion": 0.43124377727508545,
+              "separation_ratio": 0.3991050443245587,
+              "reset_separation_ratio": 0.1034980420623098,
+              "history_dependent_separation": 0.2956070022622489,
+              "population_split_half_stability": 0.9832140579819679,
+              "raw_observation_opposite_branch_l2": 0.8221306204795837
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.6443142294883728,
+              "history_reset_transfer_probe": 0.5010850429534912,
+              "centroid_distance": 0.0711921788752079,
+              "within_branch_dispersion": 0.07116119315226872,
+              "separation_ratio": 1.0004274636593242,
+              "reset_separation_ratio": 0.17063827462878034,
+              "history_dependent_separation": 0.8297891890305439,
+              "population_split_half_stability": 0.9995071391264597,
+              "raw_observation_opposite_branch_l2": 0.8221306204795837
+            }
+          },
+          "behavior": {
+            "tem": 0.6627604166666666,
+            "hdgm": 0.7486979166666666,
+            "stateless": 0.4908854166666667
+          }
+        }
+      },
+      "curves": {
+        "representation": {
+          "alias": {
+            "tem": {
+              "transfer_probe_auc": 0.5282118022441864,
+              "transfer_probe_slope": -0.20052084922790583,
+              "stability_auc": 0.4780557289874802,
+              "history_dependent_separation_auc": 0.15604745242601523
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.5293330550193787,
+              "transfer_probe_slope": -0.20598962306976376,
+              "stability_auc": 0.3350815245260795,
+              "history_dependent_separation_auc": 0.33995634343867803
+            }
+          },
+          "noise": {
+            "tem": {
+              "transfer_probe_auc": 0.6587890744209289,
+              "transfer_probe_slope": -0.3210620248698742,
+              "stability_auc": 0.9922099769115448,
+              "history_dependent_separation_auc": 0.421634141557032
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.6608290046453477,
+              "transfer_probe_slope": -0.25288557897419844,
+              "stability_auc": 0.9108891991898418,
+              "history_dependent_separation_auc": 0.8501613961267797
+            }
+          }
+        },
+        "behavior": {
+          "alias": {
+            "tem": {
+              "choice_auc": 0.5277777777777778,
+              "choice_slope": -0.20000000000000037
+            },
+            "hdgm": {
+              "choice_auc": 0.6323784722222222,
+              "choice_slope": -0.3640625000000003
+            },
+            "stateless": {
+              "choice_auc": 0.49978298611111116,
+              "choice_slope": 0.0015624999999995694
+            }
+          },
+          "noise": {
+            "tem": {
+              "choice_auc": 0.6654296874999999,
+              "choice_slope": -0.04042998477929766
+            },
+            "hdgm": {
+              "choice_auc": 0.7321614583333333,
+              "choice_slope": 0.6581763698630123
+            },
+            "stateless": {
+              "choice_auc": 0.5032552083333334,
+              "choice_slope": -0.047564687975645746
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 303,
+      "representation_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_303_update_150.pt",
+      "behavior_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_303_update_300.pt",
+      "frozen_parameter_audit": "PASS",
+      "conditions": {
+        "alias_0.000": {
+          "axis": "alias",
+          "value": 0.0,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5010850429534912,
+              "centroid_distance": 0.007991299033164978,
+              "within_branch_dispersion": 0.08873482048511505,
+              "separation_ratio": 0.09005819912515063,
+              "reset_separation_ratio": 0.07830881099700322,
+              "history_dependent_separation": 0.011749388128147409,
+              "population_split_half_stability": 0.8920928885539373,
+              "raw_observation_opposite_branch_l2": 0.3442700207233429
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.9891493320465088,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0018356244545429945,
+              "within_branch_dispersion": 0.007388067276527484,
+              "separation_ratio": 0.2465899673934597,
+              "reset_separation_ratio": 0.06319128668098602,
+              "history_dependent_separation": 0.18339868071247367,
+              "population_split_half_stability": 0.8900556440154711,
+              "raw_observation_opposite_branch_l2": 0.3442700207233429
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.4830729166666667
+          }
+        },
+        "alias_0.250": {
+          "axis": "alias",
+          "value": 0.25,
+          "additional_alias_corruption": 0.25,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.4830729067325592,
+              "history_reset_transfer_probe": 0.4986979067325592,
+              "centroid_distance": 0.00855486374348402,
+              "within_branch_dispersion": 0.10018651932477951,
+              "separation_ratio": 0.08538936123589336,
+              "reset_separation_ratio": 0.06219630917525127,
+              "history_dependent_separation": 0.023193052060642087,
+              "population_split_half_stability": 0.7824033014476299,
+              "raw_observation_opposite_branch_l2": 0.3442700207233429
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5013020634651184,
+              "centroid_distance": 0.0035412055052195988,
+              "within_branch_dispersion": 0.06589291865626971,
+              "separation_ratio": 0.05431082938552797,
+              "reset_separation_ratio": 0.046294331062119165,
+              "history_dependent_separation": 0.008016498323408804,
+              "population_split_half_stability": 0.26907503775631386,
+              "raw_observation_opposite_branch_l2": 0.3442700207233429
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.734375,
+            "stateless": 0.5052083333333334
+          }
+        },
+        "alias_0.500": {
+          "axis": "alias",
+          "value": 0.5,
+          "additional_alias_corruption": 0.5,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.4973958432674408,
+              "history_reset_transfer_probe": 0.4984809160232544,
+              "centroid_distance": 0.00309957773424685,
+              "within_branch_dispersion": 0.10303343832492828,
+              "separation_ratio": 0.030083218456126614,
+              "reset_separation_ratio": 0.05982630993547013,
+              "history_dependent_separation": -0.02974309147934352,
+              "population_split_half_stability": -0.3318746332176185,
+              "raw_observation_opposite_branch_l2": 0.3442700207233429
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.4947916567325592,
+              "history_reset_transfer_probe": 0.4995659589767456,
+              "centroid_distance": 0.0019299332828571398,
+              "within_branch_dispersion": 0.06894986207286517,
+              "separation_ratio": 0.02799224574575807,
+              "reset_separation_ratio": 0.0517326672543027,
+              "history_dependent_separation": -0.02374042150854463,
+              "population_split_half_stability": -0.33903876575641334,
+              "raw_observation_opposite_branch_l2": 0.3442700207233429
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5130208333333334,
+            "stateless": 0.5
+          }
+        },
+        "alias_0.750": {
+          "axis": "alias",
+          "value": 0.75,
+          "additional_alias_corruption": 0.75,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.4973958432674408,
+              "history_reset_transfer_probe": 0.4958767294883728,
+              "centroid_distance": 0.008942445740103722,
+              "within_branch_dispersion": 0.14407701790332794,
+              "separation_ratio": 0.06206711694597058,
+              "reset_separation_ratio": 0.027393576164248007,
+              "history_dependent_separation": 0.03467354078172257,
+              "population_split_half_stability": 0.4078935112338513,
+              "raw_observation_opposite_branch_l2": 0.3442700207233429
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.004568275452281038,
+              "within_branch_dispersion": 0.05123066529631615,
+              "separation_ratio": 0.08916087061618451,
+              "reset_separation_ratio": 0.054542835034228715,
+              "history_dependent_separation": 0.034618035581955794,
+              "population_split_half_stability": 0.7257908855875334,
+              "raw_observation_opposite_branch_l2": 0.3442700207233429
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.50390625,
+            "stateless": 0.5
+          }
+        },
+        "noise_0.020": {
+          "axis": "noise",
+          "value": 0.02,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.02,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.002126297214999795,
+              "within_branch_dispersion": 0.034674085676670074,
+              "separation_ratio": 0.0613223553060229,
+              "reset_separation_ratio": 0.08937503118899408,
+              "history_dependent_separation": -0.028052675882971174,
+              "population_split_half_stability": 0.08333333333333333,
+              "raw_observation_opposite_branch_l2": 0.13770800828933716
+            },
+            "hdgm": {
+              "reference_transfer_probe": 1.0,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0018471001919048529,
+              "within_branch_dispersion": 0.005921343496690194,
+              "separation_ratio": 0.3104098837650883,
+              "reset_separation_ratio": 0.06273084249479634,
+              "history_dependent_separation": 0.247679041270292,
+              "population_split_half_stability": 0.9705103586117426,
+              "raw_observation_opposite_branch_l2": 0.13770800828933716
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.4947916666666667
+          }
+        },
+        "noise_0.050": {
+          "axis": "noise",
+          "value": 0.05,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5010850429534912,
+              "centroid_distance": 0.007991299033164978,
+              "within_branch_dispersion": 0.08873482048511505,
+              "separation_ratio": 0.09005819912515063,
+              "reset_separation_ratio": 0.07830881099700322,
+              "history_dependent_separation": 0.011749388128147409,
+              "population_split_half_stability": 0.8995705991983414,
+              "raw_observation_opposite_branch_l2": 0.3442700207233429
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.9891493320465088,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0018356244545429945,
+              "within_branch_dispersion": 0.007388067276527484,
+              "separation_ratio": 0.2465899673934597,
+              "reset_separation_ratio": 0.06319128668098602,
+              "history_dependent_separation": 0.18339868071247367,
+              "population_split_half_stability": 0.8751048495372137,
+              "raw_observation_opposite_branch_l2": 0.3442700207233429
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.4830729166666667
+          }
+        },
+        "noise_0.080": {
+          "axis": "noise",
+          "value": 0.08,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.08,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.4973958432674408,
+              "history_reset_transfer_probe": 0.5004340410232544,
+              "centroid_distance": 0.00531573174521327,
+              "within_branch_dispersion": 0.11229179799556732,
+              "separation_ratio": 0.047338553364668474,
+              "reset_separation_ratio": 0.07178295824717196,
+              "history_dependent_separation": -0.024444404882503483,
+              "population_split_half_stability": 0.15705091273412108,
+              "raw_observation_opposite_branch_l2": 0.5508320331573486
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.884765625,
+              "history_reset_transfer_probe": 0.4921875,
+              "centroid_distance": 0.0020415307953953743,
+              "within_branch_dispersion": 0.028939576509098213,
+              "separation_ratio": 0.06962216824930406,
+              "reset_separation_ratio": 0.10254004530869404,
+              "history_dependent_separation": -0.03291787705938998,
+              "population_split_half_stability": 0.3860971153092881,
+              "raw_observation_opposite_branch_l2": 0.5508320331573486
+            }
+          },
+          "behavior": {
+            "tem": 0.5026041666666666,
+            "hdgm": 0.5,
+            "stateless": 0.48046875
+          }
+        },
+        "noise_0.120": {
+          "axis": "noise",
+          "value": 0.12,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.12,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.4934895932674408,
+              "history_reset_transfer_probe": 0.5010850429534912,
+              "centroid_distance": 0.009268293157219887,
+              "within_branch_dispersion": 0.15850017964839935,
+              "separation_ratio": 0.058474965725780655,
+              "reset_separation_ratio": 0.07029022082116718,
+              "history_dependent_separation": -0.011815255095386522,
+              "population_split_half_stability": 0.37264425109606236,
+              "raw_observation_opposite_branch_l2": 0.8262479901313782
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.7217881679534912,
+              "history_reset_transfer_probe": 0.4982638955116272,
+              "centroid_distance": 0.003008798540880283,
+              "within_branch_dispersion": 0.059105840822060905,
+              "separation_ratio": 0.0505471828982746,
+              "reset_separation_ratio": 0.11109963558849674,
+              "history_dependent_separation": -0.06055245269022214,
+              "population_split_half_stability": 0.21800530810529986,
+              "raw_observation_opposite_branch_l2": 0.8262479901313782
+            }
+          },
+          "behavior": {
+            "tem": 0.5026041666666666,
+            "hdgm": 0.5052083333333334,
+            "stateless": 0.4817708333333333
+          }
+        }
+      },
+      "curves": {
+        "representation": {
+          "alias": {
+            "tem": {
+              "transfer_probe_auc": 0.4930555572112401,
+              "transfer_probe_slope": 0.002604186534881409,
+              "stability_auc": 0.36684062270796863,
+              "history_dependent_separation_auc": 0.005553808345411186
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.5797887742519379,
+              "transfer_probe_slope": -0.5890625357627877,
+              "stability_auc": 0.24598651226713422,
+              "history_dependent_separation_auc": 0.031094811654026305
+            }
+          },
+          "noise": {
+            "tem": {
+              "transfer_probe_auc": 0.4977864637970924,
+              "transfer_probe_slope": -0.06837412102581628,
+              "stability_auc": 0.41186784943565724,
+              "history_dependent_separation_auc": -0.011601677671954977
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.900770401954651,
+              "transfer_probe_slope": -2.8961943709142663,
+              "stability_auc": 0.5868430606322363,
+              "history_dependent_separation_auc": 0.06853971289545499
+            }
+          }
+        },
+        "behavior": {
+          "alias": {
+            "tem": {
+              "choice_auc": 0.5,
+              "choice_slope": -4.0167346652484283e-16
+            },
+            "hdgm": {
+              "choice_auc": 0.5831163194444445,
+              "choice_slope": -0.08385416666666706
+            },
+            "stateless": {
+              "choice_auc": 0.4989149305555556,
+              "choice_slope": 0.018229166666666366
+            }
+          },
+          "noise": {
+            "tem": {
+              "choice_auc": 0.5014322916666667,
+              "choice_slope": 0.030917047184170487
+            },
+            "hdgm": {
+              "choice_auc": 0.5010416666666667,
+              "choice_slope": 0.049942922374429786
+            },
+            "stateless": {
+              "choice_auc": 0.48365885416666665,
+              "choice_slope": -0.12010083713850994
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 404,
+      "representation_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_404_update_150.pt",
+      "behavior_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_404_update_300.pt",
+      "frozen_parameter_audit": "PASS",
+      "conditions": {
+        "alias_0.000": {
+          "axis": "alias",
+          "value": 0.0,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.4986979067325592,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0005315773305483162,
+              "within_branch_dispersion": 0.004727403167635202,
+              "separation_ratio": 0.11244571009523747,
+              "reset_separation_ratio": 0.06813565158348102,
+              "history_dependent_separation": 0.044310058511756456,
+              "population_split_half_stability": 0.0416666641831398,
+              "raw_observation_opposite_branch_l2": 0.34090209007263184
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.9973958134651184,
+              "history_reset_transfer_probe": 0.5023871660232544,
+              "centroid_distance": 0.776704728603363,
+              "within_branch_dispersion": 0.04141406528651714,
+              "separation_ratio": 18.755606742959475,
+              "reset_separation_ratio": 0.1488044834792628,
+              "history_dependent_separation": 18.60680225948021,
+              "population_split_half_stability": 0.9999542857209841,
+              "raw_observation_opposite_branch_l2": 0.34090209007263184
+            }
+          },
+          "behavior": {
+            "tem": 0.484375,
+            "hdgm": 1.0,
+            "stateless": 0.4466145833333333
+          }
+        },
+        "alias_0.250": {
+          "axis": "alias",
+          "value": 0.25,
+          "additional_alias_corruption": 0.25,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0010631424374878407,
+              "within_branch_dispersion": 0.0031617535278201103,
+              "separation_ratio": 0.33624982644442997,
+              "reset_separation_ratio": 0.06028328914182234,
+              "history_dependent_separation": 0.2759665373026076,
+              "population_split_half_stability": 0.375,
+              "raw_observation_opposite_branch_l2": 0.34090209007263184
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5004340410232544,
+              "history_reset_transfer_probe": 0.5043402910232544,
+              "centroid_distance": 0.0060226220327119035,
+              "within_branch_dispersion": 0.06071780497829119,
+              "separation_ratio": 0.09898522770734358,
+              "reset_separation_ratio": 0.09435244331175556,
+              "history_dependent_separation": 0.004632784395588022,
+              "population_split_half_stability": 0.762814503783981,
+              "raw_observation_opposite_branch_l2": 0.34090209007263184
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.5
+          }
+        },
+        "alias_0.500": {
+          "axis": "alias",
+          "value": 0.5,
+          "additional_alias_corruption": 0.5,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.002657866571098566,
+              "within_branch_dispersion": 0.13265419006347656,
+              "separation_ratio": 0.020036052909193577,
+              "reset_separation_ratio": 0.06599805179281863,
+              "history_dependent_separation": -0.04596199888362505,
+              "population_split_half_stability": -0.5621430768320957,
+              "raw_observation_opposite_branch_l2": 0.34090209007263184
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0015005221357569098,
+              "within_branch_dispersion": 0.05135833223660787,
+              "separation_ratio": 0.029188695996854832,
+              "reset_separation_ratio": 0.07476038143354109,
+              "history_dependent_separation": -0.04557168543668626,
+              "population_split_half_stability": -0.29036512443174917,
+              "raw_observation_opposite_branch_l2": 0.34090209007263184
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.5
+          }
+        },
+        "alias_0.750": {
+          "axis": "alias",
+          "value": 0.75,
+          "additional_alias_corruption": 0.75,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5017361044883728,
+              "centroid_distance": 0.002255274448543787,
+              "within_branch_dispersion": 0.055652305483818054,
+              "separation_ratio": 0.0405243596593847,
+              "reset_separation_ratio": 0.08251337194614392,
+              "history_dependent_separation": -0.04198901228675921,
+              "population_split_half_stability": -0.06940189943027993,
+              "raw_observation_opposite_branch_l2": 0.34090209007263184
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.004860888933762908,
+              "within_branch_dispersion": 0.052533826480309166,
+              "separation_ratio": 0.09190625879723359,
+              "reset_separation_ratio": 0.07120729811744489,
+              "history_dependent_separation": 0.0206989606797887,
+              "population_split_half_stability": 0.8160371904571851,
+              "raw_observation_opposite_branch_l2": 0.34090209007263184
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.4973958333333333,
+            "stateless": 0.5
+          }
+        },
+        "noise_0.020": {
+          "axis": "noise",
+          "value": 0.02,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.02,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0,
+              "within_branch_dispersion": 0.0,
+              "separation_ratio": 0.0,
+              "reset_separation_ratio": 0.0680512378637488,
+              "history_dependent_separation": -0.0680512378637488,
+              "population_split_half_stability": 0.0,
+              "raw_observation_opposite_branch_l2": 0.13636082410812378
+            },
+            "hdgm": {
+              "reference_transfer_probe": 1.0,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.8001922070980072,
+              "within_branch_dispersion": 0.0011948700218151014,
+              "separation_ratio": 671.3978319097658,
+              "reset_separation_ratio": 0.0388704795645806,
+              "history_dependent_separation": 671.3589614302012,
+              "population_split_half_stability": 0.9999985297520956,
+              "raw_observation_opposite_branch_l2": 0.13636082410812378
+            }
+          },
+          "behavior": {
+            "tem": 0.4986979166666667,
+            "hdgm": 1.0,
+            "stateless": 0.4739583333333333
+          }
+        },
+        "noise_0.050": {
+          "axis": "noise",
+          "value": 0.05,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.4986979067325592,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0005315773305483162,
+              "within_branch_dispersion": 0.004727403167635202,
+              "separation_ratio": 0.11244571009523747,
+              "reset_separation_ratio": 0.06813565158348102,
+              "history_dependent_separation": 0.044310058511756456,
+              "population_split_half_stability": 0.08333334575096767,
+              "raw_observation_opposite_branch_l2": 0.34090209007263184
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.9973958134651184,
+              "history_reset_transfer_probe": 0.5023871660232544,
+              "centroid_distance": 0.776704728603363,
+              "within_branch_dispersion": 0.04141406528651714,
+              "separation_ratio": 18.755606742959475,
+              "reset_separation_ratio": 0.1488044834792628,
+              "history_dependent_separation": 18.60680225948021,
+              "population_split_half_stability": 0.9999479874968529,
+              "raw_observation_opposite_branch_l2": 0.34090209007263184
+            }
+          },
+          "behavior": {
+            "tem": 0.484375,
+            "hdgm": 1.0,
+            "stateless": 0.4466145833333333
+          }
+        },
+        "noise_0.080": {
+          "axis": "noise",
+          "value": 0.08,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.08,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5026041865348816,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0009207189432345331,
+              "within_branch_dispersion": 0.03828492388129234,
+              "separation_ratio": 0.02404911932431039,
+              "reset_separation_ratio": 0.06824401868275186,
+              "history_dependent_separation": -0.04419489935844147,
+              "population_split_half_stability": -0.7498077573254704,
+              "raw_observation_opposite_branch_l2": 0.5454432964324951
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.9891493320465088,
+              "history_reset_transfer_probe": 0.5021701455116272,
+              "centroid_distance": 0.6927349070707957,
+              "within_branch_dispersion": 0.12317873537540436,
+              "separation_ratio": 5.625662875918995,
+              "reset_separation_ratio": 0.07992638695299124,
+              "history_dependent_separation": 5.545736488966004,
+              "population_split_half_stability": 0.9998213971654574,
+              "raw_observation_opposite_branch_l2": 0.5454432964324951
+            }
+          },
+          "behavior": {
+            "tem": 0.4947916666666667,
+            "hdgm": 0.9947916666666666,
+            "stateless": 0.4557291666666667
+          }
+        },
+        "noise_0.120": {
+          "axis": "noise",
+          "value": 0.12,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.12,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5065104365348816,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.002317072357982397,
+              "within_branch_dispersion": 0.08987771719694138,
+              "separation_ratio": 0.025780273158278633,
+              "reset_separation_ratio": 0.06836874637729397,
+              "history_dependent_separation": -0.042588473219015335,
+              "population_split_half_stability": -0.4515365768844883,
+              "raw_observation_opposite_branch_l2": 0.8181650042533875
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.9654948115348816,
+              "history_reset_transfer_probe": 0.4965277910232544,
+              "centroid_distance": 0.5736373066902161,
+              "within_branch_dispersion": 0.2022092342376709,
+              "separation_ratio": 2.8380039761291758,
+              "reset_separation_ratio": 0.04881430167029641,
+              "history_dependent_separation": 2.7891896744588793,
+              "population_split_half_stability": 0.9994662205378214,
+              "raw_observation_opposite_branch_l2": 0.8181650042533875
+            }
+          },
+          "behavior": {
+            "tem": 0.48828125,
+            "hdgm": 0.9895833333333334,
+            "stateless": 0.4557291666666667
+          }
+        }
+      },
+      "curves": {
+        "representation": {
+          "alias": {
+            "tem": {
+              "transfer_probe_auc": 0.4997829844554265,
+              "transfer_probe_slope": 0.0015625119209285048,
+              "stability_auc": -0.06700356481855528,
+              "history_dependent_separation_auc": 0.07705502051049373
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.5830439825852712,
+              "transfer_probe_slope": -0.5970485925674442,
+              "stability_auc": 0.46014837248043877,
+              "history_dependent_separation_auc": 3.090937236346301
+            }
+          },
+          "noise": {
+            "tem": {
+              "transfer_probe_auc": 0.5018229246139526,
+              "transfer_probe_slope": 0.07253641679406676,
+              "stability_auc": -0.327740026715522,
+              "history_dependent_separation_auc": -0.020900577545292964
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.98851997256279,
+              "transfer_probe_slope": -0.3473210008177043,
+              "stability_auc": 0.9998149088273446,
+              "history_dependent_separation_auc": 108.78473059840414
+            }
+          }
+        },
+        "behavior": {
+          "alias": {
+            "tem": {
+              "choice_auc": 0.4973958333333333,
+              "choice_slope": 0.01874999999999992
+            },
+            "hdgm": {
+              "choice_auc": 0.5828993055555555,
+              "choice_slope": -0.6031250000000004
+            },
+            "stateless": {
+              "choice_auc": 0.4911024305555555,
+              "choice_slope": 0.06406249999999995
+            }
+          },
+          "noise": {
+            "tem": {
+              "choice_auc": 0.49095052083333346,
+              "choice_slope": -0.06302321156773343
+            },
+            "hdgm": {
+              "choice_auc": 0.9960937500000001,
+              "choice_slope": -0.11177701674276948
+            },
+            "stateless": {
+              "choice_auc": 0.4557291666666667,
+              "choice_slope": -0.12901921613394202
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 505,
+      "representation_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_505_update_150.pt",
+      "behavior_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_505_update_300.pt",
+      "frozen_parameter_audit": "PASS",
+      "conditions": {
+        "alias_0.000": {
+          "axis": "alias",
+          "value": 0.0,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.4993489682674408,
+              "centroid_distance": 0.0009207189432345331,
+              "within_branch_dispersion": 0.015573764219880104,
+              "separation_ratio": 0.059119833781796104,
+              "reset_separation_ratio": 0.0722724038787033,
+              "history_dependent_separation": -0.0131525700969072,
+              "population_split_half_stability": -0.5116755655035377,
+              "raw_observation_opposite_branch_l2": 0.3418947756290436
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.677734375,
+              "history_reset_transfer_probe": 0.4993489682674408,
+              "centroid_distance": 0.0023714453369999924,
+              "within_branch_dispersion": 0.02514632387707631,
+              "separation_ratio": 0.09431529564702468,
+              "reset_separation_ratio": 0.04187675942674266,
+              "history_dependent_separation": 0.052438536220282016,
+              "population_split_half_stability": 0.5113224207113186,
+              "raw_observation_opposite_branch_l2": 0.3418947756290436
+            }
+          },
+          "behavior": {
+            "tem": 0.4986979166666667,
+            "hdgm": 0.4986979166666667,
+            "stateless": 0.5078125
+          }
+        },
+        "alias_0.250": {
+          "axis": "alias",
+          "value": 0.25,
+          "additional_alias_corruption": 0.25,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.484375,
+              "history_reset_transfer_probe": 0.5047743320465088,
+              "centroid_distance": 0.009479313157498837,
+              "within_branch_dispersion": 0.1927892565727234,
+              "separation_ratio": 0.049169299339198835,
+              "reset_separation_ratio": 0.04992287036793381,
+              "history_dependent_separation": -0.0007535710287349742,
+              "population_split_half_stability": 0.21724821629080301,
+              "raw_observation_opposite_branch_l2": 0.3418947756290436
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.4978298544883728,
+              "history_reset_transfer_probe": 0.4967447817325592,
+              "centroid_distance": 0.0015417769900523126,
+              "within_branch_dispersion": 0.02889416553080082,
+              "separation_ratio": 0.05337323243880893,
+              "reset_separation_ratio": 0.06622251134221582,
+              "history_dependent_separation": -0.01284927890340689,
+              "population_split_half_stability": 0.022991529976328213,
+              "raw_observation_opposite_branch_l2": 0.3418947756290436
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5013020833333334,
+            "stateless": 0.5
+          }
+        },
+        "alias_0.500": {
+          "axis": "alias",
+          "value": 0.5,
+          "additional_alias_corruption": 0.5,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5065104365348816,
+              "history_reset_transfer_probe": 0.4969618022441864,
+              "centroid_distance": 0.012004613876342773,
+              "within_branch_dispersion": 0.1878829151391983,
+              "separation_ratio": 0.06389411846472381,
+              "reset_separation_ratio": 0.0638028581197893,
+              "history_dependent_separation": 9.126034493452118e-05,
+              "population_split_half_stability": 0.5500577931913236,
+              "raw_observation_opposite_branch_l2": 0.3418947756290436
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.4997829794883728,
+              "history_reset_transfer_probe": 0.5052083134651184,
+              "centroid_distance": 0.0009386175273296734,
+              "within_branch_dispersion": 0.04103856502721707,
+              "separation_ratio": 0.02295790557868391,
+              "reset_separation_ratio": 0.0672099789446469,
+              "history_dependent_separation": -0.044252073365963,
+              "population_split_half_stability": -0.5058331155839065,
+              "raw_observation_opposite_branch_l2": 0.3418947756290436
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.4921875,
+            "stateless": 0.5
+          }
+        },
+        "alias_0.750": {
+          "axis": "alias",
+          "value": 0.75,
+          "additional_alias_corruption": 0.75,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5078125,
+              "history_reset_transfer_probe": 0.4926215410232544,
+              "centroid_distance": 0.007190987467765808,
+              "within_branch_dispersion": 0.1956738382577896,
+              "separation_ratio": 0.03674986479691489,
+              "reset_separation_ratio": 0.06755156091300323,
+              "history_dependent_separation": -0.030801696116088337,
+              "population_split_half_stability": -0.07843596271402475,
+              "raw_observation_opposite_branch_l2": 0.3418947756290436
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.501953125,
+              "centroid_distance": 0.0034756571985781193,
+              "within_branch_dispersion": 0.0704850082596143,
+              "separation_ratio": 0.04944230301710198,
+              "reset_separation_ratio": 0.04684374577448728,
+              "history_dependent_separation": 0.0025985572426147005,
+              "population_split_half_stability": 0.11587583102906744,
+              "raw_observation_opposite_branch_l2": 0.3418947756290436
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.5
+          }
+        },
+        "noise_0.020": {
+          "axis": "noise",
+          "value": 0.02,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.02,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5004340410232544,
+              "centroid_distance": 0.0,
+              "within_branch_dispersion": 0.0,
+              "separation_ratio": 0.0,
+              "reset_separation_ratio": 0.0879887010919063,
+              "history_dependent_separation": -0.0879887010919063,
+              "population_split_half_stability": 0.0,
+              "raw_observation_opposite_branch_l2": 0.13675791025161743
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.7198350429534912,
+              "history_reset_transfer_probe": 0.4906684160232544,
+              "centroid_distance": 0.0005369326730336373,
+              "within_branch_dispersion": 0.007521980286886294,
+              "separation_ratio": 0.07148369032811568,
+              "reset_separation_ratio": 0.09114888860985647,
+              "history_dependent_separation": -0.019665198281740792,
+              "population_split_half_stability": 0.6339520160108805,
+              "raw_observation_opposite_branch_l2": 0.13675791025161743
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.5
+          }
+        },
+        "noise_0.050": {
+          "axis": "noise",
+          "value": 0.05,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.4993489682674408,
+              "centroid_distance": 0.0009207189432345331,
+              "within_branch_dispersion": 0.015573764219880104,
+              "separation_ratio": 0.059119833781796104,
+              "reset_separation_ratio": 0.0722724038787033,
+              "history_dependent_separation": -0.0131525700969072,
+              "population_split_half_stability": -0.5516831013374031,
+              "raw_observation_opposite_branch_l2": 0.3418947756290436
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.677734375,
+              "history_reset_transfer_probe": 0.4993489682674408,
+              "centroid_distance": 0.0023714453369999924,
+              "within_branch_dispersion": 0.02514632387707631,
+              "separation_ratio": 0.09431529564702468,
+              "reset_separation_ratio": 0.04187675942674266,
+              "history_dependent_separation": 0.052438536220282016,
+              "population_split_half_stability": 0.6699394434690475,
+              "raw_observation_opposite_branch_l2": 0.3418947756290436
+            }
+          },
+          "behavior": {
+            "tem": 0.4986979166666667,
+            "hdgm": 0.4986979166666667,
+            "stateless": 0.5078125
+          }
+        },
+        "noise_0.080": {
+          "axis": "noise",
+          "value": 0.08,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.08,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5104166865348816,
+              "history_reset_transfer_probe": 0.5010850429534912,
+              "centroid_distance": 0.004048343747854233,
+              "within_branch_dispersion": 0.1099751889705658,
+              "separation_ratio": 0.036811424627999516,
+              "reset_separation_ratio": 0.05838898631469153,
+              "history_dependent_separation": -0.02157756168669201,
+              "population_split_half_stability": -0.3453266109378698,
+              "raw_observation_opposite_branch_l2": 0.547031581401825
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.6321614384651184,
+              "history_reset_transfer_probe": 0.4989149272441864,
+              "centroid_distance": 0.00240486697293818,
+              "within_branch_dispersion": 0.043340896566708885,
+              "separation_ratio": 0.055487453981699054,
+              "reset_separation_ratio": 0.03554470165135327,
+              "history_dependent_separation": 0.019942752330345787,
+              "population_split_half_stability": 0.5039510964804018,
+              "raw_observation_opposite_branch_l2": 0.547031581401825
+            }
+          },
+          "behavior": {
+            "tem": 0.49609375,
+            "hdgm": 0.5052083333333334,
+            "stateless": 0.4973958333333333
+          }
+        },
+        "noise_0.120": {
+          "axis": "noise",
+          "value": 0.12,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.12,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5026041865348816,
+              "history_reset_transfer_probe": 0.498046875,
+              "centroid_distance": 0.01256808452308178,
+              "within_branch_dispersion": 0.2397562563419342,
+              "separation_ratio": 0.05242025459788192,
+              "reset_separation_ratio": 0.052570748429914306,
+              "history_dependent_separation": -0.00015049383203238897,
+              "population_split_half_stability": 0.15048141472895318,
+              "raw_observation_opposite_branch_l2": 0.8205474019050598
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5805121660232544,
+              "history_reset_transfer_probe": 0.4837239682674408,
+              "centroid_distance": 0.002909856770808498,
+              "within_branch_dispersion": 0.06074930230776469,
+              "separation_ratio": 0.04789840771033751,
+              "reset_separation_ratio": 0.0758480089426443,
+              "history_dependent_separation": -0.027949601232306796,
+              "population_split_half_stability": 0.10935153501729171,
+              "raw_observation_opposite_branch_l2": 0.8205474019050598
+            }
+          },
+          "behavior": {
+            "tem": 0.4869791666666667,
+            "hdgm": 0.4895833333333333,
+            "stateless": 0.5
+          }
+        }
+      },
+      "curves": {
+        "representation": {
+          "alias": {
+            "tem": {
+              "transfer_probe_auc": 0.4982638955116272,
+              "transfer_probe_slope": 0.018229174613952244,
+              "stability_auc": 0.15741674845778184,
+              "history_dependent_separation_auc": -0.007546481263432741
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.5288266738255819,
+              "transfer_probe_slope": -0.21250000000000038,
+              "stability_auc": -0.056414153245795094,
+              "history_dependent_separation_auc": -0.009860935179307176
+            }
+          },
+          "noise": {
+            "tem": {
+              "transfer_probe_auc": 0.5041666775941849,
+              "transfer_probe_slope": 0.048754041053389395,
+              "stability_auc": -0.2562729612836847,
+              "history_dependent_separation_auc": -0.02472632154960679
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.6486545056104661,
+              "transfer_probe_slope": -1.4015724942020102,
+              "stability_auc": 0.49432782621394533,
+              "history_dependent_separation_auc": 0.014171824192983155
+            }
+          }
+        },
+        "behavior": {
+          "alias": {
+            "tem": {
+              "choice_auc": 0.49978298611111116,
+              "choice_slope": 0.0015624999999995694
+            },
+            "hdgm": {
+              "choice_auc": 0.49761284722222227,
+              "choice_slope": -0.0020833333333336902
+            },
+            "stateless": {
+              "choice_auc": 0.5013020833333334,
+              "choice_slope": -0.009375000000000203
+            }
+          },
+          "noise": {
+            "tem": {
+              "choice_auc": 0.4956380208333334,
+              "choice_slope": -0.12961377473363694
+            },
+            "hdgm": {
+              "choice_auc": 0.49934895833333337,
+              "choice_slope": -0.08383276255707671
+            },
+            "stateless": {
+              "choice_auc": 0.5014322916666667,
+              "choice_slope": -0.030917047184170345
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 606,
+      "representation_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_606_update_150.pt",
+      "behavior_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_606_update_300.pt",
+      "frozen_parameter_audit": "PASS",
+      "conditions": {
+        "alias_0.000": {
+          "axis": "alias",
+          "value": 0.0,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.49609375,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.002255274448543787,
+              "within_branch_dispersion": 0.016502272337675095,
+              "separation_ratio": 0.1366643960147829,
+              "reset_separation_ratio": 0.08202008908687582,
+              "history_dependent_separation": 0.054644306927907074,
+              "population_split_half_stability": 0.28041170180464786,
+              "raw_observation_opposite_branch_l2": 0.34295210242271423
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5193142294883728,
+              "history_reset_transfer_probe": 0.501953125,
+              "centroid_distance": 0.0028458216693252325,
+              "within_branch_dispersion": 0.04373553146918615,
+              "separation_ratio": 0.06483378073981741,
+              "reset_separation_ratio": 0.03275168415796568,
+              "history_dependent_separation": 0.03208209658185173,
+              "population_split_half_stability": 0.7060950789600611,
+              "raw_observation_opposite_branch_l2": 0.34295210242271423
+            }
+          },
+          "behavior": {
+            "tem": 0.5013020833333334,
+            "hdgm": 0.5,
+            "stateless": 0.5247395833333334
+          }
+        },
+        "alias_0.250": {
+          "axis": "alias",
+          "value": 0.25,
+          "additional_alias_corruption": 0.25,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5026041865348816,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.001988964155316353,
+              "within_branch_dispersion": 0.04957688972353935,
+              "separation_ratio": 0.040118768345895235,
+              "reset_separation_ratio": 0.059263600637739354,
+              "history_dependent_separation": -0.01914483229184412,
+              "population_split_half_stability": -0.42845028763016063,
+              "raw_observation_opposite_branch_l2": 0.34295210242271423
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.4995659589767456,
+              "history_reset_transfer_probe": 0.5010850429534912,
+              "centroid_distance": 0.007609875329459707,
+              "within_branch_dispersion": 0.11917899176478386,
+              "separation_ratio": 0.06373034257546045,
+              "reset_separation_ratio": 0.07968611550646215,
+              "history_dependent_separation": -0.0159557729310017,
+              "population_split_half_stability": 0.15601051862662038,
+              "raw_observation_opposite_branch_l2": 0.34295210242271423
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.4908854166666667,
+            "stateless": 0.5
+          }
+        },
+        "alias_0.500": {
+          "axis": "alias",
+          "value": 0.5,
+          "additional_alias_corruption": 0.5,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0019166123820468783,
+              "within_branch_dispersion": 0.08139963448047638,
+              "separation_ratio": 0.023545709496391915,
+              "reset_separation_ratio": 0.051820117736256784,
+              "history_dependent_separation": -0.02827440823986487,
+              "population_split_half_stability": -0.3093498746554057,
+              "raw_observation_opposite_branch_l2": 0.34295210242271423
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0008704286883585155,
+              "within_branch_dispersion": 0.021430174199243385,
+              "separation_ratio": 0.040618176208266285,
+              "reset_separation_ratio": 0.03481442770897639,
+              "history_dependent_separation": 0.005803748499289892,
+              "population_split_half_stability": 0.020018423597017925,
+              "raw_observation_opposite_branch_l2": 0.34295210242271423
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.5
+          }
+        },
+        "alias_0.750": {
+          "axis": "alias",
+          "value": 0.75,
+          "additional_alias_corruption": 0.75,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.4986979067325592,
+              "history_reset_transfer_probe": 0.5008680820465088,
+              "centroid_distance": 0.0026578695978969336,
+              "within_branch_dispersion": 0.13654328882694244,
+              "separation_ratio": 0.01946539757520849,
+              "reset_separation_ratio": 0.06392241395270645,
+              "history_dependent_separation": -0.044457016377497965,
+              "population_split_half_stability": -0.5717891672005256,
+              "raw_observation_opposite_branch_l2": 0.34295210242271423
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0013170714179674785,
+              "within_branch_dispersion": 0.06350166102250417,
+              "separation_ratio": 0.0207405370110816,
+              "reset_separation_ratio": 0.09534601346470419,
+              "history_dependent_separation": -0.07460547645362259,
+              "population_split_half_stability": -0.5143753085285425,
+              "raw_observation_opposite_branch_l2": 0.34295210242271423
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.5
+          }
+        },
+        "noise_0.020": {
+          "axis": "noise",
+          "value": 0.02,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.02,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0,
+              "within_branch_dispersion": 0.0,
+              "separation_ratio": 0.0,
+              "reset_separation_ratio": 0.08217691586821184,
+              "history_dependent_separation": -0.08217691586821184,
+              "population_split_half_stability": 0.0,
+              "raw_observation_opposite_branch_l2": 0.13718083500862122
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.51953125,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0032286407270779214,
+              "within_branch_dispersion": 0.04017249339570602,
+              "separation_ratio": 0.08035982389856124,
+              "reset_separation_ratio": 0.054926232062836755,
+              "history_dependent_separation": 0.02543359183572448,
+              "population_split_half_stability": 0.9165955409407616,
+              "raw_observation_opposite_branch_l2": 0.13718083500862122
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.5130208333333334
+          }
+        },
+        "noise_0.050": {
+          "axis": "noise",
+          "value": 0.05,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.49609375,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.002255274448543787,
+              "within_branch_dispersion": 0.016502272337675095,
+              "separation_ratio": 0.1366643960147829,
+              "reset_separation_ratio": 0.08202008908687582,
+              "history_dependent_separation": 0.054644306927907074,
+              "population_split_half_stability": 0.3237006140407175,
+              "raw_observation_opposite_branch_l2": 0.34295210242271423
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5193142294883728,
+              "history_reset_transfer_probe": 0.501953125,
+              "centroid_distance": 0.0028458216693252325,
+              "within_branch_dispersion": 0.04373553146918615,
+              "separation_ratio": 0.06483378073981741,
+              "reset_separation_ratio": 0.03275168415796568,
+              "history_dependent_separation": 0.03208209658185173,
+              "population_split_half_stability": 0.6081849187612534,
+              "raw_observation_opposite_branch_l2": 0.34295210242271423
+            }
+          },
+          "behavior": {
+            "tem": 0.5013020833333334,
+            "hdgm": 0.5,
+            "stateless": 0.5247395833333334
+          }
+        },
+        "noise_0.080": {
+          "axis": "noise",
+          "value": 0.08,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.08,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.4934895932674408,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0049296035431325436,
+              "within_branch_dispersion": 0.07028258591890335,
+              "separation_ratio": 0.0701397476669849,
+              "reset_separation_ratio": 0.0817519170839603,
+              "history_dependent_separation": -0.011612169416975404,
+              "population_split_half_stability": 0.33522269160797197,
+              "raw_observation_opposite_branch_l2": 0.5487233400344849
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5171440839767456,
+              "history_reset_transfer_probe": 0.505859375,
+              "centroid_distance": 0.0030401848489418626,
+              "within_branch_dispersion": 0.05694097590943178,
+              "separation_ratio": 0.053313580181106025,
+              "reset_separation_ratio": 0.04860467571367105,
+              "history_dependent_separation": 0.0047089044674349725,
+              "population_split_half_stability": 0.09101008026239772,
+              "raw_observation_opposite_branch_l2": 0.5487233400344849
+            }
+          },
+          "behavior": {
+            "tem": 0.5013020833333334,
+            "hdgm": 0.4986979166666667,
+            "stateless": 0.5234375
+          }
+        },
+        "noise_0.120": {
+          "axis": "noise",
+          "value": 0.12,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.12,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.4908854067325592,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.008669698610901833,
+              "within_branch_dispersion": 0.1411643922328949,
+              "separation_ratio": 0.061415615224286145,
+              "reset_separation_ratio": 0.08131930804618251,
+              "history_dependent_separation": -0.019903692821896364,
+              "population_split_half_stability": 0.47449300345033407,
+              "raw_observation_opposite_branch_l2": 0.8230850100517273
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5164930820465088,
+              "history_reset_transfer_probe": 0.5054253339767456,
+              "centroid_distance": 0.0032938067258025208,
+              "within_branch_dispersion": 0.07866908982396126,
+              "separation_ratio": 0.041886642480065545,
+              "reset_separation_ratio": 0.07693414952139903,
+              "history_dependent_separation": -0.035047507041333484,
+              "population_split_half_stability": -0.09918034738317753,
+              "raw_observation_opposite_branch_l2": 0.8230850100517273
+            }
+          },
+          "behavior": {
+            "tem": 0.5078125,
+            "hdgm": 0.4947916666666667,
+            "stateless": 0.5234375
+          }
+        }
+      },
+      "curves": {
+        "representation": {
+          "alias": {
+            "tem": {
+              "transfer_probe_auc": 0.5000000049670538,
+              "transfer_probe_slope": 0.0020833134651181005,
+              "stability_auc": -0.294496298327835,
+              "history_dependent_separation_auc": -0.014108531752168143
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.5030743579069773,
+              "transfer_probe_slope": -0.023003458976745945,
+              "stability_auc": 0.0906296091464659,
+              "history_dependent_separation_auc": -0.010471238122532414
+            }
+          },
+          "noise": {
+            "tem": {
+              "transfer_probe_auc": 0.4947265639901161,
+              "transfer_probe_slope": -0.08977842113198868,
+              "stability_auc": 0.3093367269650722,
+              "history_dependent_separation_auc": -0.003978243162180318
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.5180230021476746,
+              "transfer_probe_slope": -0.03388959523205266,
+              "stability_auc": 0.331962265384694,
+              "history_dependent_separation_auc": 0.008078282905249737
+            }
+          }
+        },
+        "behavior": {
+          "alias": {
+            "tem": {
+              "choice_auc": 0.500217013888889,
+              "choice_slope": -0.0015625000000004466
+            },
+            "hdgm": {
+              "choice_auc": 0.4969618055555556,
+              "choice_slope": 0.0036458333333328347
+            },
+            "stateless": {
+              "choice_auc": 0.504123263888889,
+              "choice_slope": -0.029687500000000273
+            }
+          },
+          "noise": {
+            "tem": {
+              "choice_auc": 0.5024088541666668,
+              "choice_slope": 0.07372526636225193
+            },
+            "hdgm": {
+              "choice_auc": 0.4985026041666667,
+              "choice_slope": -0.05291571537290718
+            },
+            "stateless": {
+              "choice_auc": 0.5222656250000001,
+              "choice_slope": 0.08621099695585824
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 707,
+      "representation_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_707_update_150.pt",
+      "behavior_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_707_update_300.pt",
+      "frozen_parameter_audit": "PASS",
+      "conditions": {
+        "alias_0.000": {
+          "axis": "alias",
+          "value": 0.0,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5221354365348816,
+              "history_reset_transfer_probe": 0.5010850429534912,
+              "centroid_distance": 0.007479900494217873,
+              "within_branch_dispersion": 0.08778134733438492,
+              "separation_ratio": 0.08521058139628372,
+              "reset_separation_ratio": 0.06490762144523422,
+              "history_dependent_separation": 0.0203029599510495,
+              "population_split_half_stability": 0.5961616507653767,
+              "raw_observation_opposite_branch_l2": 0.3432524502277374
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.7026909589767456,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0012326973082963377,
+              "within_branch_dispersion": 0.07175857325394948,
+              "separation_ratio": 0.0170261222958831,
+              "reset_separation_ratio": 0.0941114146469302,
+              "history_dependent_separation": -0.0770852923510471,
+              "population_split_half_stability": -0.6009197460953146,
+              "raw_observation_opposite_branch_l2": 0.3432524502277374
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.4986979166666667,
+            "stateless": 0.4973958333333333
+          }
+        },
+        "alias_0.250": {
+          "axis": "alias",
+          "value": 0.25,
+          "additional_alias_corruption": 0.25,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5013020634651184,
+              "history_reset_transfer_probe": 0.4997829794883728,
+              "centroid_distance": 0.005749840755015612,
+              "within_branch_dispersion": 0.09967450052499771,
+              "separation_ratio": 0.05768616996191408,
+              "reset_separation_ratio": 0.06824547597821626,
+              "history_dependent_separation": -0.01055930601630218,
+              "population_split_half_stability": 0.3821760465701421,
+              "raw_observation_opposite_branch_l2": 0.3432524502277374
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.002444141466791431,
+              "within_branch_dispersion": 0.040577696015437446,
+              "separation_ratio": 0.06024188305699723,
+              "reset_separation_ratio": 0.12064620663355868,
+              "history_dependent_separation": -0.060404323576561454,
+              "population_split_half_stability": 0.22881808037830828,
+              "raw_observation_opposite_branch_l2": 0.3432524502277374
+            }
+          },
+          "behavior": {
+            "tem": 0.5065104166666666,
+            "hdgm": 0.5,
+            "stateless": 0.5052083333333334
+          }
+        },
+        "alias_0.500": {
+          "axis": "alias",
+          "value": 0.5,
+          "additional_alias_corruption": 0.5,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.00271050538867712,
+              "within_branch_dispersion": 0.09200288355350494,
+              "separation_ratio": 0.02946108849392662,
+              "reset_separation_ratio": 0.04548023102585672,
+              "history_dependent_separation": -0.0160191425319301,
+              "population_split_half_stability": 0.1968550905585289,
+              "raw_observation_opposite_branch_l2": 0.3432524502277374
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.010751201305538416,
+              "within_branch_dispersion": 0.02911237192650636,
+              "separation_ratio": 0.36963871636887924,
+              "reset_separation_ratio": 0.07437524305150149,
+              "history_dependent_separation": 0.29526347331737773,
+              "population_split_half_stability": 0.981547030309836,
+              "raw_observation_opposite_branch_l2": 0.3432524502277374
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.5
+          }
+        },
+        "alias_0.750": {
+          "axis": "alias",
+          "value": 0.75,
+          "additional_alias_corruption": 0.75,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.008620670065283775,
+              "within_branch_dispersion": 0.10273974388837814,
+              "separation_ratio": 0.08390783254795144,
+              "reset_separation_ratio": 0.039837010120186415,
+              "history_dependent_separation": 0.04407082242776502,
+              "population_split_half_stability": 0.7344815228134394,
+              "raw_observation_opposite_branch_l2": 0.3432524502277374
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0021684053742016354,
+              "within_branch_dispersion": 0.033884089440107346,
+              "separation_ratio": 0.0639939642218078,
+              "reset_separation_ratio": 0.07079931794073811,
+              "history_dependent_separation": -0.006805353718930318,
+              "population_split_half_stability": 0.3672154302378961,
+              "raw_observation_opposite_branch_l2": 0.3432524502277374
+            }
+          },
+          "behavior": {
+            "tem": 0.51953125,
+            "hdgm": 0.5,
+            "stateless": 0.5
+          }
+        },
+        "noise_0.020": {
+          "axis": "noise",
+          "value": 0.02,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.02,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5078125,
+              "history_reset_transfer_probe": 0.4997829794883728,
+              "centroid_distance": 0.0031894396524876356,
+              "within_branch_dispersion": 0.012334161438047886,
+              "separation_ratio": 0.2585856430249542,
+              "reset_separation_ratio": 0.06653355985666812,
+              "history_dependent_separation": 0.19205208316828606,
+              "population_split_half_stability": 0.958333320915699,
+              "raw_observation_opposite_branch_l2": 0.1373009830713272
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.712890625,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0017707189545035362,
+              "within_branch_dispersion": 0.03160656181474527,
+              "separation_ratio": 0.0579472985309842,
+              "reset_separation_ratio": 0.15479865803781356,
+              "history_dependent_separation": -0.09685135950682935,
+              "population_split_half_stability": -0.14310583441207805,
+              "raw_observation_opposite_branch_l2": 0.1373009830713272
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.4947916666666667
+          }
+        },
+        "noise_0.050": {
+          "axis": "noise",
+          "value": 0.05,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5221354365348816,
+              "history_reset_transfer_probe": 0.5010850429534912,
+              "centroid_distance": 0.007479900494217873,
+              "within_branch_dispersion": 0.08778134733438492,
+              "separation_ratio": 0.08521058139628372,
+              "reset_separation_ratio": 0.06490762144523422,
+              "history_dependent_separation": 0.0203029599510495,
+              "population_split_half_stability": 0.700194193671147,
+              "raw_observation_opposite_branch_l2": 0.3432524502277374
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.7026909589767456,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0012326973082963377,
+              "within_branch_dispersion": 0.07175857325394948,
+              "separation_ratio": 0.0170261222958831,
+              "reset_separation_ratio": 0.0941114146469302,
+              "history_dependent_separation": -0.0770852923510471,
+              "population_split_half_stability": -0.574343217847248,
+              "raw_observation_opposite_branch_l2": 0.3432524502277374
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.4986979166666667,
+            "stateless": 0.4973958333333333
+          }
+        },
+        "noise_0.080": {
+          "axis": "noise",
+          "value": 0.08,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.08,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5052083134651184,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.005235389806330204,
+              "within_branch_dispersion": 0.13572123646736145,
+              "separation_ratio": 0.03857457798686827,
+              "reset_separation_ratio": 0.06340390456337637,
+              "history_dependent_separation": -0.024829326576508097,
+              "population_split_half_stability": 0.05062533790866534,
+              "raw_observation_opposite_branch_l2": 0.5492039918899536
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.6671006679534912,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0023764913979296884,
+              "within_branch_dispersion": 0.08312514051795006,
+              "separation_ratio": 0.028398953022236297,
+              "reset_separation_ratio": 0.13445572283131757,
+              "history_dependent_separation": -0.10605676980908127,
+              "population_split_half_stability": -0.301625442574732,
+              "raw_observation_opposite_branch_l2": 0.5492039918899536
+            }
+          },
+          "behavior": {
+            "tem": 0.5026041666666666,
+            "hdgm": 0.5013020833333334,
+            "stateless": 0.5091145833333334
+          }
+        },
+        "noise_0.120": {
+          "axis": "noise",
+          "value": 0.12,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.12,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.48828125,
+              "history_reset_transfer_probe": 0.5013020634651184,
+              "centroid_distance": 0.0071119689382612705,
+              "within_branch_dispersion": 0.1869925707578659,
+              "separation_ratio": 0.03803342843570067,
+              "reset_separation_ratio": 0.06148512140010725,
+              "history_dependent_separation": -0.02345169296440658,
+              "population_split_half_stability": -0.09071310273914908,
+              "raw_observation_opposite_branch_l2": 0.8238059878349304
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5883246660232544,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.002805091440677643,
+              "within_branch_dispersion": 0.09856778383255005,
+              "separation_ratio": 0.028463007393628437,
+              "reset_separation_ratio": 0.11468897311872232,
+              "history_dependent_separation": -0.08622596572509389,
+              "population_split_half_stability": -0.36648437184824917,
+              "raw_observation_opposite_branch_l2": 0.8238059878349304
+            }
+          },
+          "behavior": {
+            "tem": 0.5104166666666666,
+            "hdgm": 0.4986979166666667,
+            "stateless": 0.4973958333333333
+          }
+        }
+      },
+      "curves": {
+        "representation": {
+          "alias": {
+            "tem": {
+              "transfer_probe_auc": 0.5041232605775198,
+              "transfer_probe_slope": -0.027083349227905538,
+              "stability_auc": 0.4147842413060263,
+              "history_dependent_separation_auc": 0.0018694808803916597
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.5337818264961243,
+              "transfer_probe_slope": -0.24322915077209512,
+              "stability_auc": 0.3645043175864784,
+              "history_dependent_separation_auc": 0.06430460890194252
+            }
+          },
+          "noise": {
+            "tem": {
+              "transfer_probe_auc": 0.507291665673256,
+              "transfer_probe_slope": -0.23901266594455678,
+              "stability_auc": 0.353384503958902,
+              "history_dependent_separation_auc": 0.021518097565898616
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.6688910484313966,
+              "transfer_probe_slope": -1.2664097084846664,
+              "stability_auc": -0.3726346197867921,
+              "history_dependent_separation_auc": -0.09201835420953575
+            }
+          }
+        },
+        "behavior": {
+          "alias": {
+            "tem": {
+              "choice_auc": 0.5054253472222222,
+              "choice_slope": 0.020833333333332964
+            },
+            "hdgm": {
+              "choice_auc": 0.49978298611111116,
+              "choice_slope": 0.0015624999999995694
+            },
+            "stateless": {
+              "choice_auc": 0.5013020833333334,
+              "choice_slope": 0.0010416666666665723
+            }
+          },
+          "noise": {
+            "tem": {
+              "choice_auc": 0.5029947916666666,
+              "choice_slope": 0.10583143074581353
+            },
+            "hdgm": {
+              "choice_auc": 0.4998046875,
+              "choice_slope": -0.005351027397261375
+            },
+            "stateless": {
+              "choice_auc": 0.5011067708333333,
+              "choice_slope": 0.04934836377473338
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 808,
+      "representation_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_808_update_150.pt",
+      "behavior_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_808_update_300.pt",
+      "frozen_parameter_audit": "PASS",
+      "conditions": {
+        "alias_0.000": {
+          "axis": "alias",
+          "value": 0.0,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0,
+              "within_branch_dispersion": 0.0,
+              "separation_ratio": 0.0,
+              "reset_separation_ratio": 0.09589114876958789,
+              "history_dependent_separation": -0.09589114876958789,
+              "population_split_half_stability": 0.0,
+              "raw_observation_opposite_branch_l2": 0.34338870644569397
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5824652910232544,
+              "history_reset_transfer_probe": 0.49609375,
+              "centroid_distance": 0.0002936073384868602,
+              "within_branch_dispersion": 0.0001742424889622877,
+              "separation_ratio": 2.8735364253960363,
+              "reset_separation_ratio": 0.10194501261356591,
+              "history_dependent_separation": 2.7715914127824703,
+              "population_split_half_stability": 0.9922343169649442,
+              "raw_observation_opposite_branch_l2": 0.34338870644569397
+            }
+          },
+          "behavior": {
+            "tem": 0.5143229166666666,
+            "hdgm": 0.5,
+            "stateless": 0.49609375
+          }
+        },
+        "alias_0.250": {
+          "axis": "alias",
+          "value": 0.25,
+          "additional_alias_corruption": 0.25,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.4934895932674408,
+              "history_reset_transfer_probe": 0.5006510615348816,
+              "centroid_distance": 0.008252236992120743,
+              "within_branch_dispersion": 0.09695442020893097,
+              "separation_ratio": 0.08511459429277929,
+              "reset_separation_ratio": 0.10317071424467973,
+              "history_dependent_separation": -0.018056119951900443,
+              "population_split_half_stability": 0.8312376060833534,
+              "raw_observation_opposite_branch_l2": 0.34338870644569397
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5002170205116272,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.004678989372526606,
+              "within_branch_dispersion": 0.1107737310230732,
+              "separation_ratio": 0.04273466232174423,
+              "reset_separation_ratio": 0.06683498139843985,
+              "history_dependent_separation": -0.024100319076695624,
+              "population_split_half_stability": -0.18127898902942738,
+              "raw_observation_opposite_branch_l2": 0.34338870644569397
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.4609375
+          }
+        },
+        "alias_0.500": {
+          "axis": "alias",
+          "value": 0.5,
+          "additional_alias_corruption": 0.5,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.49609375,
+              "history_reset_transfer_probe": 0.5002170205116272,
+              "centroid_distance": 0.0015947198262438178,
+              "within_branch_dispersion": 0.0078116352669894695,
+              "separation_ratio": 0.20414647257253235,
+              "reset_separation_ratio": 0.08555328843678052,
+              "history_dependent_separation": 0.11859318413575183,
+              "population_split_half_stability": 0.4999999950329463,
+              "raw_observation_opposite_branch_l2": 0.34338870644569397
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0023060391346613565,
+              "within_branch_dispersion": 0.039992220078905426,
+              "separation_ratio": 0.057661962474420424,
+              "reset_separation_ratio": 0.0436940119374964,
+              "history_dependent_separation": 0.013967950536924026,
+              "population_split_half_stability": 0.35312865922848385,
+              "raw_observation_opposite_branch_l2": 0.34338870644569397
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.4739583333333333
+          }
+        },
+        "alias_0.750": {
+          "axis": "alias",
+          "value": 0.75,
+          "additional_alias_corruption": 0.75,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.4989149272441864,
+              "centroid_distance": 0.0009207189432345331,
+              "within_branch_dispersion": 0.041091836988925934,
+              "separation_ratio": 0.02240636551291215,
+              "reset_separation_ratio": 0.06636990322149136,
+              "history_dependent_separation": -0.043963537708579206,
+              "population_split_half_stability": -0.6634075725451112,
+              "raw_observation_opposite_branch_l2": 0.34338870644569397
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.4986979067325592,
+              "history_reset_transfer_probe": 0.5006510615348816,
+              "centroid_distance": 0.0020294107186297574,
+              "within_branch_dispersion": 0.0515610526005427,
+              "separation_ratio": 0.039359101226743666,
+              "reset_separation_ratio": 0.13702327277439064,
+              "history_dependent_separation": -0.09766417154764698,
+              "population_split_half_stability": 0.052704355330206454,
+              "raw_observation_opposite_branch_l2": 0.34338870644569397
+            }
+          },
+          "behavior": {
+            "tem": 0.4947916666666667,
+            "hdgm": 0.5,
+            "stateless": 0.4765625
+          }
+        },
+        "noise_0.020": {
+          "axis": "noise",
+          "value": 0.02,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.02,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.4997829794883728,
+              "centroid_distance": 0.0,
+              "within_branch_dispersion": 0.0,
+              "separation_ratio": 0.0,
+              "reset_separation_ratio": 0.08628751410685291,
+              "history_dependent_separation": -0.08628751410685291,
+              "population_split_half_stability": 0.0,
+              "raw_observation_opposite_branch_l2": 0.1373554915189743
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5833333134651184,
+              "history_reset_transfer_probe": 0.4973958432674408,
+              "centroid_distance": 0.0002808959931523229,
+              "within_branch_dispersion": 7.416986469858482e-05,
+              "separation_ratio": 5.705604043757028,
+              "reset_separation_ratio": 0.09192458583826195,
+              "history_dependent_separation": 5.613679457918766,
+              "population_split_half_stability": 0.9989931434392929,
+              "raw_observation_opposite_branch_l2": 0.1373554915189743
+            }
+          },
+          "behavior": {
+            "tem": 0.5052083333333334,
+            "hdgm": 0.5,
+            "stateless": 0.5
+          }
+        },
+        "noise_0.050": {
+          "axis": "noise",
+          "value": 0.05,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0,
+              "within_branch_dispersion": 0.0,
+              "separation_ratio": 0.0,
+              "reset_separation_ratio": 0.09589114876958789,
+              "history_dependent_separation": -0.09589114876958789,
+              "population_split_half_stability": 0.0,
+              "raw_observation_opposite_branch_l2": 0.34338870644569397
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5824652910232544,
+              "history_reset_transfer_probe": 0.49609375,
+              "centroid_distance": 0.0002936073384868602,
+              "within_branch_dispersion": 0.0001742424889622877,
+              "separation_ratio": 2.8735364253960363,
+              "reset_separation_ratio": 0.10194501261356591,
+              "history_dependent_separation": 2.7715914127824703,
+              "population_split_half_stability": 0.992844969034195,
+              "raw_observation_opposite_branch_l2": 0.34338870644569397
+            }
+          },
+          "behavior": {
+            "tem": 0.5143229166666666,
+            "hdgm": 0.5,
+            "stateless": 0.49609375
+          }
+        },
+        "noise_0.080": {
+          "axis": "noise",
+          "value": 0.08,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.08,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.4986979067325592,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0005315773305483162,
+              "within_branch_dispersion": 0.009386925958096981,
+              "separation_ratio": 0.056629483030593,
+              "reset_separation_ratio": 0.09436729368350644,
+              "history_dependent_separation": -0.037737810652913435,
+              "population_split_half_stability": -0.6619249954819679,
+              "raw_observation_opposite_branch_l2": 0.5494219660758972
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5755208134651184,
+              "history_reset_transfer_probe": 0.4982638955116272,
+              "centroid_distance": 0.0007585348406185707,
+              "within_branch_dispersion": 0.007102185006563862,
+              "separation_ratio": 0.10669351782626756,
+              "reset_separation_ratio": 0.19002951303200952,
+              "history_dependent_separation": -0.08333599520574196,
+              "population_split_half_stability": 0.04342454959017535,
+              "raw_observation_opposite_branch_l2": 0.5494219660758972
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5091145833333334,
+            "stateless": 0.4713541666666667
+          }
+        },
+        "noise_0.120": {
+          "axis": "noise",
+          "value": 0.12,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.12,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.4934895932674408,
+              "history_reset_transfer_probe": 0.5017361044883728,
+              "centroid_distance": 0.00323343463242054,
+              "within_branch_dispersion": 0.05293181911110878,
+              "separation_ratio": 0.061086773057346326,
+              "reset_separation_ratio": 0.09308608363910896,
+              "history_dependent_separation": -0.031999310581762634,
+              "population_split_half_stability": 0.053809942347773664,
+              "raw_observation_opposite_branch_l2": 0.8241329193115234
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5520833134651184,
+              "history_reset_transfer_probe": 0.4900173544883728,
+              "centroid_distance": 0.002859735939030846,
+              "within_branch_dispersion": 0.030842768338819344,
+              "separation_ratio": 0.0928262493543443,
+              "reset_separation_ratio": 0.10185338615717382,
+              "history_dependent_separation": -0.009027136802829516,
+              "population_split_half_stability": 0.5553672209692498,
+              "raw_observation_opposite_branch_l2": 0.8241329193115234
+            }
+          },
+          "behavior": {
+            "tem": 0.4908854166666667,
+            "hdgm": 0.5052083333333334,
+            "stateless": 0.4674479166666667
+          }
+        }
+      },
+      "curves": {
+        "representation": {
+          "alias": {
+            "tem": {
+              "transfer_probe_auc": 0.4965277810891469,
+              "transfer_probe_slope": 0.0010416626930231656,
+              "stability_auc": 0.33317793828124803,
+              "history_dependent_separation_auc": 0.010203240314922613
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.5135995397965113,
+              "transfer_probe_slope": -0.10060766935348553,
+              "stability_auc": 0.2314396687822106,
+              "history_dependent_separation_auc": 0.44227708402588006
+            }
+          },
+          "noise": {
+            "tem": {
+              "transfer_probe_auc": 0.4982421860098839,
+              "transfer_probe_slope": -0.06540137338856032,
+              "stability_auc": -0.220911759949134,
+              "history_dependent_separation_auc": -0.061318567591776535
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.5740885317325592,
+              "transfer_probe_slope": -0.3147197912817131,
+              "stability_auc": 0.5739744987765638,
+              "history_dependent_separation_auc": 1.642556316839981
+            }
+          }
+        },
+        "behavior": {
+          "alias": {
+            "tem": {
+              "choice_auc": 0.5015190972222222,
+              "choice_slope": -0.023437500000000402
+            },
+            "hdgm": {
+              "choice_auc": 0.5,
+              "choice_slope": -4.0167346652484283e-16
+            },
+            "stateless": {
+              "choice_auc": 0.4737413194444444,
+              "choice_slope": -0.01822916666666716
+            }
+          },
+          "noise": {
+            "tem": {
+              "choice_auc": 0.5032552083333334,
+              "choice_slope": -0.17836757990867672
+            },
+            "hdgm": {
+              "choice_auc": 0.5042317708333335,
+              "choice_slope": 0.07075247336377462
+            },
+            "stateless": {
+              "choice_auc": 0.48229166666666673,
+              "choice_slope": -0.3650589802130886
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 909,
+      "representation_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_909_update_150.pt",
+      "behavior_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_909_update_300.pt",
+      "frozen_parameter_audit": "PASS",
+      "conditions": {
+        "alias_0.000": {
+          "axis": "alias",
+          "value": 0.0,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0,
+              "within_branch_dispersion": 0.0,
+              "separation_ratio": 0.0,
+              "reset_separation_ratio": 0.12271277320794889,
+              "history_dependent_separation": -0.12271277320794889,
+              "population_split_half_stability": 0.0,
+              "raw_observation_opposite_branch_l2": 0.3446509838104248
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.9600694179534912,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0011845027717451255,
+              "within_branch_dispersion": 0.0018273690366186202,
+              "separation_ratio": 0.6465897948080684,
+              "reset_separation_ratio": 0.20490462171125198,
+              "history_dependent_separation": 0.44168517309681643,
+              "population_split_half_stability": 0.8822807321945826,
+              "raw_observation_opposite_branch_l2": 0.3446509838104248
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.6666666666666666,
+            "stateless": 0.5013020833333334
+          }
+        },
+        "alias_0.250": {
+          "axis": "alias",
+          "value": 0.25,
+          "additional_alias_corruption": 0.25,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.009538745507597923,
+              "within_branch_dispersion": 0.14173096418380737,
+              "separation_ratio": 0.06730177057294028,
+              "reset_separation_ratio": 0.08707031941861398,
+              "history_dependent_separation": -0.01976854884567371,
+              "population_split_half_stability": 0.5553476212856671,
+              "raw_observation_opposite_branch_l2": 0.3446509838104248
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.4937065839767456,
+              "history_reset_transfer_probe": 0.4993489682674408,
+              "centroid_distance": 0.004285252187401056,
+              "within_branch_dispersion": 0.06337227796514829,
+              "separation_ratio": 0.06760880335457276,
+              "reset_separation_ratio": 0.10617801767050579,
+              "history_dependent_separation": -0.038569214315933034,
+              "population_split_half_stability": 0.38036198013772565,
+              "raw_observation_opposite_branch_l2": 0.3446509838104248
+            }
+          },
+          "behavior": {
+            "tem": 0.4986979166666667,
+            "hdgm": 0.5859375,
+            "stateless": 0.5
+          }
+        },
+        "alias_0.500": {
+          "axis": "alias",
+          "value": 0.5,
+          "additional_alias_corruption": 0.5,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.004383467137813568,
+              "within_branch_dispersion": 0.12491114437580109,
+              "separation_ratio": 0.03509267975080673,
+              "reset_separation_ratio": 0.08143198940851044,
+              "history_dependent_separation": -0.04633930965770371,
+              "population_split_half_stability": -0.14191186622095606,
+              "raw_observation_opposite_branch_l2": 0.3446509838104248
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0025350068463012576,
+              "within_branch_dispersion": 0.03530881833285093,
+              "separation_ratio": 0.07366854512705735,
+              "reset_separation_ratio": 0.11733775259611874,
+              "history_dependent_separation": -0.04366920746906139,
+              "population_split_half_stability": 0.4257343524756531,
+              "raw_observation_opposite_branch_l2": 0.3446509838104248
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5143229166666666,
+            "stateless": 0.5
+          }
+        },
+        "alias_0.750": {
+          "axis": "alias",
+          "value": 0.75,
+          "additional_alias_corruption": 0.75,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.4997829794883728,
+              "centroid_distance": 0.0015947198262438178,
+              "within_branch_dispersion": 0.015538675710558891,
+              "separation_ratio": 0.10262900324704871,
+              "reset_separation_ratio": 0.2100746898478428,
+              "history_dependent_separation": -0.1074456866007941,
+              "population_split_half_stability": 0.02044396474957466,
+              "raw_observation_opposite_branch_l2": 0.3446509838104248
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.002188405216050645,
+              "within_branch_dispersion": 0.055919516210754715,
+              "separation_ratio": 0.03920466204656619,
+              "reset_separation_ratio": 0.049029421043348086,
+              "history_dependent_separation": -0.009824758996781896,
+              "population_split_half_stability": -0.10726976542112727,
+              "raw_observation_opposite_branch_l2": 0.3446509838104248
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.5
+          }
+        },
+        "noise_0.020": {
+          "axis": "noise",
+          "value": 0.02,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.02,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0,
+              "within_branch_dispersion": 0.0,
+              "separation_ratio": 0.0,
+              "reset_separation_ratio": 0.12288601465473449,
+              "history_dependent_separation": -0.12288601465473449,
+              "population_split_half_stability": 0.0,
+              "raw_observation_opposite_branch_l2": 0.13786038756370544
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.9858940839767456,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0012263760048275192,
+              "within_branch_dispersion": 0.0002693277007589738,
+              "separation_ratio": 4.5364201977734675,
+              "reset_separation_ratio": 0.06958345834149199,
+              "history_dependent_separation": 4.466836739431976,
+              "population_split_half_stability": 0.9995671088496844,
+              "raw_observation_opposite_branch_l2": 0.13786038756370544
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.6666666666666666,
+            "stateless": 0.5013020833333334
+          }
+        },
+        "noise_0.050": {
+          "axis": "noise",
+          "value": 0.05,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0,
+              "within_branch_dispersion": 0.0,
+              "separation_ratio": 0.0,
+              "reset_separation_ratio": 0.12271277320794889,
+              "history_dependent_separation": -0.12271277320794889,
+              "population_split_half_stability": 0.0,
+              "raw_observation_opposite_branch_l2": 0.3446509838104248
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.9600694179534912,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0011845027717451255,
+              "within_branch_dispersion": 0.0018273690366186202,
+              "separation_ratio": 0.6465897948080684,
+              "reset_separation_ratio": 0.20490462171125198,
+              "history_dependent_separation": 0.44168517309681643,
+              "population_split_half_stability": 0.8548298329114914,
+              "raw_observation_opposite_branch_l2": 0.3446509838104248
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.6666666666666666,
+            "stateless": 0.5013020833333334
+          }
+        },
+        "noise_0.080": {
+          "axis": "noise",
+          "value": 0.08,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.08,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5091145634651184,
+              "history_reset_transfer_probe": 0.5010850429534912,
+              "centroid_distance": 0.003605305915698409,
+              "within_branch_dispersion": 0.03143357113003731,
+              "separation_ratio": 0.11469599664077888,
+              "reset_separation_ratio": 0.12273007301869548,
+              "history_dependent_separation": -0.008034076377916602,
+              "population_split_half_stability": 0.4387923552809904,
+              "raw_observation_opposite_branch_l2": 0.5514416098594666
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.90625,
+              "history_reset_transfer_probe": 0.4993489682674408,
+              "centroid_distance": 0.001545487204566598,
+              "within_branch_dispersion": 0.01839359647904833,
+              "separation_ratio": 0.08411807912332807,
+              "reset_separation_ratio": 0.055401501995772845,
+              "history_dependent_separation": 0.028716577127555223,
+              "population_split_half_stability": 0.2954535863051812,
+              "raw_observation_opposite_branch_l2": 0.5514416098594666
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.6666666666666666,
+            "stateless": 0.48046875
+          }
+        },
+        "noise_0.120": {
+          "axis": "noise",
+          "value": 0.12,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.12,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5091145634651184,
+              "history_reset_transfer_probe": 0.5023871660232544,
+              "centroid_distance": 0.004724729340523481,
+              "within_branch_dispersion": 0.07975178211927414,
+              "separation_ratio": 0.05924292376348526,
+              "reset_separation_ratio": 0.11972729925339015,
+              "history_dependent_separation": -0.060484375489904894,
+              "population_split_half_stability": 0.05588792210134367,
+              "raw_observation_opposite_branch_l2": 0.8271622657775879
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.78515625,
+              "history_reset_transfer_probe": 0.4993489682674408,
+              "centroid_distance": 0.0029774472738305726,
+              "within_branch_dispersion": 0.046780141070485115,
+              "separation_ratio": 0.06368345050059214,
+              "reset_separation_ratio": 0.09108048677204761,
+              "history_dependent_separation": -0.02739703627145547,
+              "population_split_half_stability": 0.3632982267687718,
+              "raw_observation_opposite_branch_l2": 0.8271622657775879
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.6653645833333334,
+            "stateless": 0.4778645833333333
+          }
+        }
+      },
+      "curves": {
+        "representation": {
+          "alias": {
+            "tem": {
+              "transfer_probe_auc": 0.5,
+              "transfer_probe_slope": -4.0167346652484283e-16,
+              "stability_auc": 0.1412192458131661,
+              "history_dependent_separation_auc": -0.060395696135916305
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.5745804309844971,
+              "transfer_probe_slope": -0.5495659351348887,
+              "stability_auc": 0.3978672720000355,
+              "history_dependent_separation_auc": 0.04456392842167428
+            }
+          },
+          "noise": {
+            "tem": {
+              "transfer_probe_auc": 0.5050130099058151,
+              "transfer_probe_slope": 0.10820942926624502,
+              "stability_auc": 0.16475490876861537,
+              "history_dependent_separation_auc": -0.07015553599084663
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.9101236879825593,
+              "transfer_probe_slope": -2.0241745530742508,
+              "stability_auc": 0.5824524167614679,
+              "history_dependent_separation_auc": 0.8071024575841947
+            }
+          }
+        },
+        "behavior": {
+          "alias": {
+            "tem": {
+              "choice_auc": 0.49956597222222227,
+              "choice_slope": 0.0005208333333330593
+            },
+            "hdgm": {
+              "choice_auc": 0.5611979166666666,
+              "choice_slope": -0.22864583333333388
+            },
+            "stateless": {
+              "choice_auc": 0.500217013888889,
+              "choice_slope": -0.0015625000000004466
+            }
+          },
+          "noise": {
+            "tem": {
+              "choice_auc": 0.5,
+              "choice_slope": 1.453161905026974e-16
+            },
+            "hdgm": {
+              "choice_auc": 0.66640625,
+              "choice_slope": -0.012485730593607067
+            },
+            "stateless": {
+              "choice_auc": 0.4893229166666667,
+              "choice_slope": -0.27230783866057884
+            }
+          }
+        }
+      }
+    },
+    {
+      "seed": 1010,
+      "representation_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_1010_update_150.pt",
+      "behavior_checkpoint": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints\\hdgm_v7_3_splitter_dual_endpoint_confirmatory_seed_1010_update_300.pt",
+      "frozen_parameter_audit": "PASS",
+      "conditions": {
+        "alias_0.000": {
+          "axis": "alias",
+          "value": 0.0,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5104166865348816,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0037210131995379925,
+              "within_branch_dispersion": 0.10569228231906891,
+              "separation_ratio": 0.035206097983993205,
+              "reset_separation_ratio": 0.07683315874410805,
+              "history_dependent_separation": -0.041627060760114847,
+              "population_split_half_stability": 0.046548766239235796,
+              "raw_observation_opposite_branch_l2": 0.3430041968822479
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.9800347089767456,
+              "history_reset_transfer_probe": 0.4978298544883728,
+              "centroid_distance": 0.13749989494681358,
+              "within_branch_dispersion": 0.19404521336158118,
+              "separation_ratio": 0.707698629888078,
+              "reset_separation_ratio": 0.048819991505567095,
+              "history_dependent_separation": 0.6588786383825109,
+              "population_split_half_stability": 0.9951981430252393,
+              "raw_observation_opposite_branch_l2": 0.3430041968822479
+            }
+          },
+          "behavior": {
+            "tem": 0.49609375,
+            "hdgm": 1.0,
+            "stateless": 0.5
+          }
+        },
+        "alias_0.250": {
+          "axis": "alias",
+          "value": 0.25,
+          "additional_alias_corruption": 0.25,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.006130401976406574,
+              "within_branch_dispersion": 0.10849787294864655,
+              "separation_ratio": 0.056502503180713426,
+              "reset_separation_ratio": 0.07648035170449195,
+              "history_dependent_separation": -0.019977848523778527,
+              "population_split_half_stability": 0.4617124547269971,
+              "raw_observation_opposite_branch_l2": 0.3430041968822479
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.4993489682674408,
+              "centroid_distance": 0.022729064027468365,
+              "within_branch_dispersion": 0.16520194709300995,
+              "separation_ratio": 0.13737277942375728,
+              "reset_separation_ratio": 0.04117183204376777,
+              "history_dependent_separation": 0.09620094737998951,
+              "population_split_half_stability": 0.8562470109512409,
+              "raw_observation_opposite_branch_l2": 0.3430041968822479
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5390625,
+            "stateless": 0.49609375
+          }
+        },
+        "alias_0.500": {
+          "axis": "alias",
+          "value": 0.5,
+          "additional_alias_corruption": 0.5,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.4986979067325592,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.003526060376316309,
+              "within_branch_dispersion": 0.13981537520885468,
+              "separation_ratio": 0.025219401792221357,
+              "reset_separation_ratio": 0.08233724461811723,
+              "history_dependent_separation": -0.05711784282589587,
+              "population_split_half_stability": -0.41180425851295394,
+              "raw_observation_opposite_branch_l2": 0.3430041968822479
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.054389666145046554,
+              "within_branch_dispersion": 0.09638308112819989,
+              "separation_ratio": 0.5603602382024074,
+              "reset_separation_ratio": 0.05438888090070467,
+              "history_dependent_separation": 0.5059713573017027,
+              "population_split_half_stability": 0.9914496093988419,
+              "raw_observation_opposite_branch_l2": 0.3430041968822479
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.4921875
+          }
+        },
+        "alias_0.750": {
+          "axis": "alias",
+          "value": 0.75,
+          "additional_alias_corruption": 0.75,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5013020634651184,
+              "history_reset_transfer_probe": 0.5026041865348816,
+              "centroid_distance": 0.010155697353184223,
+              "within_branch_dispersion": 0.13578517735004425,
+              "separation_ratio": 0.07479238016591296,
+              "reset_separation_ratio": 0.06827095431741566,
+              "history_dependent_separation": 0.0065214258484972976,
+              "population_split_half_stability": 0.6039787720267972,
+              "raw_observation_opposite_branch_l2": 0.3430041968822479
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.5,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0013922284706495702,
+              "within_branch_dispersion": 0.04755646549165249,
+              "separation_ratio": 0.02937372008858676,
+              "reset_separation_ratio": 0.02631209090404502,
+              "history_dependent_separation": 0.0030616291845417393,
+              "population_split_half_stability": -0.11312288185581565,
+              "raw_observation_opposite_branch_l2": 0.3430041968822479
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 0.5,
+            "stateless": 0.5
+          }
+        },
+        "noise_0.020": {
+          "axis": "noise",
+          "value": 0.02,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.02,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5143229365348816,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.005847305990755558,
+              "within_branch_dispersion": 0.10017802566289902,
+              "separation_ratio": 0.05836914201863424,
+              "reset_separation_ratio": 0.07597804492813791,
+              "history_dependent_separation": -0.01760890290950367,
+              "population_split_half_stability": 0.7083333109815916,
+              "raw_observation_opposite_branch_l2": 0.1372016817331314
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.9986979365348816,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.2092082897822062,
+              "within_branch_dispersion": 0.1893705278635025,
+              "separation_ratio": 1.104829316402452,
+              "reset_separation_ratio": 0.05350917014862561,
+              "history_dependent_separation": 1.0513201462538264,
+              "population_split_half_stability": 0.9994212413827578,
+              "raw_observation_opposite_branch_l2": 0.1372016817331314
+            }
+          },
+          "behavior": {
+            "tem": 0.5,
+            "hdgm": 1.0,
+            "stateless": 0.5
+          }
+        },
+        "noise_0.050": {
+          "axis": "noise",
+          "value": 0.05,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.05,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5104166865348816,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.0037210131995379925,
+              "within_branch_dispersion": 0.10569228231906891,
+              "separation_ratio": 0.035206097983993205,
+              "reset_separation_ratio": 0.07683315874410805,
+              "history_dependent_separation": -0.041627060760114847,
+              "population_split_half_stability": 0.1254307609051466,
+              "raw_observation_opposite_branch_l2": 0.3430041968822479
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.9800347089767456,
+              "history_reset_transfer_probe": 0.4978298544883728,
+              "centroid_distance": 0.13749989494681358,
+              "within_branch_dispersion": 0.19404521336158118,
+              "separation_ratio": 0.707698629888078,
+              "reset_separation_ratio": 0.048819991505567095,
+              "history_dependent_separation": 0.6588786383825109,
+              "population_split_half_stability": 0.9938865428169569,
+              "raw_observation_opposite_branch_l2": 0.3430041968822479
+            }
+          },
+          "behavior": {
+            "tem": 0.49609375,
+            "hdgm": 1.0,
+            "stateless": 0.5
+          }
+        },
+        "noise_0.080": {
+          "axis": "noise",
+          "value": 0.08,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.08,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5130208134651184,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.004083092324435711,
+              "within_branch_dispersion": 0.11478518694639206,
+              "separation_ratio": 0.03557159314142772,
+              "reset_separation_ratio": 0.07766791067137567,
+              "history_dependent_separation": -0.04209631752994795,
+              "population_split_half_stability": 0.06420218013226986,
+              "raw_observation_opposite_branch_l2": 0.5488067269325256
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.8973524570465088,
+              "history_reset_transfer_probe": 0.501953125,
+              "centroid_distance": 0.12955263132850328,
+              "within_branch_dispersion": 0.25209154685338336,
+              "separation_ratio": 0.51388416039487,
+              "reset_separation_ratio": 0.03938258543953662,
+              "history_dependent_separation": 0.47450157495533335,
+              "population_split_half_stability": 0.989460272093614,
+              "raw_observation_opposite_branch_l2": 0.5488067269325256
+            }
+          },
+          "behavior": {
+            "tem": 0.4947916666666667,
+            "hdgm": 0.98828125,
+            "stateless": 0.4973958333333333
+          }
+        },
+        "noise_0.120": {
+          "axis": "noise",
+          "value": 0.12,
+          "additional_alias_corruption": 0.0,
+          "noise_std": 0.12,
+          "representation": {
+            "tem": {
+              "reference_transfer_probe": 0.5091145634651184,
+              "history_reset_transfer_probe": 0.5,
+              "centroid_distance": 0.00386991398409009,
+              "within_branch_dispersion": 0.14509178698062897,
+              "separation_ratio": 0.02667217626787514,
+              "reset_separation_ratio": 0.07853516783172741,
+              "history_dependent_separation": -0.05186299156385227,
+              "population_split_half_stability": -0.4351375178278734,
+              "raw_observation_opposite_branch_l2": 0.8232100009918213
+            },
+            "hdgm": {
+              "reference_transfer_probe": 0.8075087070465088,
+              "history_reset_transfer_probe": 0.5032551884651184,
+              "centroid_distance": 0.1567318613330523,
+              "within_branch_dispersion": 0.33522017300128937,
+              "separation_ratio": 0.4678487579834392,
+              "reset_separation_ratio": 0.06114114653837669,
+              "history_dependent_separation": 0.4067076114450625,
+              "population_split_half_stability": 0.986124982436498,
+              "raw_observation_opposite_branch_l2": 0.8232100009918213
+            }
+          },
+          "behavior": {
+            "tem": 0.5026041666666666,
+            "hdgm": 0.9453125,
+            "stateless": 0.5026041666666666
+          }
+        }
+      },
+      "curves": {
+        "representation": {
+          "alias": {
+            "tem": {
+              "transfer_probe_auc": 0.501519093910853,
+              "transfer_probe_slope": -0.01145838499069248,
+              "stability_auc": 0.1250573217823532,
+              "history_dependent_separation_auc": -0.03154950293516106
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.5800057848294576,
+              "transfer_probe_slope": -0.5760416507720956,
+              "stability_auc": 0.7629114169782648,
+              "history_dependent_separation_auc": 0.3110474794884062
+            }
+          },
+          "noise": {
+            "tem": {
+              "transfer_probe_auc": 0.5116536438465119,
+              "transfer_probe_slope": -0.040430456536002746,
+              "stability_auc": 0.07932248439950253,
+              "history_dependent_separation_auc": -0.040235763112712236
+            },
+            "hdgm": {
+              "transfer_probe_auc": 0.9193902045488357,
+              "transfer_probe_slope": -2.0050495999044498,
+              "stability_auc": 0.9916152407725651,
+              "history_dependent_separation_auc": 0.6027786869762064
+            }
+          }
+        },
+        "behavior": {
+          "alias": {
+            "tem": {
+              "choice_auc": 0.4993489583333333,
+              "choice_slope": 0.0046874999999996945
+            },
+            "hdgm": {
+              "choice_auc": 0.5963541666666666,
+              "choice_slope": -0.6156250000000003
+            },
+            "stateless": {
+              "choice_auc": 0.49609375,
+              "choice_slope": -0.0015625000000005847
+            }
+          },
+          "noise": {
+            "tem": {
+              "choice_auc": 0.4975260416666667,
+              "choice_slope": 0.025566019786910137
+            },
+            "hdgm": {
+              "choice_auc": 0.9849609375,
+              "choice_slope": -0.5511558219178048
+            },
+            "stateless": {
+              "choice_auc": 0.499609375,
+              "choice_slope": 0.01902587519025716
+            }
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "base_config": {
+      "corridor_len": 18,
+      "arm_len": 7,
+      "trips_per_trial": 4,
+      "endpoint_hold_len": 2,
+      "alias_start": 6,
+      "alias_end": 12,
+      "obs_dim": 24,
+      "noise_std": 0.05,
+      "alias_strength": 1.0,
+      "hidden_dim": 96,
+      "action_emb_dim": 32,
+      "ca3_steps": 5,
+      "lambda_m": 0.92,
+      "alpha": 0.32,
+      "rho": 0.84,
+      "c1": 0.2,
+      "c2": 1.0,
+      "beta": 0.1,
+      "checkpoints": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        300
+      ],
+      "representation_update": 150,
+      "behavior_update": 300,
+      "batch_size": 16,
+      "core_lr": 0.0006,
+      "choice_head_lr": 0.002,
+      "stateless_lr": 0.002,
+      "weight_decay": 0.0,
+      "prediction_weight": 0.2,
+      "choice_weight": 1.5,
+      "grad_clip": 1.0,
+      "val_batches": 4,
+      "test_batches": 8,
+      "bank_batch_size": 32,
+      "probe_train_batches": 8,
+      "probe_val_batches": 4,
+      "probe_test_batches": 8,
+      "probe_epochs": 160,
+      "probe_lr": 0.01,
+      "probe_weight_decay": 0.0001,
+      "probe_patience": 25,
+      "permutation_repeats": 10,
+      "permutation_probe_epochs": 60,
+      "name": "hdgm_v7_3_splitter_dual_endpoint",
+      "output_dir": "hdgm_v7_3_splitter_outputs"
+    },
+    "difficulty_config": {
+      "alias_corruptions": [
+        0.0,
+        0.25,
+        0.5,
+        0.75
+      ],
+      "noise_stds": [
+        0.02,
+        0.05,
+        0.08,
+        0.12
+      ],
+      "reference_alias_corruption": 0.0,
+      "reference_noise": 0.05,
+      "representation_update": 150,
+      "behavior_update": 300,
+      "test_batches": 8,
+      "probe_train_batches": 8,
+      "probe_val_batches": 4,
+      "probe_test_batches": 8,
+      "bank_batch_size": 32,
+      "transfer_probe_epochs": 140,
+      "transfer_probe_patience": 22,
+      "split_half_repeats": 24,
+      "checkpoint_dir": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_v7_3_splitter_outputs_confirmatory\\checkpoints",
+      "output_dir": "C:\\Users\\马明哲\\Desktop\\建模\\pythonProject32\\hdgm_difficulty_v2_1_frozen_outputs_confirmatory",
+      "checkpoint_name_hint": "hdgm_v7_3_splitter_dual_endpoint_confirmatory",
+      "train_if_missing": false,
+      "name": "hdgm_difficulty_v2_1_frozen_population_robustness"
+    },
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505,
+      606,
+      707,
+      808,
+      909,
+      1010
+    ],
+    "conditions": {
+      "alias_0.000": {
+        "representation": {
+          "tem": {
+            "reference_transfer_probe": {
+              "mean": 0.5194010466337204,
+              "sd": 0.052312328524156945
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.5001519054174424,
+              "sd": 0.0005320532742913834
+            },
+            "centroid_distance": {
+              "mean": 0.021054664929397403,
+              "sd": 0.05861193410901712
+            },
+            "within_branch_dispersion": {
+              "mean": 0.06528584291227162,
+              "sd": 0.10334333620439741
+            },
+            "separation_ratio": {
+              "mean": 0.10807800180997676,
+              "sd": 0.16684894256594615
+            },
+            "reset_separation_ratio": {
+              "mean": 0.08262459159194134,
+              "sd": 0.0188892000595149
+            },
+            "history_dependent_separation": {
+              "mean": 0.025453410218035412,
+              "sd": 0.16362805612991735
+            },
+            "population_split_half_stability": {
+              "mean": 0.2340448950068094,
+              "sd": 0.4640787924998138
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.34300639033317565,
+              "sd": 0.001075710333561659
+            }
+          },
+          "hdgm": {
+            "reference_transfer_probe": {
+              "mean": 0.7621744751930237,
+              "sd": 0.19782165741651778
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.5001736134290695,
+              "sd": 0.0022756040783752235
+            },
+            "centroid_distance": {
+              "mean": 0.09400831673507734,
+              "sd": 0.24359413618335915
+            },
+            "within_branch_dispersion": {
+              "mean": 0.042193255403738784,
+              "sd": 0.057746397010060034
+            },
+            "separation_ratio": {
+              "mean": 2.44957405109237,
+              "sd": 5.793552136603434
+            },
+            "reset_separation_ratio": {
+              "mean": 0.10276585913394316,
+              "sd": 0.057452928823791445
+            },
+            "history_dependent_separation": {
+              "mean": 2.3468081919584263,
+              "sd": 5.776016207653455
+            },
+            "population_split_half_stability": {
+              "mean": 0.6307912315397213,
+              "sd": 0.5469301539728819
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.34300639033317565,
+              "sd": 0.001075710333561659
+            }
+          }
+        },
+        "behavior": {
+          "tem": {
+            "mean": 0.515625,
+            "sd": 0.053573868486838434
+          },
+          "hdgm": {
+            "mean": 0.6410156250000001,
+            "sd": 0.2062495707212377
+          },
+          "stateless": {
+            "mean": 0.49453125,
+            "sd": 0.020123167953955134
+          }
+        }
+      },
+      "alias_0.250": {
+        "representation": {
+          "tem": {
+            "reference_transfer_probe": {
+              "mean": 0.49570312201976774,
+              "sd": 0.00731565475167749
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.5003906279802323,
+              "sd": 0.0016136490807656199
+            },
+            "centroid_distance": {
+              "mean": 0.015213586296886206,
+              "sd": 0.02733800861849357
+            },
+            "within_branch_dispersion": {
+              "mean": 0.11619573598727584,
+              "sd": 0.06339160117819097
+            },
+            "separation_ratio": {
+              "mean": 0.12619309016233773,
+              "sd": 0.13688492553308837
+            },
+            "reset_separation_ratio": {
+              "mean": 0.071897795734702,
+              "sd": 0.017624645271575805
+            },
+            "history_dependent_separation": {
+              "mean": 0.05429529442763577,
+              "sd": 0.1330150302705163
+            },
+            "population_split_half_stability": {
+              "mean": 0.4452427419824138,
+              "sd": 0.3972227131609756
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.34300639033317565,
+              "sd": 0.001075710333561659
+            }
+          },
+          "hdgm": {
+            "reference_transfer_probe": {
+              "mean": 0.49943576455116273,
+              "sd": 0.002317533866390587
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.49939235746860505,
+              "sd": 0.003290864267357859
+            },
+            "centroid_distance": {
+              "mean": 0.005719555807687964,
+              "sd": 0.006274250016445028
+            },
+            "within_branch_dispersion": {
+              "mean": 0.08018486915777127,
+              "sd": 0.041428276121970885
+            },
+            "separation_ratio": {
+              "mean": 0.06396814303683371,
+              "sd": 0.032600673536311325
+            },
+            "reset_separation_ratio": {
+              "mean": 0.07680929149785298,
+              "sd": 0.024807738486620445
+            },
+            "history_dependent_separation": {
+              "mean": -0.012841148461019258,
+              "sd": 0.04415026865060046
+            },
+            "population_split_half_stability": {
+              "mean": 0.21466421050135978,
+              "sd": 0.39350890541859046
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.34300639033317565,
+              "sd": 0.001075710333561659
+            }
+          }
+        },
+        "behavior": {
+          "tem": {
+            "mean": 0.5005208333333333,
+            "sd": 0.00214393906861604
+          },
+          "hdgm": {
+            "mean": 0.5518229166666666,
+            "sd": 0.08488500413776942
+          },
+          "stateless": {
+            "mean": 0.4966145833333334,
+            "sd": 0.012834312207136269
+          }
+        }
+      },
+      "alias_0.500": {
+        "representation": {
+          "tem": {
+            "reference_transfer_probe": {
+              "mean": 0.49986979365348816,
+              "sd": 0.002707030254219752
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.4995876759290695,
+              "sd": 0.001050520830724934
+            },
+            "centroid_distance": {
+              "mean": 0.00394800363574177,
+              "sd": 0.003055682087335067
+            },
+            "within_branch_dispersion": {
+              "mean": 0.10538189220242203,
+              "sd": 0.05139580042877158
+            },
+            "separation_ratio": {
+              "mean": 0.05172043728209601,
+              "sd": 0.05507907530638514
+            },
+            "reset_separation_ratio": {
+              "mean": 0.06754301128867671,
+              "sd": 0.014238505540080477
+            },
+            "history_dependent_separation": {
+              "mean": -0.015822574006580693,
+              "sd": 0.05045282804405322
+            },
+            "population_split_half_stability": {
+              "mean": -0.05428738641009354,
+              "sd": 0.4200415106978485
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.34300639033317565,
+              "sd": 0.001075710333561659
+            }
+          },
+          "hdgm": {
+            "reference_transfer_probe": {
+              "mean": 0.49932725429534913,
+              "sd": 0.0016446383101127726
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.5006076335906983,
+              "sd": 0.0016772366235550536
+            },
+            "centroid_distance": {
+              "mean": 0.007981724113536379,
+              "sd": 0.016555296138114257
+            },
+            "within_branch_dispersion": {
+              "mean": 0.05050260197992127,
+              "sd": 0.02255603430855076
+            },
+            "separation_ratio": {
+              "mean": 0.12605001577093783,
+              "sd": 0.184852378151589
+            },
+            "reset_separation_ratio": {
+              "mean": 0.06406528428266171,
+              "sd": 0.026914194888424097
+            },
+            "history_dependent_separation": {
+              "mean": 0.06198473148827612,
+              "sd": 0.18725529701226376
+            },
+            "population_split_half_stability": {
+              "mean": 0.18176751170152178,
+              "sd": 0.5231494248427471
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.34300639033317565,
+              "sd": 0.001075710333561659
+            }
+          }
+        },
+        "behavior": {
+          "tem": {
+            "mean": 0.5,
+            "sd": 0.0
+          },
+          "hdgm": {
+            "mean": 0.5166666666666667,
+            "sd": 0.046316275347609896
+          },
+          "stateless": {
+            "mean": 0.4966145833333333,
+            "sd": 0.00833062021806256
+          }
+        }
+      },
+      "alias_0.750": {
+        "representation": {
+          "tem": {
+            "reference_transfer_probe": {
+              "mean": 0.5013020813465119,
+              "sd": 0.003579084342905837
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.4992187529802322,
+              "sd": 0.0029280357268128593
+            },
+            "centroid_distance": {
+              "mean": 0.005027392122428864,
+              "sd": 0.0037568848696379682
+            },
+            "within_branch_dispersion": {
+              "mean": 0.10764398481696844,
+              "sd": 0.056811186484615944
+            },
+            "separation_ratio": {
+              "mean": 0.049539633056352596,
+              "sd": 0.0309145253149165
+            },
+            "reset_separation_ratio": {
+              "mean": 0.08300065130665497,
+              "sd": 0.050630834130447715
+            },
+            "history_dependent_separation": {
+              "mean": -0.03346101825030237,
+              "sd": 0.05087965206326559
+            },
+            "population_split_half_stability": {
+              "mean": -0.041650065015699046,
+              "sd": 0.5357670555111702
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.34300639033317565,
+              "sd": 0.001075710333561659
+            }
+          },
+          "hdgm": {
+            "reference_transfer_probe": {
+              "mean": 0.49986979067325593,
+              "sd": 0.000411758045108368
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.5002604186534881,
+              "sd": 0.0006289673756758873
+            },
+            "centroid_distance": {
+              "mean": 0.021220793575048448,
+              "sd": 0.05871001546101102
+            },
+            "within_branch_dispersion": {
+              "mean": 0.05992767618348201,
+              "sd": 0.022354601178613043
+            },
+            "separation_ratio": {
+              "mean": 0.2062211134628019,
+              "sd": 0.491724146668667
+            },
+            "reset_separation_ratio": {
+              "mean": 0.08983429888243992,
+              "sd": 0.06238243764765809
+            },
+            "history_dependent_separation": {
+              "mean": 0.11638681458036201,
+              "sd": 0.4400493881016989
+            },
+            "population_split_half_stability": {
+              "mean": 0.22166992507312294,
+              "sd": 0.4894794503165458
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.34300639033317565,
+              "sd": 0.001075710333561659
+            }
+          }
+        },
+        "behavior": {
+          "tem": {
+            "mean": 0.5014322916666667,
+            "sd": 0.006566597871801934
+          },
+          "hdgm": {
+            "mean": 0.493359375,
+            "sd": 0.020619288894336344
+          },
+          "stateless": {
+            "mean": 0.49765625,
+            "sd": 0.007411588266019639
+          }
+        }
+      },
+      "noise_0.020": {
+        "representation": {
+          "tem": {
+            "reference_transfer_probe": {
+              "mean": 0.5188802123069763,
+              "sd": 0.05215291820980098
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.5,
+              "sd": 0.00017719650573479238
+            },
+            "centroid_distance": {
+              "mean": 0.02115753311663866,
+              "sd": 0.06301459961485359
+            },
+            "within_branch_dispersion": {
+              "mean": 0.043995028082281354,
+              "sd": 0.09294275420248387
+            },
+            "separation_ratio": {
+              "mean": 0.10628294622036046,
+              "sd": 0.21850124778738333
+            },
+            "reset_separation_ratio": {
+              "mean": 0.08438619790698085,
+              "sd": 0.017940833505056833
+            },
+            "history_dependent_separation": {
+              "mean": 0.021896748313379583,
+              "sd": 0.21586469319351925
+            },
+            "population_split_half_stability": {
+              "mean": 0.2748685690263907,
+              "sd": 0.4306234695656724
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.13720255345106125,
+              "sd": 0.00043028681141200035
+            }
+          },
+          "hdgm": {
+            "reference_transfer_probe": {
+              "mean": 0.7702039897441864,
+              "sd": 0.20654284796697564
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.4992187529802322,
+              "sd": 0.0034117115687630237
+            },
+            "centroid_distance": {
+              "mean": 0.10203007417633976,
+              "sd": 0.2538581149589843
+            },
+            "within_branch_dispersion": {
+              "mean": 0.028340973537645676,
+              "sd": 0.058282886655489266
+            },
+            "separation_ratio": {
+              "mean": 68.44065150177858,
+              "sd": 211.86719425470497
+            },
+            "reset_separation_ratio": {
+              "mean": 0.08291594546108369,
+              "sd": 0.036977203836448654
+            },
+            "history_dependent_separation": {
+              "mean": 68.35773555631751,
+              "sd": 211.8827011231247
+            },
+            "population_split_half_stability": {
+              "mean": 0.7532443303304415,
+              "sd": 0.3732632472097892
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.13720255345106125,
+              "sd": 0.00043028681141200035
+            }
+          }
+        },
+        "behavior": {
+          "tem": {
+            "mean": 0.5170572916666666,
+            "sd": 0.052596036970350674
+          },
+          "hdgm": {
+            "mean": 0.6346354166666667,
+            "sd": 0.20502950353223032
+          },
+          "stateless": {
+            "mean": 0.4955729166666666,
+            "sd": 0.011535671243319608
+          }
+        }
+      },
+      "noise_0.050": {
+        "representation": {
+          "tem": {
+            "reference_transfer_probe": {
+              "mean": 0.5194010466337204,
+              "sd": 0.052312328524156945
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.5001519054174424,
+              "sd": 0.0005320532742913834
+            },
+            "centroid_distance": {
+              "mean": 0.021054664929397403,
+              "sd": 0.05861193410901712
+            },
+            "within_branch_dispersion": {
+              "mean": 0.06528584291227162,
+              "sd": 0.10334333620439741
+            },
+            "separation_ratio": {
+              "mean": 0.10807800180997676,
+              "sd": 0.16684894256594615
+            },
+            "reset_separation_ratio": {
+              "mean": 0.08262459159194134,
+              "sd": 0.0188892000595149
+            },
+            "history_dependent_separation": {
+              "mean": 0.025453410218035412,
+              "sd": 0.16362805612991735
+            },
+            "population_split_half_stability": {
+              "mean": 0.2575520399569844,
+              "sd": 0.47818586908634875
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.34300639033317565,
+              "sd": 0.001075710333561659
+            }
+          },
+          "hdgm": {
+            "reference_transfer_probe": {
+              "mean": 0.7621744751930237,
+              "sd": 0.19782165741651778
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.5001736134290695,
+              "sd": 0.0022756040783752235
+            },
+            "centroid_distance": {
+              "mean": 0.09400831673507734,
+              "sd": 0.24359413618335915
+            },
+            "within_branch_dispersion": {
+              "mean": 0.042193255403738784,
+              "sd": 0.057746397010060034
+            },
+            "separation_ratio": {
+              "mean": 2.44957405109237,
+              "sd": 5.793552136603434
+            },
+            "reset_separation_ratio": {
+              "mean": 0.10276585913394316,
+              "sd": 0.057452928823791445
+            },
+            "history_dependent_separation": {
+              "mean": 2.3468081919584263,
+              "sd": 5.776016207653455
+            },
+            "population_split_half_stability": {
+              "mean": 0.6447068752253169,
+              "sd": 0.5231093996573849
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.34300639033317565,
+              "sd": 0.001075710333561659
+            }
+          }
+        },
+        "behavior": {
+          "tem": {
+            "mean": 0.515625,
+            "sd": 0.053573868486838434
+          },
+          "hdgm": {
+            "mean": 0.6410156250000001,
+            "sd": 0.2062495707212377
+          },
+          "stateless": {
+            "mean": 0.49453125,
+            "sd": 0.020123167953955134
+          }
+        }
+      },
+      "noise_0.080": {
+        "representation": {
+          "tem": {
+            "reference_transfer_probe": {
+              "mean": 0.5196614593267441,
+              "sd": 0.05064734682310861
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.5002604126930237,
+              "sd": 0.00045520207049313334
+            },
+            "centroid_distance": {
+              "mean": 0.02131966855376959,
+              "sd": 0.05667248596234842
+            },
+            "within_branch_dispersion": {
+              "mean": 0.10218125553801656,
+              "sd": 0.10376567004123931
+            },
+            "separation_ratio": {
+              "mean": 0.09839110696646669,
+              "sd": 0.14128687759372208
+            },
+            "reset_separation_ratio": {
+              "mean": 0.08040930293594749,
+              "sd": 0.020499902854418457
+            },
+            "history_dependent_separation": {
+              "mean": 0.017981804030519195,
+              "sd": 0.13201782320197097
+            },
+            "population_split_half_stability": {
+              "mean": -0.00032900714043838095,
+              "sd": 0.5292746664189597
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.5488102257251739,
+              "sd": 0.0017211629470944142
+            }
+          },
+          "hdgm": {
+            "reference_transfer_probe": {
+              "mean": 0.7259331583976746,
+              "sd": 0.17555184816068464
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.49917534589767454,
+              "sd": 0.00431221673359387
+            },
+            "centroid_distance": {
+              "mean": 0.08758685963305954,
+              "sd": 0.21638671167461535
+            },
+            "within_branch_dispersion": {
+              "mean": 0.0709457997775947,
+              "sd": 0.07193247876657008
+            },
+            "separation_ratio": {
+              "mean": 0.7636225025540513,
+              "sd": 1.7380590349925251
+            },
+            "reset_separation_ratio": {
+              "mean": 0.1004084312896419,
+              "sd": 0.06290488090260893
+            },
+            "history_dependent_separation": {
+              "mean": 0.6632140712644092,
+              "sd": 1.7408736764537553
+            },
+            "population_split_half_stability": {
+              "mean": 0.4351915318848721,
+              "sd": 0.4465293798037878
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.5488102257251739,
+              "sd": 0.0017211629470944142
+            }
+          }
+        },
+        "behavior": {
+          "tem": {
+            "mean": 0.5151041666666667,
+            "sd": 0.05290583195072306
+          },
+          "hdgm": {
+            "mean": 0.6447916666666667,
+            "sd": 0.2009617041971416
+          },
+          "stateless": {
+            "mean": 0.49140624999999993,
+            "sd": 0.021033113291792305
+          }
+        }
+      },
+      "noise_0.120": {
+        "representation": {
+          "tem": {
+            "reference_transfer_probe": {
+              "mean": 0.5130208343267441,
+              "sd": 0.04322881043502401
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.5004557251930237,
+              "sd": 0.001216696376135246
+            },
+            "centroid_distance": {
+              "mean": 0.023112445790320634,
+              "sd": 0.05244661237512826
+            },
+            "within_branch_dispersion": {
+              "mean": 0.16549268253147603,
+              "sd": 0.10784973888184969
+            },
+            "separation_ratio": {
+              "mean": 0.08381632882556372,
+              "sd": 0.11163651640665832
+            },
+            "reset_separation_ratio": {
+              "mean": 0.079221319407816,
+              "sd": 0.020822056157558198
+            },
+            "history_dependent_separation": {
+              "mean": 0.004595009417747734,
+              "sd": 0.10408263446683544
+            },
+            "population_split_half_stability": {
+              "mean": 0.12830083399894648,
+              "sd": 0.4249291083827213
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.8232152998447418,
+              "sd": 0.00258169484327369
+            }
+          },
+          "hdgm": {
+            "reference_transfer_probe": {
+              "mean": 0.6678819477558136,
+              "sd": 0.14843490315124688
+            },
+            "history_reset_transfer_probe": {
+              "mean": 0.49557291269302367,
+              "sd": 0.008854944107394735
+            },
+            "centroid_distance": {
+              "mean": 0.08234308483855177,
+              "sd": 0.17980190505835977
+            },
+            "within_branch_dispersion": {
+              "mean": 0.10744239777947465,
+              "sd": 0.09274637325300888
+            },
+            "separation_ratio": {
+              "mean": 0.467545377654113,
+              "sd": 0.8888211917353871
+            },
+            "reset_separation_ratio": {
+              "mean": 0.09438605879465223,
+              "sd": 0.03400941430922302
+            },
+            "history_dependent_separation": {
+              "mean": 0.37315931885946074,
+              "sd": 0.8979791109988244
+            },
+            "population_split_half_stability": {
+              "mean": 0.3813007398857735,
+              "sd": 0.4902151783654686
+            },
+            "raw_observation_opposite_branch_l2": {
+              "mean": 0.8232152998447418,
+              "sd": 0.00258169484327369
+            }
+          }
+        },
+        "behavior": {
+          "tem": {
+            "mean": 0.5162760416666667,
+            "sd": 0.052199847972264686
+          },
+          "hdgm": {
+            "mean": 0.63671875,
+            "sd": 0.19467198213377682
+          },
+          "stateless": {
+            "mean": 0.4890625,
+            "sd": 0.019246575072104973
+          }
+        }
+      }
+    },
+    "curves": {
+      "alias": {
+        "representation": {
+          "tem": {
+            "transfer_probe_auc": {
+              "mean": 0.5019748265544574,
+              "sd": 0.009675697783643593
+            },
+            "transfer_probe_slope": {
+              "mean": -0.02005208969116249,
+              "sd": 0.06460911859938459
+            },
+            "stability_auc": {
+              "mean": 0.16238425685595845,
+              "sd": 0.2438191898378471
+            },
+            "history_dependent_separation_auc": {
+              "mean": 0.011489638801640532,
+              "sd": 0.061913831218709234
+            }
+          },
+          "hdgm": {
+            "transfer_probe_auc": {
+              "mean": 0.5432617172598838,
+              "sd": 0.032626343799582506
+            },
+            "transfer_probe_slope": {
+              "mean": -0.3148090255260473,
+              "sd": 0.23717454276834654
+            },
+            "stability_auc": {
+              "mean": 0.27422076683643454,
+              "sd": 0.2535967630379391
+            },
+            "history_dependent_separation_auc": {
+              "mean": 0.42691369543221713,
+              "sd": 0.9514766057400432
+            }
+          }
+        },
+        "behavior": {
+          "tem": {
+            "choice_auc": {
+              "mean": 0.5030164930555555,
+              "sd": 0.008947975025275348
+            },
+            "choice_slope": {
+              "mean": -0.01723958333333369,
+              "sd": 0.06534444087982241
+            }
+          },
+          "hdgm": {
+            "choice_auc": {
+              "mean": 0.5452256944444446,
+              "sd": 0.051531160262699056
+            },
+            "choice_slope": {
+              "mean": -0.1912500000000004,
+              "sd": 0.2515005842637962
+            }
+          },
+          "stateless": {
+            "choice_auc": {
+              "mean": 0.4964409722222222,
+              "sd": 0.008715568853963254
+            },
+            "choice_slope": {
+              "mean": 0.003749999999999683,
+              "sd": 0.025331521012172318
+            }
+          }
+        }
+      },
+      "noise": {
+        "representation": {
+          "tem": {
+            "transfer_probe_auc": {
+              "mean": 0.5181380234658717,
+              "sd": 0.04966358485781821
+            },
+            "transfer_probe_slope": {
+              "mean": -0.05606691450833194,
+              "sd": 0.13659198735966407
+            },
+            "stability_auc": {
+              "mean": 0.1440409116416898,
+              "sd": 0.39816679479110206
+            },
+            "history_dependent_separation_auc": {
+              "mean": 0.018133168606648833,
+              "sd": 0.1442548001760302
+            }
+          },
+          "hdgm": {
+            "transfer_probe_auc": {
+              "mean": 0.7318359360098838,
+              "sd": 0.17920395347799786
+            },
+            "transfer_probe_slope": {
+              "mean": -1.0565801080503423,
+              "sd": 1.0107955272494695
+            },
+            "stability_auc": {
+              "mean": 0.5349758962540212,
+              "sd": 0.4109491518276704
+            },
+            "history_dependent_separation_auc": {
+              "mean": 11.264459579749587,
+              "sd": 34.26966230607143
+            }
+          }
+        },
+        "behavior": {
+          "tem": {
+            "choice_auc": {
+              "mean": 0.5157877604166667,
+              "sd": 0.052717272335966715
+            },
+            "choice_slope": {
+              "mean": -0.007372526636225407,
+              "sd": 0.0956031001097767
+            }
+          },
+          "hdgm": {
+            "choice_auc": {
+              "mean": 0.6405208333333333,
+              "sd": 0.20164877586534202
+            },
+            "choice_slope": {
+              "mean": 0.022771594368341152,
+              "sd": 0.30418180050963733
+            }
+          },
+          "stateless": {
+            "choice_auc": {
+              "mean": 0.49250000000000005,
+              "sd": 0.01760280439166705
+            },
+            "choice_slope": {
+              "mean": -0.06861206240487103,
+              "sd": 0.15645471862612487
+            }
+          }
+        }
+      }
+    },
+    "primary_tests_holm": {
+      "alias_transfer_auc_hdgm_minus_tem": {
+        "difference": 0.041286890705426536,
+        "ci95_low": 0.020985244177281856,
+        "ci95_high": 0.06233072932809587,
+        "p_raw": 0.001953125,
+        "dz": 1.1643363226596348,
+        "p_holm": 0.0078125
+      },
+      "noise_transfer_auc_hdgm_minus_tem": {
+        "difference": 0.2136979125440121,
+        "ci95_low": 0.10456216723099358,
+        "ci95_high": 0.3264139193519948,
+        "p_raw": 0.001953125,
+        "dz": 1.1211165750892473,
+        "p_holm": 0.0078125
+      },
+      "alias_stability_auc_hdgm_minus_tem": {
+        "difference": 0.11183650998047608,
+        "ci95_low": -0.060529358106272496,
+        "ci95_high": 0.30049652913061775,
+        "p_raw": 0.28515625,
+        "dz": 0.35950506745494853,
+        "p_holm": 0.28515625
+      },
+      "noise_stability_auc_hdgm_minus_tem": {
+        "difference": 0.39093498461233145,
+        "ci95_low": 0.03281459906614673,
+        "ci95_high": 0.7238773881180877,
+        "p_raw": 0.0625,
+        "dz": 0.6660190382418276,
+        "p_holm": 0.125
+      }
+    }
+  }
+}

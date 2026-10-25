@@ -1,0 +1,43 @@
+{
+  "source": "C:\\Users\\LENOVO\\Documents\\Codex\\2026-09-14\\zhe\\outputs\\HDGM_final_repository_2026-10-25\\data\\pythonProject32\\hdgm_difficulty_v2_1_frozen_outputs_confirmatory\\difficulty_v2_1_multiseed_results.json",
+  "sha256": "97232c8139fc3b12441a74e9e42a628f54287dabc9cb258112f9b23cd9e57c8b",
+  "shape": [
+    3,
+    10,
+    8
+  ],
+  "seed_order": [
+    101,
+    202,
+    303,
+    404,
+    505,
+    606,
+    707,
+    808,
+    909,
+    1010
+  ],
+  "scale": "Absolute accuracy, linear 0-1, identical for every heatmap",
+  "CI": "Two-sided Student t 95% CI of the mean over 10 seeds, df=9; unadjusted",
+  "summary_y_limits": {
+    "hdgm": [
+      0.4,
+      0.82
+    ],
+    "tem": [
+      0.47,
+      0.56
+    ],
+    "stateless": [
+      0.47,
+      0.56
+    ]
+  },
+  "baseline": "alias=0 and noise=.05 shown in both scans; not pooled as independent observations",
+  "reference": "User supplied image 6: heatmaps with aligned summaries; image 1: muted colors",
+  "dimensions_mm": [
+    178,
+    122
+  ]
+}
